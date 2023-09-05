@@ -1,0 +1,2350 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_115">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1463-9076%201463-9084"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Debiossac</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schätti</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kriegleder</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geyer</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shayeghi</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mayor</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arndt</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Köhler</foaf:surname>
+                        <foaf:givenName>V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_116"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Tailored photocleavable peptides: Fragmentation and neutralization pathways in high vacuum</dc:title>
+        <dc:date>2018</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>11412–11417</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1463-9076%201463-9084">
+        <prism:volume>20</prism:volume>
+        <dc:title>Phys. Chem. Chem. Phys.</dc:title>
+        <dc:identifier>DOI 10.1039/c8cp01058g</dc:identifier>
+        <dc:identifier>ISSN 1463-9076 1463-9084</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_116">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/116/Debiossac et al. - 2018 - Tailored photocleavable peptides Fragmentation an.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.rsc.org/en/content/articlepdf/2018/cp/c8cp01058g</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:55:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000325254100004 https://pubs.acs.org/doi/10.1007/s13361-013-0630-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1044-0305"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marek</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pepin</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Laszlo</foaf:surname>
+                        <foaf:givenName>K. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bush</foaf:surname>
+                        <foaf:givenName>M. F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Turecek</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_361"/>
+        <link:link rdf:resource="#item_899"/>
+        <dc:subject>Electron transfer dissociation Diazirine-labeled peptides Radical dissociations infrared multiphoton dissociation gas-phase capture dissociation amino-acids bond dissociations cation-radicals. z-ions n-c thermochemistry optimization Biochemistry &amp; Molecular Biology Chemistry Spectroscopy</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Electron transfer dissociation of photolabeled peptides. Backbone cleavages compete with diazirine ring rearrangements</dc:title>
+        <dcterms:abstract>Gas-phase conformations and electron transfer dissociations of pentapeptide ions containing the photo-Leu residue (L*) were studied. Exhaustive conformational search including molecular dynamics force-field, semi-empirical, ab initio, and density functional theory calculations established that the photo-Leu residue did not alter the gas-phase conformations of (GL*GGK + 2H)(2+) and (GL*GGK-NH2 + H)(+) ions, which showed the same conformer energy ranking as the unmodified Leu-containing ions. This finding is significant in that it simplifies conformational analysis of photo-labeled peptide ions. Electron transfer dissociation mass spectra of (GL*GGK + 2H)(2+), (GL*GGK-NH2 + 2H)(2+),(GL*GGKK + 2H)(2+), (GL*GLK + 2H)(2+), and (GL*LGK + 2H)(2+) showed 16 %-21 % fragment ions originating by radical rearrangements and cleavages in the diazirine ring. These side-chain dissociations resulted in eliminations of N2H3, N2H4, [N2H5], and [NH4O] neutral fragments and were particularly abundant in long-lived charge-reduced cation-radicals. Deuterium labeling established that the neutral hydrazine molecules mainly contained two exchangeable and two nonexchangeable hydrogen atoms from the peptide and underwent further H/D exchange in an ion-molecule complex. Electron structure calculations on the charge-reduced ions indicated that the unpaired electron was delocalized between the diazirine and amide pi* electronic systems in the low electronic states of the cation-radicals. The diazirine moiety in GL*GGK-NH(2)was calculated to have an intrinsic electron affinity of 1.5 eV, which was further increased by the Coulomb effect of the peptide positive charge. Mechanisms are proposed for the unusual elimination of hydrazine from the photo-labeled peptide ions.</dcterms:abstract>
+        <dc:date>2013</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000325254100004 https://pubs.acs.org/doi/10.1007/s13361-013-0630-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 11
+Type: Journal Article</dc:description>
+        <bib:pages>1641-1653</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1044-0305">
+        <prism:volume>24</prism:volume>
+        <dc:title>Journal of the American Society for Mass Spectrometry</dc:title>
+        <dc:identifier>DOI 10.1007/s13361-013-0630-0</dc:identifier>
+        <prism:number>11</prism:number>
+        <dc:identifier>ISSN 1044-0305</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_361">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 229HU Times Cited: 17 Cited Reference Count: 58 Marek, Ales Pepin, Robert Peng, Bo Laszlo, Kenneth J. Bush, Matthew F. Turecek, Frantisek Bush, Matthew F./Y-2079-2019; Marek, Ales/G-5635-2014 Bush, Matthew F./0000-0003-3526-4973; Marek, Ales/0000-0001-9031-8263 National Science Foundation [CHE-1055132]; ARCS foundation; Direct For Mathematical &amp;amp; Physical Scien [1055132] Funding Source: National Science Foundation Financial support by a grant to F.T. from the National Science Foundation (CHE-1055132) is gratefully acknowledged. K.L. thanks the ARCS foundation for financial support. Instrumentation support for the low-resolution ETD mass spectra measurements was provided by the University of Washington Proteomics Resource (Dr. Priska von Haller). The authors thank Drs. Rob Moritz and Sarah Lee of the Seattle Institute for Systems Biology for providing access to the Thermo-Fisher Orbitrap Velos ETD instrument, and Dr. Jan Urban for advice with peptide syntheses. 17 0 34 Springer New york&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_899">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/899/Marek et al. - 2013 - Electron transfer dissociation of photolabeled pep.pdf"/>
+        <dc:title>Marek et al. - 2013 - Electron transfer dissociation of photolabeled pep.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000571372900022 https://www.nature.com/articles/s41587-020-0472-9">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1087-0156"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Merritt</foaf:surname>
+                        <foaf:givenName>C. R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ong</foaf:surname>
+                        <foaf:givenName>G. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Church</foaf:surname>
+                        <foaf:givenName>S. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barker</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Danaher</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geiss</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoang</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jung</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liang</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McKay-Fleisch</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Norgaard</foaf:surname>
+                        <foaf:givenName>Z.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sorg</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sprague</foaf:surname>
+                        <foaf:givenName>I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warren</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warren</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Webster</foaf:surname>
+                        <foaf:givenName>P. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Z.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zollinger</foaf:surname>
+                        <foaf:givenName>D. R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dunaway</foaf:surname>
+                        <foaf:givenName>D. L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mills</foaf:surname>
+                        <foaf:givenName>G. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beechem</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_379"/>
+        <link:link rdf:resource="#item_895"/>
+        <link:link rdf:resource="#item_894"/>
+        <link:link rdf:resource="#item_896"/>
+        <link:link rdf:resource="#item_897"/>
+        <dc:subject>imaging mass-spectrometry gene-expression immunohistochemistry technology platform epitope Biotechnology &amp; Applied Microbiology</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Multiplex digital spatial profiling of proteins and rna in fixed tissue</dc:title>
+        <dcterms:abstract>Digital Spatial Profiling (DSP) is a method for highly multiplex spatial profiling of proteins or RNAs suitable for use on formalin-fixed, paraffin-embedded (FFPE) samples. The approach relies on (1) multiplexed readout of proteins or RNAs using oligonucleotide tags; (2) oligonucleotide tags attached to affinity reagents (antibodies or RNA probes) through a photocleavable (PC) linker; and (3) photocleaving light projected onto the tissue sample to release PC oligonucleotides in any spatial pattern across a region of interest (ROI) covering 1 to similar to 5,000 cells. DSP is capable of single-cell sensitivity within an ROI using the antibody readout, with RNA detection feasible down to similar to 600 individual mRNA transcripts. We show spatial profiling of up to 44 proteins and 96 genes (928 RNA probes) in lymphoid, colorectal tumor and autoimmune tissues by using the nCounter system and 1,412 genes (4,998 RNA probes) by using next-generation sequencing (NGS). DSP may be used to profile not only proteins and RNAs in bio-banked samples but also immune markers in patient samples, with potential prognostic and predictive potential for clinical decision-making.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000571372900022 https://www.nature.com/articles/s41587-020-0472-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 5
+Type: Journal Article</dc:description>
+        <bib:pages>586-+</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1087-0156">
+        <prism:volume>38</prism:volume>
+        <dc:title>Nature Biotechnology</dc:title>
+        <dc:identifier>DOI 10.1038/s41587-020-0472-9</dc:identifier>
+        <prism:number>5</prism:number>
+        <dc:identifier>ISSN 1087-0156</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_379">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: NR2DP Times Cited: 181 Cited Reference Count: 38 Merritt, Christopher R. Ong, Giang T. Church, Sarah E. Barker, Kristi Danaher, Patrick Geiss, Gary Hoang, Margaret Jung, Jaemyeong Liang, Yan McKay-Fleisch, Jill Nguyen, Karen Norgaard, Zach Sorg, Kristina Sprague, Isaac Warren, Charles Warren, Sarah Webster, Philippa J. Zhou, Zoey Zollinger, Daniel R. Dunaway, Dwayne L. Mills, Gordon B. Beechem, Joseph M. Mills, Gordon/0000-0002-0144-9614; Ong, Giang/0000-0002-3946-1627 188 19 81 Nature publishing group New york 1546-1696&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_895">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/895/acs.jpclett.0c02054.pdf"/>
+        <dc:title>acs.jpclett.0c02054.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_894">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/894/aop-2-4-451.pdf"/>
+        <dc:title>aop-2-4-451.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_896">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/896/e2003-00168-7.pdf"/>
+        <dc:title>e2003-00168-7.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_897">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/897/s41587-020-0472-9.pdf"/>
+        <dc:title>s41587-020-0472-9.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1021/jp903973q https://pubs.acs.org/doi/10.1021/jp903973q">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1089-5639"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mohapatra</foaf:surname>
+                        <foaf:givenName>Himansu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Umapathy</foaf:surname>
+                        <foaf:givenName>Siva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_385"/>
+        <link:link rdf:resource="#item_879"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Influence of solvent on photoinduced electron-transfer reaction: Time-resolved resonance raman study</dc:title>
+        <dc:date>2009</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://doi.org/10.1021/jp903973q https://pubs.acs.org/doi/10.1021/jp903973q</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 25
+Type: Journal Article</dc:description>
+        <bib:pages>6904-6909</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1089-5639">
+        <prism:volume>113</prism:volume>
+        <dc:title>The Journal of Physical Chemistry A</dc:title>
+        <dc:identifier>DOI 10.1021/jp903973q</dc:identifier>
+        <prism:number>25</prism:number>
+        <dc:identifier>ISSN 1089-5639</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_385">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Accepted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eprints.iisc.ac.in/21466/1/9full_text.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:42:30</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_879">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/879/Mohapatra und Umapathy - 2009 - Influence of solvent on photoinduced electron-tran.pdf"/>
+        <dc:title>Akzeptierte Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://eprints.iisc.ac.in/21466/1/9full_text.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:12:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000184687800078 https://link.springer.com/article/10.1140/epjd/e2003-00168-7">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1434-6060"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nonose</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iwaoka</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tanaka</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Okai</foaf:surname>
+                        <foaf:givenName>N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shibakusa</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fuke</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_404"/>
+        <link:link rdf:resource="#item_893"/>
+        <dc:subject>gas-phase clusters dynamics photodissociation dissociation Optics Physics</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Structures and reactions of biomolecular ions produced with electrospray ionization</dc:title>
+        <dcterms:abstract>Photo-induced reaction of [Fe(III)-protoporphyrin](+) (hemin(+)) ions solvated with dimethylsulfoxide (DMSO) is investigated by using a tandem mass spectrometer with electrospray ionization. We measure the photodissociation yields of mass-selected hemin(+()DMSO)(n) clusters for n = 0-3. The mass spectra of the fragment ions show the beta-cleavage of carboxymethyl groups in addition to the evaporation of solvent molecules. Yield of the beta-cleavage reaction is found to depend strongly on the excitation energv and the number of solvent molecules. We also examine photo-induced reactions of multiply-charged cytochrome c ions, (M + nH)(n+) (n = 9-17). Photoionization is found to be the dominant process for the lower charged states (n = 9-12) and its yield decreases rapidly with increasing the charge. The photoionization is ascribed to the emission of electron by multiphoton excitation of heme under the influence of Coulomb attractive potential arising from the charges in the polypeptide chain. Model calculations of the Coulomb potential suggest that the structure of the polypeptide chain is completely elongated.</dcterms:abstract>
+        <dc:date>2003</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000184687800078 https://link.springer.com/article/10.1140/epjd/e2003-00168-7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 1-3
+Type: Journal Article</dc:description>
+        <bib:pages>335-338</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1434-6060">
+        <prism:volume>24</prism:volume>
+        <dc:title>European Physical Journal D</dc:title>
+        <dc:identifier>DOI 10.1140/epjd/e2003-00168-7</dc:identifier>
+        <prism:number>1-3</prism:number>
+        <dc:identifier>ISSN 1434-6060</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_404">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 710PC Times Cited: 12 Cited Reference Count: 22 Nonose, S Iwaoka, S Tanaka, H Okai, N Shibakusa, T Fuke, K 11th International Symposium on Small Particles and Inorganic Clusters (ISSPIC 11) Sep 09-13, 2002 Strasbourg, france Fuke, Kiyokazu/U-2098-2017 12 0 8 Springer-verlag New york&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_893">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/893/Nonose et al. - 2003 - Structures and reactions of biomolecular ions prod.pdf"/>
+        <dc:title>Nonose et al. - 2003 - Structures and reactions of biomolecular ions prod.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.0c02054 https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02054">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1948-7185"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ou</foaf:surname>
+                        <foaf:givenName>Qi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Qian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shuai</foaf:surname>
+                        <foaf:givenName>Zhigang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_431"/>
+        <link:link rdf:resource="#item_892"/>
+        <dc:subject>quant prediction fluorescence quantum efficiency combining direct vibrational</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Toward quantitative prediction of fluorescence quantum efficiency by combining direct vibrational conversion and surface crossing: Bodipys as an example</dc:title>
+        <dcterms:abstract>Accurate theor. description of the electronic structure of boron dipyrromethene (BODIPY) mols. has been a challenge, let alone the prediction of fluorescence quantum efficiency. In this Letter, we show that the electronic structures of BODIPYs can be accurately evaluated via the spin-flip time-dependent d. functional theory with the B3LYP functional. With the resulting electronic structures, the exptl. spectral line shapes of representative BODIPYs are successfully reproduced by our previously developed thermal vibration correlation function method. Most importantly, a two-channel scheme is proposed to describe the internal conversion of S1 to S0 in BODIPYs: channel I via direct vibrational relaxation within the harmonic region and channel II via a distorted S0/S1 min. energy crossing point well away from the harmonic region. The fluorescence quantum yields are accurately predicted within this two-channel scheme, which can therefore serve as a generalized method for predicting the photophys. parameters of organic fluorescent compounds</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.0c02054 https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02054</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 18
+Type: Journal Article</dc:description>
+        <bib:pages>7790-7797</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1948-7185">
+        <prism:volume>11</prism:volume>
+        <dc:title>J. Phys. Chem. Lett.</dc:title>
+        <dc:identifier>DOI 10.1021/acs.jpclett.0c02054</dc:identifier>
+        <prism:number>18</prism:number>
+        <dc:identifier>ISSN 1948-7185</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_431">
+        <rdf:value>&lt;p&gt;CAplus AN 2020:1550946; MEDLINE PMID: 32787317 (Journal; Article)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_892">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/892/Ou et al. - 2020 - Toward quantitative prediction of fluorescence qua.pdf"/>
+        <dc:title>Ou et al. - 2020 - Toward quantitative prediction of fluorescence qua.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/27436979">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-5021%20(PRINT)%201364-5021%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Phillips</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_456"/>
+        <link:link rdf:resource="#item_457"/>
+        <link:link rdf:resource="#item_878"/>
+        <dc:subject>photochemistry singlet states ultrafast measurements</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>A lifetime in photochemistry; some ultrafast measurements on singlet states</dc:title>
+        <dcterms:abstract>We describe here the development of time-correlated single-photon counting techniques from the early use of spark discharge lamps as light sources through to the use of femtosecond mode-locked lasers through the personal work of the author. We used laser-excited fluorescence in studies on energy migration and rotational relaxation in synthetic polymer solutions, in biological probe molecules and in supersonic jet expansions. Time-correlated single-photon counting was the first method used in early fluorescence lifetime imaging microscopy (FLIM), and we outline the development of this powerful technique, with a comparison of techniques including wide-field microscopy. We employed these modern forms of FLIM to study single biological cells, and applied FLIM also to gain an understanding the distribution in tissue, and fates of photosensitizer molecules used in photodynamic therapy. We also describe the uses and instrumental design of laser systems for the study of ultrafast time-resolved vibrational spectroscopy.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/27436979</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 2190
+Type: Journal Article</dc:description>
+        <bib:pages>20160102</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-5021%20(PRINT)%201364-5021%20(LINKING)">
+        <prism:volume>472</prism:volume>
+        <dc:title>Proc Math Phys Eng Sci</dc:title>
+        <dc:identifier>DOI 10.1098/rspa.2016.0102</dc:identifier>
+        <prism:number>2190</prism:number>
+        <dc:identifier>ISSN 1364-5021 (PRINT) 1364-5021 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_456">
+        <rdf:value>&lt;p&gt;Phillips, David eng Review England Proc Math Phys Eng Sci. 2016 Jun;472(2190):20160102. doi: 10.1098/rspa.2016.0102.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_457">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc4950204?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:37:54</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_878">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/878/Phillips - 2016 - A lifetime in photochemistry; some ultrafast measu.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc4950204?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:12:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.osapublishing.org/aop/abstract.cfm?uri=aop-2-4-451">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1943-8206"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rumi</foaf:surname>
+                        <foaf:givenName>Mariacristina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perry</foaf:surname>
+                        <foaf:givenName>Joseph W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_475"/>
+        <link:link rdf:resource="#item_891"/>
+        <dc:subject>two photon absorption spectrum review</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Two-photon absorption: An overview of measurements and principles</dc:title>
+        <dcterms:abstract>A review. The range of organic compounds whose degenerate two-photon absorption (2PA) spectrum has been reported has increased rapidly in recent years, in parallel with the growing interest in applications based on the 2PA process. The comparison of results from different techniques is not always straightforward, and exptl. conditions employed may vary significantly. We overview the concepts underlying 2PA measurements and the common assumptions and approximations used in the data anal. for various techniques. The importance of selecting appropriate excitation regimes under which measurements should be performed and of avoiding contributions from absorption mechanisms in addition to 2PA will be emphasized.</dcterms:abstract>
+        <dc:date>2010</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.osapublishing.org/aop/abstract.cfm?uri=aop-2-4-451</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 4
+Type: Journal Article</dc:description>
+        <bib:pages>451-518</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1943-8206">
+        <prism:volume>2</prism:volume>
+        <dc:title>Adv. Opt. Photonics</dc:title>
+        <dc:identifier>DOI 10.1364/aop.2.000451</dc:identifier>
+        <prism:number>4</prism:number>
+        <dc:identifier>ISSN 1943-8206</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_475">
+        <rdf:value>&lt;p&gt;CAplus AN 2011:143291 (Journal; General Review)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_891">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/891/Rumi und Perry - 2010 - Two-photon absorption An overview of measurements.pdf"/>
+        <dc:title>Rumi und Perry - 2010 - Two-photon absorption An overview of measurements.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000183231000005 https://watermark.silverchair.com/gng062.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAu4wggLqBgkqhkiG9w0BBwagggLbMIIC1wIBADCCAtAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhs4ZyIKwbABT2DN5AgEQgIICodiNtorQaekQQvTMG1bAdOibVPRUnJKzenyzc9hPhYORAtCbSuJk6M8ret1JJjll7H_NlLCxr1Xr-6828M27AaKwDvsIgOn72BAqoWTlOm20r1K2NQGuI7ayyES8DB346FgdPb80DV0bdXIHGbgkelP_ninoyJR3raohBsAxzz8sKE_TDholxzJABiZ78o6kpU8dpRKtSRRlTRM2wT-3JdLGixI6znOqhOH9PWz8vw42FXXGRZj_Nuz9tuNQ5jHfT_xl1RG-DO9R0FwZ0lVpRxuecQb9D5_awZKtOqtbOcvYxz1MlxsxDfAp0FLlFdqMyNHuqfZ6jjeAb7PRSGQ4uaBEuwlGGU7mS11qYBgcFjXztR0-e5NL2dHKXDoSc5imDM5bHA8UGzGpnO7FnB9JZsHaCx6iscOrj_MPKL3VqzWd0S6rqePG6xWOiSE7tIQtywBvugPTQT9NuqgM_EijS2PiBj63OIwNzGZtFzKs30DRclDt5CvV3S290VcoGloHAz380NrShcbSqbEgOD5c3vcJKfrSpgcFlEQJ4z2Juk3TYusvZvRiHJb9Ko2AP9_fRLZKGDrIMrX-Tp_gPaZX7868QUBpEhB7W9-_2wWa9-3ghq2ZrgCSUVowo90zWs5hfNOD4I0o90xunrRr4J8Z-gllnxiriyG_dUikqRJuLx8tTKJUAvHnWAm9i0ZdNCIqwDvjPClIcySU-YFMs_hmnVS4ARZBA-6dRfr4fisF2fgVkBCAk-_bVOcrCRj7LsokxBr_GkX-m7U03oGEMl_FByYJSRjVg2AbcEHXxFROiG4y8iw0h5_DkCG3Eqi28tF616nxoKfzaU1HBoD73GiUELzq-xM9NofSqgFSUoFKnZoF_zsz3ruJFuskIf4mW-sQpxM">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0305-1048"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sauer</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lehrach</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reinhardt</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_482"/>
+        <link:link rdf:resource="#item_483"/>
+        <link:link rdf:resource="#item_877"/>
+        <dc:subject>complex disease high-throughput DNA Biochemistry &amp; Molecular Biology</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Maldi mass spectrometry analysis of single nucleotide polymorphisms by photocleavage and charge-tagging</dc:title>
+        <dcterms:abstract>High-throughput procedures are an important requirement for future large-scale genetic studies such as genotyping of single nucleotide polymorphisms (SNPs). Matrix-assisted laser desorption/ ionisation mass spectrometry (MALDI-MS) has revolutionised the analysis of biomolecules and, in particular, provides a very attractive solution for the rapid typing of DNA. The analysis of DNA by MALDI can be significantly facilitated by a procedure termed 'charge-tagging'. We show here a novel approach for the generation of charge-tagged DNA using a photocleavable linker and its implementation in a molecular biological procedure for SNP genotyping consisting of PCR, primer extension, photocleavage and a chemical reaction prior to MALDI target preparation and analysis. The reaction sequence is amenable to liquid handling automation and requires no stringent purification procedures. We demonstrate this new method on SNPs in two genes involved in complex traits.</dcterms:abstract>
+        <dc:date>2003</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000183231000005 https://watermark.silverchair.com/gng062.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAu4wggLqBgkqhkiG9w0BBwagggLbMIIC1wIBADCCAtAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhs4ZyIKwbABT2DN5AgEQgIICodiNtorQaekQQvTMG1bAdOibVPRUnJKzenyzc9hPhYORAtCbSuJk6M8ret1JJjll7H_NlLCxr1Xr-6828M27AaKwDvsIgOn72BAqoWTlOm20r1K2NQGuI7ayyES8DB346FgdPb80DV0bdXIHGbgkelP_ninoyJR3raohBsAxzz8sKE_TDholxzJABiZ78o6kpU8dpRKtSRRlTRM2wT-3JdLGixI6znOqhOH9PWz8vw42FXXGRZj_Nuz9tuNQ5jHfT_xl1RG-DO9R0FwZ0lVpRxuecQb9D5_awZKtOqtbOcvYxz1MlxsxDfAp0FLlFdqMyNHuqfZ6jjeAb7PRSGQ4uaBEuwlGGU7mS11qYBgcFjXztR0-e5NL2dHKXDoSc5imDM5bHA8UGzGpnO7FnB9JZsHaCx6iscOrj_MPKL3VqzWd0S6rqePG6xWOiSE7tIQtywBvugPTQT9NuqgM_EijS2PiBj63OIwNzGZtFzKs30DRclDt5CvV3S290VcoGloHAz380NrShcbSqbEgOD5c3vcJKfrSpgcFlEQJ4z2Juk3TYusvZvRiHJb9Ko2AP9_fRLZKGDrIMrX-Tp_gPaZX7868QUBpEhB7W9-_2wWa9-3ghq2ZrgCSUVowo90zWs5hfNOD4I0o90xunrRr4J8Z-gllnxiriyG_dUikqRJuLx8tTKJUAvHnWAm9i0ZdNCIqwDvjPClIcySU-YFMs_hmnVS4ARZBA-6dRfr4fisF2fgVkBCAk-_bVOcrCRj7LsokxBr_GkX-m7U03oGEMl_FByYJSRjVg2AbcEHXxFROiG4y8iw0h5_DkCG3Eqi28tF616nxoKfzaU1HBoD73GiUELzq-xM9NofSqgFSUoFKnZoF_zsz3ruJFuskIf4mW-sQpxM</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 11
+Type: Journal Article</dc:description>
+        <bib:pages>10</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0305-1048">
+        <prism:volume>31</prism:volume>
+        <dc:title>Nucleic Acids Research</dc:title>
+        <dc:identifier>DOI 10.1093/nar/gng062</dc:identifier>
+        <prism:number>11</prism:number>
+        <dc:identifier>ISSN 0305-1048</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_482">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 684XD Times Cited: 29 Cited Reference Count: 23 Sauer, S Lehrach, H Reinhardt, R Reinhardt, Richard/0000-0001-9376-2132 34 3 14 Oxford univ press Oxford 1362-4962&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_483">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/nar/article-pdf/31/11/e63/4053729/gng062.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:42:58</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_877">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/877/Sauer et al. - 2003 - Maldi mass spectrometry analysis of single nucleot.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/nar/article-pdf/31/11/e63/4053729/gng062.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:12:03</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Thesis rdf:about="#item_493">
+        <z:itemType>thesis</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schätti</foaf:surname>
+                        <foaf:givenName>Jonas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_890"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Towards matter‐wave experiments with biomolecules: Generation and detection of neutral biomolecular beams</dc:title>
+        <dc:date>2019</dc:date>
+        <z:type>Thesis</z:type>
+    </bib:Thesis>
+    <z:Attachment rdf:about="#item_890">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/890/Schätti - 2019 - Towards matter‐wave experiments with biomolecules.pdf"/>
+        <dc:title>Schätti - 2019 - Towards matter‐wave experiments with biomolecules.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/32342077 https://pubs.rsc.org/en/content/articlepdf/2020/cc/d0cc02178d">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-548X%20(ELECTRONIC)%201359-7345%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sitkowska</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoes</foaf:surname>
+                        <foaf:givenName>M. F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lerch</foaf:surname>
+                        <foaf:givenName>M. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lameijer</foaf:surname>
+                        <foaf:givenName>L. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van der Meer</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Szymanski</foaf:surname>
+                        <foaf:givenName>W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Feringa</foaf:surname>
+                        <foaf:givenName>B. L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_517"/>
+        <link:link rdf:resource="#item_518"/>
+        <link:link rdf:resource="#item_885"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Red-light-sensitive bodipy photoprotecting groups for amines and their biological application in controlling heart rhythm</dc:title>
+        <dcterms:abstract>Control of biological function by the use of photoremovable protecting groups (PPGs) is a gateway towards many new medical developments. Herein, we report the synthesis and application of efficient and biocompatible BODIPY-based photoprotecting groups for amines, which are cleavable with red light in the phototherapeutic window region (lambda &gt; 650 nm). We use the most promising PPG for the protection of dopamine and apply it to control the beating frequency of human cardiomyocytes.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/32342077 https://pubs.rsc.org/en/content/articlepdf/2020/cc/d0cc02178d</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 41
+Type: Journal Article</dc:description>
+        <bib:pages>5480-5483</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-548X%20(ELECTRONIC)%201359-7345%20(LINKING)">
+        <prism:volume>56</prism:volume>
+        <dc:title>Chem Commun (Camb)</dc:title>
+        <dc:identifier>DOI 10.1039/d0cc02178d</dc:identifier>
+        <prism:number>41</prism:number>
+        <dc:identifier>ISSN 1364-548X (ELECTRONIC) 1359-7345 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_517">
+        <rdf:value>&lt;p&gt;Sitkowska, Kaja Hoes, Martijn F Lerch, Michael M Lameijer, Lucien N van der Meer, Peter Szymanski, Wiktor Feringa, Ben L eng England Chem Commun (Camb). 2020 May 21;56(41):5480-5483. doi: 10.1039/d0cc02178d.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_518">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pure.rug.nl/ws/files/127676412/d0cc02178d.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:57:17</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_885">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/885/Sitkowska et al. - 2020 - Red-light-sensitive bodipy photoprotecting groups .pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.rsc.org/en/content/articlepdf/2020/cc/d0cc02178d</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/26569596 https://pubs.acs.org/doi/10.1021/acs.accounts.5b00400">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-4898%20(ELECTRONIC)%200001-4842%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Solomek</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wirz</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klan</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_520"/>
+        <link:link rdf:resource="#item_889"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Searching for improved photoreleasing abilities of organic molecules</dc:title>
+        <dcterms:abstract>Photoremovable protecting groups (PPGs) are chemical auxiliaries that provide spatial and temporal control over the release of various molecules: bioagents (neurotransmitters and cell-signaling molecules, Ca(2+) ions), acids, bases, oxidants, insecticides, pheromones, fragrances, etc. A major challenge for the improvement of PPGs lies in the development of organic chromophores that release the desired bioagents upon continuous irradiation at wavelengths above 650 nm, that is, in the tissue-transparent window. Understanding of the photorelease reaction mechanisms, investigated by laser flash photolysis and rationalized with the aid of quantum chemical calculations, allows for achieving this goal. In particular, simple Huckel calculations provide useful guidelines for designing new PPGs, because both the lowest excited singlet and triplet states of conjugated systems can be reasonably well described by a single electronic configuration formed by promotion of a single electron from the highest occupied molecular orbital (HOMO) to the lowest unoccupied MO (LUMO) of the ground state configuration. Here we show that Huckel calculations permit rapid identification of common features in the nodal properties of the frontier orbitals of various chromophores that can be classified into distinct chromophore families. If the electronic excitation involves a substantial electron density transfer to an sp(2) carbon atom at which HOMO and LUMO are nearly disjoint, for example, by virtue of symmetry, favorable photoheterolysis can be expected when the corresponding atom carries a leaving group at the alpha-position. We show examples of photoheterolytic reactions that indicate that the efficiency of photoheterolysis diminishes for chromophores absorbing in the NIR region. We provide a rationale for more efficient photoheterolytic reactions occurring via the triplet state, and we demonstrate the advantages of this mechanistic pathway. Analogies in the structure-reactivity relationships of PPGs can therefore lead to new strategies for the development of more efficient NIR-absorbing photoremovable protecting groups.</dcterms:abstract>
+        <dc:date>2015</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/26569596 https://pubs.acs.org/doi/10.1021/acs.accounts.5b00400</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 12
+Type: Journal Article</dc:description>
+        <bib:pages>3064-72</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-4898%20(ELECTRONIC)%200001-4842%20(LINKING)">
+        <prism:volume>48</prism:volume>
+        <dc:title>Acc Chem Res</dc:title>
+        <dc:identifier>DOI 10.1021/acs.accounts.5b00400</dc:identifier>
+        <prism:number>12</prism:number>
+        <dc:identifier>ISSN 1520-4898 (ELECTRONIC) 0001-4842 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_520">
+        <rdf:value>&lt;p&gt;Solomek, Tomas Wirz, Jakob Klan, Petr eng 2015/11/17 06:00 Acc Chem Res. 2015 Dec 15;48(12):3064-72. doi: 10.1021/acs.accounts.5b00400. Epub 2015 Nov 16.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_889">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/889/Solomek et al. - 2015 - Searching for improved photoreleasing abilities of.pdf"/>
+        <dc:title>Solomek et al. - 2015 - Searching for improved photoreleasing abilities of.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000454913600005 https://pubs.acs.org/doi/10.1007/s13361-018-1992-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>30</prism:volume>
+                <dc:title>Journal of the American Society for Mass Spectrometry</dc:title>
+                <dc:identifier>DOI 10.1007/s13361-018-1992-0</dc:identifier>
+                <prism:number>1</prism:number>
+                <dc:identifier>ISSN 1044-0305</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Theisen</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Black</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Corinti</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brown</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bellina</foaf:surname>
+                        <foaf:givenName>B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barran</foaf:surname>
+                        <foaf:givenName>P. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_544"/>
+        <link:link rdf:resource="#item_545"/>
+        <link:link rdf:resource="#item_887"/>
+        <dc:subject>UVPD IM-MS Ubiquitin Myoglobin Cytochrome c photodissociation mass-spectrometry electron-capture dissociation intrinsically disordered proteins gas-phase conformation higher-order structure ultraviolet photodissociation ion mobility structural-characterization noncovalent complexes sequence-analysis Biochemistry &amp; Molecular Biology Chemistry Spectroscopy</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Initial protein unfolding events in ubiquitin, cytochrome c and myoglobin are revealed with the use of 213 nm uvpd coupled to im-ms</dc:title>
+        <dcterms:abstract>The initial stages of protein unfolding may reflect the stability of the entire fold and can also reveal which parts of a protein can be perturbed, without restructuring the rest. In this work, we couple UVPD with activated ion mobility mass spectrometry to measure how three model proteins start to unfold. Ubiquitin, cytochrome c and myoglobin ions produced via nESI from salty solutions are subjected to UV irradiation pre-mobility separation; experiments are conducted with a range of source conditions which alter the conformation of the precursor ion as shown by the drift time profiles. For all three proteins, the compact structures result in less fragmentation than more extended structures which emerge following progressive in-source activation. Cleavage sites are found to differ between conformational ensembles, for example, for the dominant charge state of cytochrome c [M+7H](7+), cleavage at Phe10, Thr19 and Val20 was only observed in activating conditions whilst cleavage at Ala43 is dramatically enhanced. Mapping the photo-cleaved fragments onto crystallographic structures provides insight into the local structural changes that occur as protein unfolding progresses, which is coupled to global restructuring observed in the drift time profiles.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000454913600005 https://pubs.acs.org/doi/10.1007/s13361-018-1992-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 1
+Type: Journal Article</dc:description>
+        <bib:pages>24-33</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_544">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: HG3ZJ Times Cited: 29 Cited Reference Count: 80 Theisen, Alina Black, Rachelle Corinti, Davide Brown, Jeffery M. Bellina, Bruno Barran, Perdita E. Corinti, Davide/AGX-9358-2022; Barran, Perdita/AAY-6303-2021 Corinti, Davide/0000-0001-8064-3492; Black, Rachelle/0000-0002-7067-2385; Barran, Perdita/0000-0002-7720-586X; Theisen, Alina/0000-0002-0216-8582 BBSRC [BB/L002655/1, BB/L016486/1, BB/M011208/1]; Waters Corp.; BBSRC [BB/M017702/1, 1866858] Funding Source: UKRI This work was supported by BBSRC grants BB/L002655/1, BB/L016486/1 and BB/M011208/1 which is a studentship award to AT and RB with additional financial support from Waters Corp. 29 1 21 Springer New york 1879-1123&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_545">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc6318241?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:56:43</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_887">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/887/Theisen et al. - 2019 - Initial protein unfolding events in ubiquitin, cyt.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc6318241?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.8b02048 https://pubs.acs.org/doi/10.1021/acs.jpclett.8b02048">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>9</prism:volume>
+                <dc:title>J. Phys. Chem. Lett.</dc:title>
+                <dc:identifier>DOI 10.1021/acs.jpclett.8b02048</dc:identifier>
+                <prism:number>16</prism:number>
+                <dc:identifier>ISSN 1948-7185</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thompson</foaf:surname>
+                        <foaf:givenName>Travis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tapavicza</foaf:surname>
+                        <foaf:givenName>Enrico</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_549"/>
+        <link:link rdf:resource="#item_550"/>
+        <link:link rdf:resource="#item_884"/>
+        <dc:subject>quantum yield cis trans photoisomerization absorption spectra</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>First-principles prediction of wavelength-dependent product quantum yields</dc:title>
+        <dcterms:abstract>We present a method to predict wavelength-dependent product quantum yields (PQYs) for photochem. reactions and applied it to Z/E-isomerization and several ring-closing reactions of Z-2,5-dimethyl-1,3,5-hexatriene and truncated previtamin D. Using branching ratios from surface hopping mol. dynamics, individual trajectories are correlated with the absorption spectra of their initial structures. The wavelength-dependent PQYs are computed by dividing the average spectrum of the initial structures of the product-forming trajectories by the average spectrum of all initial structures. Accurate absorption spectra are calculated using the correlated ADC(2) method with an implicit solvent. Calculations reproduce the exptl. found trend of increasing six-ring formation and decreasing Z/E-isomerization on the red side of the spectrum. Over all seven reactions studied, the mean absolute error (MAE) between exptl. and calculated PQYs (MAE) amounts to 8.1%, and the largest MAE is 18.6%. For four reactions, predicted values agree quant. with experiments within 5.6%.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.8b02048 https://pubs.acs.org/doi/10.1021/acs.jpclett.8b02048</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 16
+Type: Journal Article</dc:description>
+        <bib:pages>4758-4764</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_549">
+        <rdf:value>&lt;p&gt;CAplus AN 2018:1390214; MEDLINE PMID: 30048134 (Journal; Article)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_550">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Accepted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc6211794?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:52:00</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_884">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/884/Thompson und Tapavicza - 2018 - First-principles prediction of wavelength-dependen.pdf"/>
+        <dc:title>Akzeptierte Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc6211794?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:20</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000518590600002 https://www.nature.com/articles/s41467-020-14915-8.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2041-1723"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>M. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lu</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_566"/>
+        <link:link rdf:resource="#item_883"/>
+        <dc:subject>formic-acid biomass conversion hydrogen water tio2 photocatalysts decomposition dehydration tio2(110) Science &amp; Technology - Other Topics</dc:subject>
+        <dc:title>Photo splitting of bio-polyols and sugars to methanol and syngas</dc:title>
+        <dcterms:abstract>Methanol is a clean liquid energy carrier of sunshine and a key platform chemical for the synthesis of olefins and aromatics. Herein, we report the conversion of biomass-derived polyols and sugars into methanol and syngas (CO+H-2) via UV light irradiation under room temperature, and the bio-syngas can be further used for the synthesis of methanol. The cellulose and even raw wood sawdust could be converted into methanol or syngas after hydrogenolysis or hydrolysis pretreatment. We find Cu dispersed on titanium oxide nanorod (TNR) rich in defects is effective for the selective C-C bond cleavage to methanol. Methanol is obtained from glycerol with a co-production of H-2. A syngas with CO selectivity up to 90% in the gas phase is obtained via controlling the energy band structure of Cu/TNR. Methanol and syngas are important fuels and chemicals, which are presently produced from fossil resources. Here, the authors report the conversion of biomass-derived polyols and sugars into methanol and syngas via UV light irradiation under room temperature.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000518590600002 https://www.nature.com/articles/s41467-020-14915-8.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 1
+Type: Journal Article</dc:description>
+        <bib:pages>9</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2041-1723">
+        <prism:volume>11</prism:volume>
+        <dc:title>Nature Communications</dc:title>
+        <dc:identifier>DOI 10.1038/s41467-020-14915-8</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 2041-1723</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_566">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: KS8WZ Times Cited: 62 Cited Reference Count: 37 Wang, Min Liu, Meijiang Lu, Jianmin Wang, Feng Wang, Min/G-4202-2012; Wang, Feng/A-3774-2011; , 王峰_DICP/AAT-9133-2020 Wang, Min/0000-0002-9072-8331; Wang, Feng/0000-0002-9167-8743; , 王峰_DICP/0000-0002-9167-8743; Carmona, Eric/0000-0002-3902-091X; Wang, Michael/0000-0002-9980-3828 National Natural Science Foundation of China [21872135]; Strategic Priority Research Program of Chinese Academy of Sciences [XDB17020300]; Fundamental Research Funds for the Central Universities [DUT19LK39] We would like to show our thankfulness to Dr. Yi-Tao Cui (LASOR/ISSP, The University of Tokyo, Japan), Dr. Lei Li (SRNC, University of Hyogo, Japan), Drs. Hirofumi Ishii, Yen-Fa Liao (NSRRC, the Republic of China) for their contributions to the XAFS measurement and data analysis. We thank M. Y. Zheng in Dalian Institute of Chemical Physics, Chinese Academy of Society for providing the hydrogenated cellulose solution. This work was supported by the National Natural Science Foundation of China (21872135), the Strategic Priority Research Program of Chinese Academy of Sciences (XDB17020300) and the Fundamental Research Funds for the Central Universities (DUT19LK39). 63 20 97 Nature publishing group London&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_883">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/883/Wang et al. - 2020 - Photo splitting of bio-polyols and sugars to metha.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41467-020-14915-8.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/33125209">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-6890%20(ELECTRONIC)%200009-2665%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weinstain</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Slanina</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kand</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klan</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_572"/>
+        <link:link rdf:resource="#item_875"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Visible-to-nir-light activated release: From small molecules to nanomaterials</dc:title>
+        <dcterms:abstract>Photoactivatable (alternatively, photoremovable, photoreleasable, or photocleavable) protecting groups (PPGs), also known as caged or photocaged compounds, are used to enable non-invasive spatiotemporal photochemical control over the release of species of interest. Recent years have seen the development of PPGs activatable by biologically and chemically benign visible and near-infrared (NIR) light. These long-wavelength-absorbing moieties expand the applicability of this powerful method and its accessibility to non-specialist users. This review comprehensively covers organic and transition metal-containing photoactivatable compounds (complexes) that absorb in the visible- and NIR-range to release various leaving groups and gasotransmitters (carbon monoxide, nitric oxide, and hydrogen sulfide). The text also covers visible- and NIR-light-induced photosensitized release using molecular sensitizers, quantum dots, and upconversion and second-harmonic nanoparticles, as well as release via photodynamic (photooxygenation by singlet oxygen) and photothermal effects. Release from photoactivatable polymers, micelles, vesicles, and photoswitches, along with the related emerging field of photopharmacology, is discussed at the end of the review.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/33125209</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 24
+Type: Journal Article</dc:description>
+        <bib:pages>13135-13272</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-6890%20(ELECTRONIC)%200009-2665%20(LINKING)">
+        <prism:volume>120</prism:volume>
+        <dc:title>Chem Rev</dc:title>
+        <dc:identifier>DOI 10.1021/acs.chemrev.0c00663</dc:identifier>
+        <prism:number>24</prism:number>
+        <dc:identifier>ISSN 1520-6890 (ELECTRONIC) 0009-2665 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_572">
+        <rdf:value>&lt;p&gt;Weinstain, Roy Slanina, Tomas Kand, Dnyaneshwar Klan, Petr eng Research Support, Non-U.S. Gov&amp;apos;t Chem Rev. 2020 Dec 23;120(24):13135-13272. doi: 10.1021/acs.chemrev.0c00663. Epub 2020 Oct 30.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_875">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/875/Weinstain et al. - 2020 - Visible-to-nir-light activated release From small.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7833475/pdf/cr0c00663.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:11:54</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://dx.doi.org/10.1021/ac902615g http://pubs.acs.org/doi/pdfplus/10.1021/ac902615g">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-2700"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Li</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tang</foaf:surname>
+                        <foaf:givenName>Xiaoting</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weisbrod</foaf:surname>
+                        <foaf:givenName>Chad R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Munske</foaf:surname>
+                        <foaf:givenName>Gerhard R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eng</foaf:surname>
+                        <foaf:givenName>Jimmy K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>von Haller</foaf:surname>
+                        <foaf:givenName>Priska D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kaiser</foaf:surname>
+                        <foaf:givenName>Nathan K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruce</foaf:surname>
+                        <foaf:givenName>James E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_587"/>
+        <link:link rdf:resource="#item_874"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>A photocleavable and mass spectrometry identifiable cross-linker for protein interaction studies</dc:title>
+        <dc:date>2010</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dx.doi.org/10.1021/ac902615g http://pubs.acs.org/doi/pdfplus/10.1021/ac902615g</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 9
+Type: Journal Article</dc:description>
+        <bib:pages>3556-3566</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-2700">
+        <prism:volume>82</prism:volume>
+        <dc:title>Analytical Chemistry</dc:title>
+        <dc:identifier>DOI 10.1021/ac902615g</dc:identifier>
+        <prism:number>9</prism:number>
+        <dc:identifier>ISSN 0003-2700</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_587">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Accepted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc2862095?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:38:07</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_874">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/874/Yang et al. - 2010 - A photocleavable and mass spectrometry identifiabl.pdf"/>
+        <dc:title>Akzeptierte Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc2862095?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:11:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://pubs.rsc.org/en/content/articlepdf/2015/cs/c5cs00364d https://pubs.rsc.org/en/content/articlelanding/2015/CS/C5CS00364D">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0306-0012"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhao</foaf:surname>
+                        <foaf:givenName>Jianzhang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Kejing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Wenbo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Zhijia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhong</foaf:surname>
+                        <foaf:givenName>Fangfang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_604"/>
+        <link:link rdf:resource="#item_888"/>
+        <dc:subject>Bodipy triplet excited state formation modulation application review</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>The triplet excited state of bodipy: Formation, modulation and application</dc:title>
+        <dcterms:abstract>Boron dipyrromethene (Bodipy) is one of the most extensively investigated org. chromophores. Most of the investigations are focused on the singlet excited state of Bodipy, such as fluorescence. In stark contrast, the study of the triplet excited state of Bodipy is limited, but it is an emerging area, since the triplet state of Bodipy is tremendously important for several areas, such as the fundamental photochem. study, photodynamic therapy (PDT), photocatalysis and triplet-triplet annihilation (TTA) upconversion. The recent developments in the study of the prodn., modulation and application of the triplet excited state of Bodipy are discussed in this review article. The formation of the triplet state of Bodipy upon photoexcitation, via the well known approach such as the heavy atom effect (including I, Br, Ru, Ir, etc.), and the new methods, such as using a spin converter (e.g. C60), charge recombination, exciton coupling and the doubly substituted excited state, are summarized. All the Bodipy-based triplet photosensitizers show strong absorption of visible or near IR light and the long-lived triplet excited state, which are important for the application of the triplet excited state in PDT or photocatalysis. Moreover, the methods for switching (or modulation) of the triplet excited state of Bodipy were discussed, such as those based on the photo-induced electron transfer (PET), by controlling the competing Forster-resonance-energy-transfer (FRET), or the intermol. charge transfer (ICT). Controlling the triplet excited state will give functional mols. such as activatable PDT reagents or mol. devices. It is worth noting that switching of the singlet excited state and the triplet state of Bodipy may follow different principles. Application of the triplet excited state of Bodipy in PDT, hydrogen (H2) prodn., photoredox catalytic org. reactions and TTA upconversion were discussed. The challenges and the opportunities in these areas were briefly discussed. [on SciFinder(R)]</dcterms:abstract>
+        <dc:date>2015</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.rsc.org/en/content/articlepdf/2015/cs/c5cs00364d https://pubs.rsc.org/en/content/articlelanding/2015/CS/C5CS00364D</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 24
+Type: Journal Article</dc:description>
+        <bib:pages>8904-8939</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0306-0012">
+        <prism:volume>44</prism:volume>
+        <dc:title>Chem. Soc. Rev.</dc:title>
+        <dc:identifier>DOI 10.1039/C5CS00364D</dc:identifier>
+        <prism:number>24</prism:number>
+        <dc:identifier>ISSN 0306-0012</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_604">
+        <rdf:value>&lt;p&gt;CAPLUS AN 2015:1650334(Journal; General Review; Online Computer File)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_888">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/888/Zhao et al. - 2015 - The triplet excited state of bodipy Formation, mo.pdf"/>
+        <dc:title>Zhao et al. - 2015 - The triplet excited state of bodipy Formation, mo.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000376375200001 https://www.nature.com/articles/srep26125.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2045-2322"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhou</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Z. Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rothschild</foaf:surname>
+                        <foaf:givenName>K. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lim</foaf:surname>
+                        <foaf:givenName>M. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_618"/>
+        <link:link rdf:resource="#item_619"/>
+        <link:link rdf:resource="#item_882"/>
+        <dc:subject>liquid-chromatography inhibitors discovery Science &amp; Technology - Other Topics</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Proteome-wide drug screening using mass spectrometric imaging of bead-arrays</dc:title>
+        <dcterms:abstract>A fundamental challenge in the drug discovery process is to develop compounds with high efficacy and minimal side-effects. We describe a new approach to proteome-wide drug screening for detection of on-and off-target binding which combines the advantages of mass spectrometry with microarray technology. The method involves matrix-assisted laser desorption/ionization mass spectrometric imaging (MALDI-MSI) of agarose micro-beads randomly arrayed at high-density in custom micro-well plates. Each bead carries a unique protein target and a corresponding photocleavable mass-tag for coding (PC-Mass-Tag). Compounds bound to specific protein beads and a photo-released coding PC-Mass-Tag are detected simultaneously using MALDI-MSI. As an initial demonstration of this approach, two kinase-targeted drugs, Dasatinib and Brigatinib (AP26113), were simultaneously screened against a model 50-member kinase-bead library. A MALDI-MSI scan performed at the equivalent density of 495,000 beads in the footprint of a microscope slide yielded 100% sensitivity for detecting known strong interactions with no false positives.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000376375200001 https://www.nature.com/articles/srep26125.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>8</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2045-2322">
+        <prism:volume>6</prism:volume>
+        <dc:title>Scientific Reports</dc:title>
+        <dc:identifier>DOI 10.1038/srep26125</dc:identifier>
+        <dc:identifier>ISSN 2045-2322</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_618">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: DM5GH Times Cited: 8 Cited Reference Count: 35 Zhou, Ying Liu, Ziying Rothschild, Kenneth J. Lim, Mark J. Rothschild, Kenneth J/P-6177-2018 Rothschild, Kenneth J/0000-0002-2847-6671; Zhou, Ying/0000-0001-7319-609X SBIR grant from NIH [R44CA137948, R44CA161965, R43GM105249]; NATIONAL CANCER INSTITUTE [R44CA161965, R44CA137948] Funding Source: NIH RePORTER; NATIONAL INSTITUTE OF GENERAL MEDICAL SCIENCES [R43GM105249] Funding Source: NIH RePORTER We wish to thank Prof. Cathy Costello, Prof. Cheng Lin, Dr. Bo Yan and Yi Pu for helpful discussions and Dr. Marvin Vestal, Dr. Stephen Hattan, and Dr. Kenneth Parker of SimulTOF Systems for kindly providing access and assistance using a SimulTOF 200 Combo MALDI TOF mass spectrometer. This work was funded in part by the following SBIR grants from the NIH to AmberGen, Inc.: R44CA137948, R44CA161965 and R43GM105249. 12 2 24 Nature publishing group London&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_619">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/srep26125.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:46:12</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_882">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/882/Zhou et al. - 2016 - Proteome-wide drug screening using mass spectromet.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/srep26125.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:17</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000334894100040 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.201310969?download=true">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1433-7851"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zimmermann</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cal</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Janett</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoffmann</foaf:surname>
+                        <foaf:givenName>V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bochet</foaf:surname>
+                        <foaf:givenName>C. G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Constable</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beaufils</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wymann</foaf:surname>
+                        <foaf:givenName>M. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_624"/>
+        <link:link rdf:resource="#item_625"/>
+        <link:link rdf:resource="#item_873"/>
+        <dc:subject>chemical inducers of dimerization fusion proteins photocleavable linkers photolysis protein-protein interactions spatiotemporal control living cells protein interactions light induction molecules switch Chemistry</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Cell- permeant and photocleavable chemical inducer of dimerization</dc:title>
+        <dcterms:abstract>Chemical inducers of dimerization (CIDs) have been developed to orchestrate protein dimerization and translocation. Here we present a novel photocleavable HaloTag- and SNAP-tag-reactive CID (MeNV-HaXS) with excellent selectivity and intracellular reactivity. Excitation at 360nm cleaves the methyl-6-nitroveratryl core of MeNV-HaXS. MeNV-HaXS covalently links HaloTag- and SNAP-tag fusion proteins, and enables targeting of selected membranes and intracellular organelles. MeNV-HaXS-mediated translocation has been validated for plasma membrane, late endosomes, lysosomes, Golgi, mitochondria, and the actin cytoskeleton. Photocleavage of MeNV-HaXS liberates target proteins and provides access to optical manipulation of protein relocation with high spatiotemporal and subcellular precision. MeNV-HaXS supports kinetic studies of protein dynamics and the manipulation of subcellular enzyme activities, which is exemplified for Golgi-targeted cargo and the assessment of nuclear import kinetics.</dcterms:abstract>
+        <dc:date>2014</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000334894100040 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.201310969?download=true</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 18
+Type: Journal Article</dc:description>
+        <bib:pages>4717-4720</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1433-7851">
+        <prism:volume>53</prism:volume>
+        <dc:title>Angewandte Chemie-International Edition</dc:title>
+        <dc:identifier>DOI 10.1002/anie.201310969</dc:identifier>
+        <prism:number>18</prism:number>
+        <dc:identifier>ISSN 1433-7851</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_624">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: AF7KN Times Cited: 36 Cited Reference Count: 26 Zimmermann, Mirjam Cal, Ruben Janett, Elia Hoffmann, Viktor Bochet, Christian G. Constable, Edwin Beaufils, Florent Wymann, Matthias P. Wymann, Matthias P/C-3227-2008; Constable, Edwin/G-5648-2012 Wymann, Matthias P/0000-0003-3349-4281; Constable, Edwin/0000-0003-4916-4041; Bochet, Christian/0000-0003-4267-0523 Swiss National Science Foundation [205320-138302, 205320-143699]; ESF EuroMEMBRANE Programme [31EM30-126143]; Novartis (Jubilee) Foundation We thank Takanari Inoue for FRB-YFP-Giantin and Stephan Hubner for NLS-CFP-FKBP expression constructs. This work was supported by Swiss National Science Foundation (205320-138302, 205320-143699), the ESF EuroMEMBRANE Programme (31EM30-126143), and the Novartis (Jubilee) Foundation. 39 1 69 Wiley-v c h verlag gmbh Weinheim 1521-3773&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_625">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc4499241?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:39:04</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_873">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/873/Zimmermann et al. - 2014 - Cell- permeant and photocleavable chemical inducer.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc4499241?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:11:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000246060400007">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1385-8947"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zuo</foaf:surname>
+                        <foaf:givenName>G. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Z. X.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>G. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shi</foaf:surname>
+                        <foaf:givenName>W. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miao</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_627"/>
+        <link:link rdf:resource="#item_876"/>
+        <dc:subject>chemical warfare agents photolysis photocatalysis gas-phase decontamination 2-chloroethyl ethyl sulfide dimethyl methylphosphonate cyanogen chloride diethyl sulfide catalytic destruction decomposition oxidation adsorption tio2 hd Engineering</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Study on photolytic and photocatalytic decontamination of air polluted by chemical warfare agents (cwas)</dc:title>
+        <dcterms:abstract>Photolytic and photocatalytic reactions of sarin (GB), soman (GD), sulfur mustard (HD), cyanogen chloride (CK) and perfluoroisobutylene, (PFIB) vapors in air were carried out. It was shown that vapors of GB, GD, HD and PFIB could be efficiently eliminated by UV light from germicidal lamp through either photolysis or photocatalysis, but CK could hardly be done through photodegradation. It was demonstrated that GB, GD and HD might possibly undergo a photo-induced polymerization under UV light irradiation. Photocatalytic reaction would lead to a cleavage of these molecules into small inorganic compounds at TiO2 surface. The experimental results strongly suggested that both photolysis and photocatalysis of GB vapor at static conditions were kinetically slowed down and possibly limited by a low diffusion rate of GB molecule. It has been testified that the static photolysis approach could be applicable for decontamination of GB vapor in an indoor space. And that, a dynamic photocatalysis approach for decontamination of GB vapor was proved to be much more efficient than that through photolysis, and it was also considered to be feasible for decontamination of air polluted by GB vapor. (c) 2006 Elsevier B.V. All rights reserved.</dcterms:abstract>
+        <dc:date>2007</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>&lt;Go to ISI&gt;://WOS:000246060400007</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 2-3
+Type: Journal Article</dc:description>
+        <bib:pages>135-140</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1385-8947">
+        <prism:volume>128</prism:volume>
+        <dc:title>Chemical Engineering Journal</dc:title>
+        <dc:identifier>DOI 10.1016/j.cej.2006.10.006</dc:identifier>
+        <prism:number>2-3</prism:number>
+        <dc:identifier>ISSN 1385-8947</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_627">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 162BD Times Cited: 29 Cited Reference Count: 35 Zuo, Guo-Min Cheng, Zhen-Xing Li, Guo-Wen Shi, Wen-Ping Miao, Ting 31 2 69 Elsevier science sa Lausanne&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_876">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/876/Zuo et al. - 2007 - Study on photolytic and photocatalytic decontamina.pdf"/>
+        <dc:title>Zuo et al. - 2007 - Study on photolytic and photocatalytic decontamina.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000298967200019 https://aip.scitation.org/doi/10.1063/1.3671943">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0021-9606"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aravind</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klaerke</foaf:surname>
+                        <foaf:givenName>B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rajput</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Toker</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andersen</foaf:surname>
+                        <foaf:givenName>L. H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bochenkova</foaf:surname>
+                        <foaf:givenName>A. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Antoine</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lemoine</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Racaud</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dugourd</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_820"/>
+        <link:link rdf:resource="#item_904"/>
+        <dc:subject>biochemistry hydrogen bonds molecular biophysics multiphoton processes photodissociation proteins quantum theory reaction kinetics theory reaction rate constants vibrational states vibrational-energy redistribution gas-phase electron photodetachment retinal chromophores conical intersection protein polyanions charge-transport uv excitation ab-initio in-vacuo Chemistry Physics</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Photodissociation pathways and lifetimes of protonated peptides and their dimers</dc:title>
+        <dcterms:abstract>Photodissociation lifetimes and fragment channels of gas-phase, protonated YA(n) (n = 1,2) peptides and their dimers were measured with 266 nm photons. The protonated monomers were found to have a fast dissociation channel with an exponential lifetime of similar to 200 ns while the protonated dimers show an additional slow dissociation component with a lifetime of similar to 2 mu s. Laser power dependence measurements enabled us to ascribe the fast channel in the monomer and the slow channel in the dimer to a one-photon process, whereas the fast dimer channel is from a two-photon process. The slow (1 photon) dissociation channel in the dimer was found to result in cleavage of the H-bonds after energy transfer through these H-bonds. In general, the dissociation of these protonated peptides is non-prompt and the decay time was found to increase with the size of the peptides. Quantum RRKM calculations of the microcanonical rate constants also confirmed a statistical nature of the photodissociation processes in the dipeptide monomers and dimers. The classical RRKM expression gives a rate constant as an analytical function of the number of active vibrational modes in the system, estimated separately on the basis of the equipartition theorem. It demonstrates encouraging results in predicting fragmentation lifetimes of protonated peptides. Finally, we present the first experimental evidence for a photo-induced conversion of tyrosine-containing peptides into monocyclic aromatic hydrocarbon along with a formamide molecule both found in space. (C) 2012 American Institute of Physics. [doi: 10.1063/1.3671943]</dcterms:abstract>
+        <dc:date>2012</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://WOS:000298967200019 https://aip.scitation.org/doi/10.1063/1.3671943</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 1
+Type: Journal Article</dc:description>
+        <bib:pages>14</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0021-9606">
+        <prism:volume>136</prism:volume>
+        <dc:title>Journal of Chemical Physics</dc:title>
+        <dc:identifier>DOI 10.1063/1.3671943</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 0021-9606</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_820">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 874OF Times Cited: 9 Cited Reference Count: 57 Aravind, G. Klaerke, B. Rajput, J. Toker, Y. Andersen, L. H. Bochenkova, A. V. Antoine, R. Lemoine, J. Racaud, A. Dugourd, P. Dugourd, Philippe/H-6574-2018; Bochenkova, Anastasia/G-2090-2015; Antoine, Rodolphe/I-5571-2019; lemoine, jerome/C-4272-2014; Toker, Yoni/G-8914-2013; Gopalan, Aravind/B-4470-2018 Dugourd, Philippe/0000-0003-4395-1140; Bochenkova, Anastasia/0000-0003-4101-3564; Antoine, Rodolphe/0000-0001-5682-8550; lemoine, jerome/0000-0002-5497-6880; Toker, Yoni/0000-0003-1809-7659; Gopalan, Aravind/0000-0003-4648-7136 Carlsberg Foundation; Lund-beckfonden; Danish Research Agency; Marie Curie European Career Integration Grant; Russian Foundation for Basic Research [11-03-01214]; [MK-64815.2010.4] We thank S. Brondsted Nielsen for useful discussions. This work is supported by the Carlsberg Foundation, Lund-beckfonden, the Danish Research Agency and the Marie Curie European Career Integration Grant within the 7th European Community Framework Programme. A. V. B. acknowledges the support from the Russian Foundation for Basic Research (grant #11-03-01214) and from the grant MK-64815.2010.4, as well as the Research Computing Center at the M. V. Lomonosov Moscow State University for providing computing resources. 9 0 43 Amer inst physics Melville 1089-7690&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_904">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/904/Aravind et al. - 2012 - Photodissociation pathways and lifetimes of proton.pdf"/>
+        <dc:title>Aravind et al. - 2012 - Photodissociation pathways and lifetimes of proton.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.200501393">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0947-6539"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aujard</foaf:surname>
+                        <foaf:givenName>Isabelle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benbrahim</foaf:surname>
+                        <foaf:givenName>Chouaha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gouget</foaf:surname>
+                        <foaf:givenName>Marine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ruel</foaf:surname>
+                        <foaf:givenName>Odile</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baudin</foaf:surname>
+                        <foaf:givenName>Jean-Bernard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Neveu</foaf:surname>
+                        <foaf:givenName>Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jullien</foaf:surname>
+                        <foaf:givenName>Ludovic</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_824"/>
+        <link:link rdf:resource="#item_901"/>
+        <dc:subject>nitrobenzyl photolabile protecting group red shifted absorption coumarin nitrobenzyl ester preparation photophys photolysis phenol nitrobenzyl ether preparation photophys photolysis</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>O-nitrobenzyl photolabile protecting groups with red-shifted absorption: Syntheses and uncaging cross-sections for one- and two-photon excitation</dc:title>
+        <dcterms:abstract>The o-nitrobenzyl platform for designing photolabile protecting groups with red-shifted absorption that could be photolyzed upon one- and two-photon excitation is evaluated. Several synthetic pathways to build different conjugated o-nitrobenzyl backbones, as well as to vary the benzylic position, are reported. Relative to the 4,5-dimethoxy-2-nitrobenzyl group, several o-nitrobenzyl derivatives exhibit a large and red-shifted one-photon absorption within the near-UV range. Uncaging after one-photon excitation was studied by measuring UV-visible absorption and steady-state fluorescence emission on model caged ethers and esters. In the whole series investigated, the caged substrates were released cleanly upon photolysis. Quantum yields of uncaging after one-photon absorption lie within the 0.1-1% range. The quantum yields decrease when the maximum wavelength absorption of the o-nitrobenzyl protecting group is increased. A new method based on fluorescence correlation spectroscopy (FCS) after two-photon excitation was used to measure the action uncaging cross section for two-photon excitation. The series of o-nitrobenzyl caged fluorescent coumarins investigated exhibit values within the 0.1-0.01 Goeppert-Mayer (GM) range. Such results are in line with the low quantum yields of uncaging associated with cross-sections of 1-50 GM for two-photon absorption. Although the cross-sections for one- and two-photon absorption of o-nitrobenzyl photolabile protecting groups can be readily improved, the difficulty in enlarging the corresponding action uncaging cross-sections in view of the observed trend of their quantum yield of uncaging should be emphasized.</dcterms:abstract>
+        <dc:date>2006</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.200501393</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 26
+Type: Journal Article</dc:description>
+        <bib:pages>6865-6879</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0947-6539">
+        <prism:volume>12</prism:volume>
+        <dc:title>Chem. - Eur. J.</dc:title>
+        <dc:identifier>DOI 10.1002/chem.200501393</dc:identifier>
+        <prism:number>26</prism:number>
+        <dc:identifier>ISSN 0947-6539</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_824">
+       <rdf:value>&lt;p&gt;CAplus AN 2006:965585 (Journal)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_901">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/901/Aujard et al. - 2006 - O-nitrobenzyl photolabile protecting groups with r.pdf"/>
+        <dc:title>Aujard et al. - 2006 - O-nitrobenzyl photolabile protecting groups with r.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/content/pdf/10.1134/S0018143915020022.pdf https://link.springer.com/article/10.1134/S0018143915020022">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0018-1439"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baranov</foaf:surname>
+                        <foaf:givenName>V. I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gribov</foaf:surname>
+                        <foaf:givenName>L. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mikhailov</foaf:surname>
+                        <foaf:givenName>I. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Poteshnaya</foaf:surname>
+                        <foaf:givenName>N. I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_826"/>
+        <link:link rdf:resource="#item_902"/>
+        <dc:subject>quantum yield priori quant prediction photochem reaction</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>On the possibility of a priori quantitative prediction of the quantum yield of a photochemical reaction</dc:title>
+        <dcterms:abstract>The possibility of performing predictive calculations of the kinetics and quantum yields of photochem. transformations of polyat. mols. with satisfactory accuracy has been shown. Taking into account the phys. grounded requirements imposed and rather stringent constraints on the prediction error (less than 50%), a satisfactory theor. result has been obtained for all of the considered reactions of three chem. different types. In most cases (eight out of ten reactions), the deviation from the exptl. data was less than 20%. Model parameters have high transferability in a series of similar reactions, thereby ensuring the predictive character of simulation of photochem. processes using the method developed earlier. In complicated cases, it is possible to a priori theor. assess the type of the reaction of interest and its physicochem. characteristics.</dcterms:abstract>
+        <dc:date>2015</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1134/S0018143915020022.pdf https://link.springer.com/article/10.1134/S0018143915020022</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 2
+Type: Journal Article</dc:description>
+        <bib:pages>96-103</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0018-1439">
+        <prism:volume>49</prism:volume>
+        <dc:title>High Energy Chem.</dc:title>
+        <dc:identifier>DOI 10.1134/s0018143915020022</dc:identifier>
+        <prism:number>2</prism:number>
+        <dc:identifier>ISSN 0018-1439</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_826">
+       <rdf:value>&lt;p&gt;CAplus AN 2015:374876 (Journal)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_902">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/902/Baranov et al. - 2015 - On the possibility of a priori quantitative predic.pdf"/>
+        <dc:title>Baranov et al. - 2015 - On the possibility of a priori quantitative predic.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pdf.sciencedirectassets.com/271323/1-s2.0-S0169409X18X00155/1-s2.0-S0169409X18303144/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDUaCXVzLWVhc3QtMSJHMEUCIQD9RVdCbJDPT5W8TNq799kOlqMN5JCevzgkVuYjdnRffQIgXuhpo4Z1V5lPXEZlfyMy6MwIy5WxLkyLp36VIX2MZ7AqvQMI7v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDK1y87OlJD7UjoPbyyqRAxYE9CX4smpbfNbR04roMfQTzP6mP0nizVj9f6AbbNWqD%2BZHN%2BzRyjvCQ4d407M9Dd2VkueMNnuQCBtWOdodcVD8kkUVeSot4sVJcn5mM0KctAJ3KXiRES01V6pKMjVeQl2eNiZ2twvJpJkXFYyvARcrIzU5h%2FrCv4Nf5h4QslpcJuNcxC0skiKd2YFqK5JnToRhA1mmjez%2BLMvjWmqFuLQG7%2FTVY36NRTlryJSA6VVDq%2Bx4Na2l4EKqxesESahXuezyyVO3KShFlQCCIiUyi9LYdv2LNViOSERDEpGPZ4i%2BEDymwhVS2yP3XNm%2FSPlcnPVvVaoV6MgRYljB8Hw911TbBqtpz49hs6laqqi21XtSE5R%2BjVUmGumte3WtZ%2FDfXVQjUiHYNWly4dP61QZ18padx%2BWHXJJYnkTwDL4uh3el3qQ8TiX%2FJPGJVX6tfMvB8JSCR2Ccw3QqlSrszhD7NuSjaKkRCgaqKKqRP6PpcbuzNbwxPnVhNjdAVe2%2BjR3Px9v6f2PVrdaIoW94I02TlW6gMNy3gPkFOusB6Hii%2ByfVCpEQikaMfP6%2BqjR0J4k%2FWQC7IfqGP06P0FCvRXHdKw4NQZRIIH15rzF4bMq5QpFXTwoKnotBBehbmgj33qmz1usk9i19PHQ646fOK57gc1CpoLEyeip8w%2B%2BkB2KbGAcsZhPtlyfsHXlfrV9twEPAvuP3VlbZfiH2MXFW3E7jC2Jv2is0dSf6jOxVvZdEG%2F8FuPerobmmHgS0W2vAH8UP4aUEc6sj8V3075JTXfKCVRGlxsTRqWAazaPH9v5e5wMvf1Zn52lxj2zsO1ab8GKdVyEAIx0H2j9%2BSxX7TXjQokEBqvZaVw%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20200728T131633Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYQ7SJ3Q73%2F20200728%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=c158a6b67602f4af17c130ab0503dea3dd6e39541a4d35d7afc8dc91397a4868&amp;hash=f000a4800920411ab9cee58beeabd44f6a2de964674534a8b4b7d3195e8a708f&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0169409X18303144&amp;tid=spdf-f512de65-7053-467d-b2dd-ed3b0c55aab7&amp;sid=b28c54021d75034847494ff-a10971f3437bgxrqb&amp;type=client">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0169-409X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beaute</foaf:surname>
+                        <foaf:givenName>Louis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McClenaghan</foaf:surname>
+                        <foaf:givenName>Nathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lecommandoux</foaf:surname>
+                        <foaf:givenName>Sebastien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_828"/>
+        <link:link rdf:resource="#item_881"/>
+        <dc:subject>review photoisomerization drug delivery system nanogel release therapeutic target Drug-delivery Gels Light- responsive Nanomedicine Nanoparticles Polymers</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Photo-triggered polymer nanomedicines: From molecular mechanisms to therapeutic applications</dc:title>
+        <dcterms:abstract>A review. The use of nanotechnol. to improve treatment efficacy and reduce side effects is central to nanomedicine. In this context, stimuli-responsive drug delivery systems (DDS) such as chem./phys. gels or nanoparticles such as polymersomes, micelles or nanogels are particularly promising and are the focus of this review. Several stimuli have been considered but light as an exogenous trigger presents many advantages that are pertinent for clin. applications such as high spatial and temporal control and low cost. Underlying mechanisms required for the release of therapeutic agents in vitro and in vivo range from the mol. scale, namely photoisomerization, hydrophobicity photoswitching, photocleavage or heat generation via nanoheaters, through to the macromol. scale. As well as these approaches, DDS destabilization, DDS permeation pore unblocking and formation are discussed.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdf.sciencedirectassets.com/271323/1-s2.0-S0169409X18X00155/1-s2.0-S0169409X18303144/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDUaCXVzLWVhc3QtMSJHMEUCIQD9RVdCbJDPT5W8TNq799kOlqMN5JCevzgkVuYjdnRffQIgXuhpo4Z1V5lPXEZlfyMy6MwIy5WxLkyLp36VIX2MZ7AqvQMI7v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDK1y87OlJD7UjoPbyyqRAxYE9CX4smpbfNbR04roMfQTzP6mP0nizVj9f6AbbNWqD%2BZHN%2BzRyjvCQ4d407M9Dd2VkueMNnuQCBtWOdodcVD8kkUVeSot4sVJcn5mM0KctAJ3KXiRES01V6pKMjVeQl2eNiZ2twvJpJkXFYyvARcrIzU5h%2FrCv4Nf5h4QslpcJuNcxC0skiKd2YFqK5JnToRhA1mmjez%2BLMvjWmqFuLQG7%2FTVY36NRTlryJSA6VVDq%2Bx4Na2l4EKqxesESahXuezyyVO3KShFlQCCIiUyi9LYdv2LNViOSERDEpGPZ4i%2BEDymwhVS2yP3XNm%2FSPlcnPVvVaoV6MgRYljB8Hw911TbBqtpz49hs6laqqi21XtSE5R%2BjVUmGumte3WtZ%2FDfXVQjUiHYNWly4dP61QZ18padx%2BWHXJJYnkTwDL4uh3el3qQ8TiX%2FJPGJVX6tfMvB8JSCR2Ccw3QqlSrszhD7NuSjaKkRCgaqKKqRP6PpcbuzNbwxPnVhNjdAVe2%2BjR3Px9v6f2PVrdaIoW94I02TlW6gMNy3gPkFOusB6Hii%2ByfVCpEQikaMfP6%2BqjR0J4k%2FWQC7IfqGP06P0FCvRXHdKw4NQZRIIH15rzF4bMq5QpFXTwoKnotBBehbmgj33qmz1usk9i19PHQ646fOK57gc1CpoLEyeip8w%2B%2BkB2KbGAcsZhPtlyfsHXlfrV9twEPAvuP3VlbZfiH2MXFW3E7jC2Jv2is0dSf6jOxVvZdEG%2F8FuPerobmmHgS0W2vAH8UP4aUEc6sj8V3075JTXfKCVRGlxsTRqWAazaPH9v5e5wMvf1Zn52lxj2zsO1ab8GKdVyEAIx0H2j9%2BSxX7TXjQokEBqvZaVw%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20200728T131633Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYQ7SJ3Q73%2F20200728%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=c158a6b67602f4af17c130ab0503dea3dd6e39541a4d35d7afc8dc91397a4868&amp;hash=f000a4800920411ab9cee58beeabd44f6a2de964674534a8b4b7d3195e8a708f&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0169409X18303144&amp;tid=spdf-f512de65-7053-467d-b2dd-ed3b0c55aab7&amp;sid=b28c54021d75034847494ff-a10971f3437bgxrqb&amp;type=client</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>148-166</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0169-409X">
+        <prism:volume>138</prism:volume>
+        <dc:title>Adv. Drug Delivery Rev.</dc:title>
+        <dc:identifier>DOI 10.1016/j.addr.2018.12.010</dc:identifier>
+        <dc:identifier>ISSN 0169-409X</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_828">
+        <rdf:value>&lt;p&gt;CAplus AN 2018:2592798; MEDLINE PMID: 30553952 (Journal; General Review; Article; Research Support, Non-U.S. Gov&amp;apos;t; Review)&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_881">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/881/Beaute et al. - 2019 - Photo-triggered polymer nanomedicines From molecu.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hal.archives-ouvertes.fr/hal-02098559/file/review%20LB_revised%20final.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000640058600003">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1387-3806"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Black</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barkhanskiy</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ramakers</foaf:surname>
+                        <foaf:givenName>L. A. I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Theisen</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brown</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bellina</foaf:surname>
+                        <foaf:givenName>B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Trivedi</foaf:surname>
+                        <foaf:givenName>D. K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barran</foaf:surname>
+                        <foaf:givenName>P. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_830"/>
+        <link:link rdf:resource="#item_898"/>
+        <dc:subject>Ion mobility mass spectrometry Proteins UVPD PCA electron-capture dissociation surface-induced dissociation gas-phase conformation ultraviolet photodissociation ubiquitin ions cytochrome-c sequence-analysis charge-state complexes peptide Physics Spectroscopy</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Characterization of native protein structure with ion mobility mass spectrometry, multiplexed fragmentation strategies and multivariant analysis</dc:title>
+        <dcterms:abstract>Activated ion mobility measurements provide insights to the stability of tertiary and quaternary structures of proteins and when coupled with dissociation strategies can delineate how the fold is disrupted. In this work, we use 213 nm photodissociation coupled with ion mobility mass spectrometry and collisional activation to probe the conformational landscape of model proteins. UVPD experiments are performed on proteins following in source activation and on collisionally activated photoproducts post ion mobility separation. For all observed conformations of cytochrome c, there is a significant increase in the UVPD fragmentation yield with the addition of collisional activation post mobility. Similar strategies are deployed with the multimeric proteins, concanavalin a, and haemoglobin. For these complexes' CID results in 'classical' asymmetric charge distribution in subunit products, which when preceded by UV irradiation, yields fragments from within sub-units. Combining these strategies provides complex multidimensional datasets, rich in information, which here we mine with multivariate analysis (MVA). This approach readily determines differences in UVPD and CID fragmentation patterns as a function of conformation and reveals diagnostic information about the precursor native structure without the limitations of current methods that only assign backbone cleavage sites. (c) 2021 Published by Elsevier B.V.</dcterms:abstract>
+        <dc:date>2021</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>&lt;Go to ISI&gt;://WOS:000640058600003</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>9</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1387-3806">
+        <prism:volume>464</prism:volume>
+        <dc:title>International Journal of Mass Spectrometry</dc:title>
+        <dc:identifier>DOI 10.1016/j.ijms.2021.116588</dc:identifier>
+        <dc:identifier>ISSN 1387-3806</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_830">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: RN0PX Times Cited: 2 Cited Reference Count: 70 Black, Rachelle Barkhanskiy, Alexey Ramakers, Lennart A., I Theisen, Alina Brown, Jeffery M. Bellina, Bruno Trivedi, Drupad K. Barran, Perdita E. Barran, Perdita/AAY-6303-2021 Black, Rachelle/0000-0002-7067-2385; Barran, Perdita/0000-0002-7720-586X; Theisen, Alina/0000-0002-0216-8582; Barkhanskiy, Alexey/0000-0003-4651-5037 BBSRC [BB/L002655/1, BB/L016486/1, BB/M01108/1, EP/S005226/1]; Waters Corp; European Union [801406]; EPSRC [EP/S005226/1]; AstraZeneca plc [EP/S005226/1] This work was supported by BBSRC grants BB/L002655/1, BB/L016486/1 and BB/M01108/1 as well as studentship awards to AT, RB with additional financial support from Waters Corp who have also partly supported AB and PB. PB and LAIR are grateful to the MS SPIDOC project funded by the European Union&amp;apos;s Horizon 2020 FET-OPEN research and innovation programme (Grant agreement No. 801406) for support of ongoing photo activation IM-MS activities. AB acknowledges the EPSRC, BBSRC and AstraZeneca plc. for funding under the Prosperity Partnership EP/S005226/1. 2 25 Elsevier Amsterdam 1873-2798&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_898">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/898/Black et al. - 2021 - Characterization of native protein structure with .pdf"/>
+        <dc:title>Black et al. - 2021 - Characterization of native protein structure with .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.sciencedirect.com/science/article/pii/S0040403900010509">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0040-4039"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bochet</foaf:surname>
+                        <foaf:givenName>Christian G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_905"/>
+        <dc:subject>carbamates deblocking</dc:subject>
+        <dc:subject>nitro compounds</dc:subject>
+        <dc:subject>photochemistry</dc:subject>
+        <dc:subject>protecting groups</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Wavelength-selective cleavage of photolabile protecting groups</dc:title>
+        <dcterms:abstract>The selective photocleavage of protecting groups using monochromatic light is described. Some groups were found to react faster than others at 254 nm, whereas this trend was reversed at 419 nm. This behavior was preserved in solution mixtures of both groups. The selective control of which group is activated is thus achieved by using an influence external to the reaction mixture.</dcterms:abstract>
+        <dc:date>2000</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/S0040403900010509</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 33
+Type: Journal Article</dc:description>
+        <bib:pages>6341-6346</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0040-4039">
+        <prism:volume>41</prism:volume>
+        <dc:title>Tetrahedron Letters</dc:title>
+        <dc:identifier>DOI https://doi.org/10.1016/S0040-4039(00)01050-9</dc:identifier>
+        <prism:number>33</prism:number>
+        <dc:identifier>ISSN 0040-4039</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_905">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/905/Bochet - 2000 - Wavelength-selective cleavage of photolabile prote.pdf"/>
+        <dc:title>Bochet - 2000 - Wavelength-selective cleavage of photolabile prote.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000293129900012">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0027-8424"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brady</foaf:surname>
+                        <foaf:givenName>John J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Judge</foaf:surname>
+                        <foaf:givenName>Elizabeth J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Levis</foaf:surname>
+                        <foaf:givenName>Robert J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_833"/>
+        <link:link rdf:resource="#item_886"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Nonresonant femtosecond laser vaporization of aqueous protein preserves folded structure</dc:title>
+        <dc:date>2011</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>&lt;Go to ISI&gt;://WOS:000293129900012</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 30
+Type: Journal Article</dc:description>
+        <bib:pages>12217-12222</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0027-8424">
+        <prism:volume>108</prism:volume>
+        <dc:title>Proceedings of the National Academy of Sciences of the United States of America</dc:title>
+        <dc:identifier>DOI 10.1073/pnas.1105673108</dc:identifier>
+        <prism:number>30</prism:number>
+        <dc:identifier>ISSN 0027-8424</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_833">
+       <rdf:value>&lt;p&gt;Times Cited: 8&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_886">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/886/Brady et al. - 2011 - Nonresonant femtosecond laser vaporization of aque.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc3145716?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:13:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://pubs.rsc.org/en/content/articlepdf/2014/cs/c3cs60444f">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>43</prism:volume>
+                <dc:title>Chemical Society Reviews</dc:title>
+                <prism:number>8</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brodbelt</foaf:surname>
+                        <foaf:givenName>Jennifer S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_835"/>
+        <link:link rdf:resource="#item_903"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Photodissociation mass spectrometry: New tools for characterization of biological molecules</dc:title>
+        <dc:date>2014</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.rsc.org/en/content/articlepdf/2014/cs/c3cs60444f</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 8
+Type: Journal Article</dc:description>
+        <bib:pages>2757-2783</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_835">
+       <rdf:value>&lt;p&gt;Added to JabRef: 2017.01.15&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_903">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/903/Brodbelt - 2014 - Photodissociation mass spectrometry New tools for.pdf"/>
+        <dc:title>Brodbelt - 2014 - Photodissociation mass spectrometry New tools for.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/31851501">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>120</prism:volume>
+                <dc:title>Chem Rev</dc:title>
+                <dc:identifier>DOI 10.1021/acs.chemrev.9b00440</dc:identifier>
+                <prism:number>7</prism:number>
+                <dc:identifier>ISSN 1520-6890 (ELECTRONIC) 0009-2665 (LINKING)</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brodbelt</foaf:surname>
+                        <foaf:givenName>J. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morrison</foaf:surname>
+                        <foaf:givenName>L. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santos</foaf:surname>
+                        <foaf:givenName>I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_837"/>
+        <link:link rdf:resource="#item_880"/>
+        <dc:subject>Amino Acid Sequence Animals Carbohydrate Sequence Humans Lipids/*analysis/radiation effects Mass Spectrometry/methods Nucleic Acids/*analysis/radiation effects Oligosaccharides/*analysis/radiation effects Peptides/*analysis/metabolism/radiation effects Protein Processing</dc:subject>
+        <dc:subject>Post-Translational Proteins/*analysis/metabolism/radiation effects Proteomics Ultraviolet Rays</dc:subject>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Ultraviolet photodissociation mass spectrometry for analysis of biological molecules</dc:title>
+        <dcterms:abstract>The development of new ion-activation/dissociation methods continues to be one of the most active areas of mass spectrometry owing to the broad applications of tandem mass spectrometry in the identification and structural characterization of molecules. This Review will showcase the impact of ultraviolet photodissociation (UVPD) as a frontier strategy for generating informative fragmentation patterns of ions, especially for biological molecules whose complicated structures, subtle modifications, and large sizes often impede molecular characterization. UVPD energizes ions via absorption of high-energy photons, which allows access to new dissociation pathways relative to more conventional ion-activation methods. Applications of UVPD for the analysis of peptides, proteins, lipids, and other classes of biologically relevant molecules are emphasized in this Review.</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/31851501</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 7
+Type: Journal Article</dc:description>
+        <bib:pages>3328-3380</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_837">
+        <rdf:value>&lt;p&gt;Brodbelt, Jennifer S Morrison, Lindsay J Santos, Ines eng R01 GM103655/GM/NIGMS NIH HHS/ R01 GM121714/GM/NIGMS NIH HHS/ Research Support, N.I.H., Extramural Research Support, Non-U.S. Gov&amp;apos;t Research Support, U.S. Gov&amp;apos;t, Non-P.H.S. Review Chem Rev. 2020 Apr 8;120(7):3328-3380. doi: 10.1021/acs.chemrev.9b00440. Epub 2019 Dec 18.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_880">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/880/Brodbelt et al. - 2020 - Ultraviolet photodissociation mass spectrometry fo.pdf"/>
+        <dc:title>Akzeptierte Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145764/pdf/nihms-1065067.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 12:12:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_838">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>24</prism:volume>
+                <dc:title>Nucleic Acids Research</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheng</foaf:surname>
+                        <foaf:givenName>Xueheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Camp</foaf:surname>
+                        <foaf:givenName>David G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Qinyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bakhtiar</foaf:surname>
+                        <foaf:givenName>Ray</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Springer</foaf:surname>
+                        <foaf:givenName>David L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morris</foaf:surname>
+                        <foaf:givenName>Brendt J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruce</foaf:surname>
+                        <foaf:givenName>James E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anderson</foaf:surname>
+                        <foaf:givenName>Gordon A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Edmonds</foaf:surname>
+                        <foaf:givenName>Charles G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>Richard D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_900"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Molecular weight determination of plasmid dna using electrospray ionization mass spectrometry</dc:title>
+        <dc:date>1996</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>2183–2189</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_900">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/900/Cheng et al. - 1996 - Molecular weight determination of plasmid dna usin.pdf"/>
+        <dc:title>Cheng et al. - 1996 - Molecular weight determination of plasmid dna usin.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

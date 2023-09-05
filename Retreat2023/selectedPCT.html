@@ -1,0 +1,3413 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero-Bericht</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_4VQCEF86" class="item journalArticle">
+			<h2>A lifetime in photochemistry; some ultrafast measurements on singlet states</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. Phillips</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>We describe here the development of time-correlated 
+single-photon counting techniques from the early use of spark discharge 
+lamps as light sources through to the use of femtosecond mode-locked 
+lasers through the personal work of the author. We used laser-excited 
+fluorescence in studies on energy migration and rotational relaxation in
+ synthetic polymer solutions, in biological probe molecules and in 
+supersonic jet expansions. Time-correlated single-photon counting was 
+the first method used in early fluorescence lifetime imaging microscopy 
+(FLIM), and we outline the development of this powerful technique, with a
+ comparison of techniques including wide-field microscopy. We employed 
+these modern forms of FLIM to study single biological cells, and applied
+ FLIM also to gain an understanding the distribution in tissue, and 
+fates of photosensitizer molecules used in photodynamic therapy. We also
+ describe the uses and instrumental design of laser systems for the 
+study of ultrafast time-resolved vibrational spectroscopy.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/27436979">https://www.ncbi.nlm.nih.gov/pubmed/27436979</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 2190
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>472</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>20160102</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Proc Math Phys Eng Sci</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1098/rspa.2016.0102">10.1098/rspa.2016.0102</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>2190</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1364-5021 (PRINT) 1364-5021 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:18</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:06:10</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>photochemistry singlet states ultrafast measurements</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_CCB33YGF">
+<div><p>Phillips, David eng Review England Proc Math Phys Eng Sci. 2016 Jun;472(2190):20160102. doi: 10.1098/rspa.2016.0102.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_Z45SBSFZ">Full Text					</li>
+					<li id="item_Z8KKH39I">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_R935Q5B5" class="item journalArticle">
+			<h2>A photocleavable and mass spectrometry identifiable cross-linker for protein interaction studies</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Li Yang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Xiaoting Tang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Chad R. Weisbrod</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Gerhard R. Munske</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jimmy K. Eng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Priska D. von Haller</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Nathan K. Kaiser</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>James E. Bruce</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dx.doi.org/10.1021/ac902615g%20http://pubs.acs.org/doi/pdfplus/10.1021/ac902615g">http://dx.doi.org/10.1021/ac902615g http://pubs.acs.org/doi/pdfplus/10.1021/ac902615g</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 9
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>82</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>3556-3566</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Analytical Chemistry</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/ac902615g">10.1021/ac902615g</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0003-2700</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:20</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:46:11</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_ADH25LK3">Accepted Version					</li>
+					<li id="item_IDR982H9">Akzeptierte Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_RDASJFRE" class="item journalArticle">
+			<h2>Cell- permeant and photocleavable chemical inducer of dimerization</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Zimmermann</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Cal</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>E. Janett</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>V. Hoffmann</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. G. Bochet</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>E. Constable</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>F. Beaufils</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. P. Wymann</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Chemical inducers of dimerization (CIDs) have been developed 
+to orchestrate protein dimerization and translocation. Here we present a
+ novel photocleavable HaloTag- and SNAP-tag-reactive CID (MeNV-HaXS) 
+with excellent selectivity and intracellular reactivity. Excitation at 
+360nm cleaves the methyl-6-nitroveratryl core of MeNV-HaXS. MeNV-HaXS 
+covalently links HaloTag- and SNAP-tag fusion proteins, and enables 
+targeting of selected membranes and intracellular organelles. 
+MeNV-HaXS-mediated translocation has been validated for plasma membrane,
+ late endosomes, lysosomes, Golgi, mitochondria, and the actin 
+cytoskeleton. Photocleavage of MeNV-HaXS liberates target proteins and 
+provides access to optical manipulation of protein relocation with high 
+spatiotemporal and subcellular precision. MeNV-HaXS supports kinetic 
+studies of protein dynamics and the manipulation of subcellular enzyme 
+activities, which is exemplified for Golgi-targeted cargo and the 
+assessment of nuclear import kinetics.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000334894100040 https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.201310969?download=true</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 18
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>53</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>4717-4720</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Angewandte Chemie-International Edition</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1002/anie.201310969">10.1002/anie.201310969</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>18</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1433-7851</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:41:56</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>chemical inducers of dimerization fusion proteins 
+photocleavable linkers photolysis protein-protein interactions 
+spatiotemporal control living cells protein interactions light induction
+ molecules switch Chemistry</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_5EGJZMN2">
+<div><p>ISI Document Delivery No.: AF7KN Times Cited: 36 Cited Reference
+ Count: 26 Zimmermann, Mirjam Cal, Ruben Janett, Elia Hoffmann, Viktor 
+Bochet, Christian G. Constable, Edwin Beaufils, Florent Wymann, Matthias
+ P. Wymann, Matthias P/C-3227-2008; Constable, Edwin/G-5648-2012 Wymann,
+ Matthias P/0000-0003-3349-4281; Constable, Edwin/0000-0003-4916-4041; 
+Bochet, Christian/0000-0003-4267-0523 Swiss National Science Foundation 
+[205320-138302, 205320-143699]; ESF EuroMEMBRANE Programme 
+[31EM30-126143]; Novartis (Jubilee) Foundation We thank Takanari Inoue 
+for FRB-YFP-Giantin and Stephan Hubner for NLS-CFP-FKBP expression 
+constructs. This work was supported by Swiss National Science Foundation
+ (205320-138302, 205320-143699), the ESF EuroMEMBRANE Programme 
+(31EM30-126143), and the Novartis (Jubilee) Foundation. 39 1 69 Wiley-v c
+ h verlag gmbh Weinheim 1521-3773</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_N8S98X3N">Full Text					</li>
+					<li id="item_D79HRKAD">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UHXNMAVR" class="item journalArticle">
+			<h2>Characterization of native protein structure with ion mobility 
+mass spectrometry, multiplexed fragmentation strategies and multivariant
+ analysis</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Black</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Barkhanskiy</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. A. I. Ramakers</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Theisen</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. M. Brown</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. Bellina</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. K. Trivedi</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. E. Barran</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Activated ion mobility measurements provide insights to the 
+stability of tertiary and quaternary structures of proteins and when 
+coupled with dissociation strategies can delineate how the fold is 
+disrupted. In this work, we use 213 nm photodissociation coupled with 
+ion mobility mass spectrometry and collisional activation to probe the 
+conformational landscape of model proteins. UVPD experiments are 
+performed on proteins following in source activation and on 
+collisionally activated photoproducts post ion mobility separation. For 
+all observed conformations of cytochrome c, there is a significant 
+increase in the UVPD fragmentation yield with the addition of 
+collisional activation post mobility. Similar strategies are deployed 
+with the multimeric proteins, concanavalin a, and haemoglobin. For these
+ complexes' CID results in 'classical' asymmetric charge distribution in
+ subunit products, which when preceded by UV irradiation, yields 
+fragments from within sub-units. Combining these strategies provides 
+complex multidimensional datasets, rich in information, which here we 
+mine with multivariate analysis (MVA). This approach readily determines 
+differences in UVPD and CID fragmentation patterns as a function of 
+conformation and reveals diagnostic information about the precursor 
+native structure without the limitations of current methods that only 
+assign backbone cleavage sites. (c) 2021 Published by Elsevier B.V.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000640058600003</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>464</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>International Journal of Mass Spectrometry</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.ijms.2021.116588">10.1016/j.ijms.2021.116588</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1387-3806</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Ion mobility mass spectrometry Proteins UVPD PCA 
+electron-capture dissociation surface-induced dissociation gas-phase 
+conformation ultraviolet photodissociation ubiquitin ions cytochrome-c 
+sequence-analysis charge-state complexes peptide Physics Spectroscopy</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_KKJAM4LG">
+<div><p>ISI Document Delivery No.: RN0PX Times Cited: 2 Cited Reference 
+Count: 70 Black, Rachelle Barkhanskiy, Alexey Ramakers, Lennart A., I 
+Theisen, Alina Brown, Jeffery M. Bellina, Bruno Trivedi, Drupad K. 
+Barran, Perdita E. Barran, Perdita/AAY-6303-2021 Black, 
+Rachelle/0000-0002-7067-2385; Barran, Perdita/0000-0002-7720-586X; 
+Theisen, Alina/0000-0002-0216-8582; Barkhanskiy, 
+Alexey/0000-0003-4651-5037 BBSRC [BB/L002655/1, BB/L016486/1, 
+BB/M01108/1, EP/S005226/1]; Waters Corp; European Union [801406]; EPSRC 
+[EP/S005226/1]; AstraZeneca plc [EP/S005226/1] This work was supported 
+by BBSRC grants BB/L002655/1, BB/L016486/1 and BB/M01108/1 as well as 
+studentship awards to AT, RB with additional financial support from 
+Waters Corp who have also partly supported AB and PB. PB and LAIR are 
+grateful to the MS SPIDOC project funded by the European Union's Horizon
+ 2020 FET-OPEN research and innovation programme (Grant agreement No. 
+801406) for support of ongoing photo activation IM-MS activities. AB 
+acknowledges the EPSRC, BBSRC and AstraZeneca plc. for funding under the
+ Prosperity Partnership EP/S005226/1. 2 25 Elsevier Amsterdam 1873-2798</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_V4ARDGSQ">Black et al. - 2021 - Characterization of native protein structure with .pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7JRZMKD6" class="item journalArticle">
+			<h2>Electron transfer dissociation of photolabeled peptides. Backbone cleavages compete with diazirine ring rearrangements</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Marek</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Pepin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. Peng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. J. Laszlo</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. F. Bush</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>F. Turecek</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Gas-phase conformations and electron transfer dissociations of
+ pentapeptide ions containing the photo-Leu residue (L*) were studied. 
+Exhaustive conformational search including molecular dynamics 
+force-field, semi-empirical, ab initio, and density functional theory 
+calculations established that the photo-Leu residue did not alter the 
+gas-phase conformations of (GL*GGK + 2H)(2+) and (GL*GGK-NH2 + H)(+) 
+ions, which showed the same conformer energy ranking as the unmodified 
+Leu-containing ions. This finding is significant in that it simplifies 
+conformational analysis of photo-labeled peptide ions. Electron transfer
+ dissociation mass spectra of (GL*GGK + 2H)(2+), (GL*GGK-NH2 + 
+2H)(2+),(GL*GGKK + 2H)(2+), (GL*GLK + 2H)(2+), and (GL*LGK + 2H)(2+) 
+showed 16 %-21 % fragment ions originating by radical rearrangements and
+ cleavages in the diazirine ring. These side-chain dissociations 
+resulted in eliminations of N2H3, N2H4, [N2H5], and [NH4O] neutral 
+fragments and were particularly abundant in long-lived charge-reduced 
+cation-radicals. Deuterium labeling established that the neutral 
+hydrazine molecules mainly contained two exchangeable and two 
+nonexchangeable hydrogen atoms from the peptide and underwent further 
+H/D exchange in an ion-molecule complex. Electron structure calculations
+ on the charge-reduced ions indicated that the unpaired electron was 
+delocalized between the diazirine and amide pi* electronic systems in 
+the low electronic states of the cation-radicals. The diazirine moiety 
+in GL*GGK-NH(2)was calculated to have an intrinsic electron affinity of 
+1.5 eV, which was further increased by the Coulomb effect of the peptide
+ positive charge. Mechanisms are proposed for the unusual elimination of
+ hydrazine from the photo-labeled peptide ions.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2013</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000325254100004 https://pubs.acs.org/doi/10.1007/s13361-013-0630-0</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 11
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1641-1653</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Journal of the American Society for Mass Spectrometry</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/s13361-013-0630-0">10.1007/s13361-013-0630-0</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1044-0305</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:16</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:09:50</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Electron transfer dissociation Diazirine-labeled peptides 
+Radical dissociations infrared multiphoton dissociation gas-phase 
+capture dissociation amino-acids bond dissociations cation-radicals. 
+z-ions n-c thermochemistry optimization Biochemistry &amp; Molecular 
+Biology Chemistry Spectroscopy</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_SMXW4JP6">
+<div><p>ISI Document Delivery No.: 229HU Times Cited: 17 Cited Reference
+ Count: 58 Marek, Ales Pepin, Robert Peng, Bo Laszlo, Kenneth J. Bush, 
+Matthew F. Turecek, Frantisek Bush, Matthew F./Y-2079-2019; Marek, 
+Ales/G-5635-2014 Bush, Matthew F./0000-0003-3526-4973; Marek, 
+Ales/0000-0001-9031-8263 National Science Foundation [CHE-1055132]; ARCS
+ foundation; Direct For Mathematical &amp; Physical Scien [1055132] 
+Funding Source: National Science Foundation Financial support by a grant
+ to F.T. from the National Science Foundation (CHE-1055132) is 
+gratefully acknowledged. K.L. thanks the ARCS foundation for financial 
+support. Instrumentation support for the low-resolution ETD mass spectra
+ measurements was provided by the University of Washington Proteomics 
+Resource (Dr. Priska von Haller). The authors thank Drs. Rob Moritz and 
+Sarah Lee of the Seattle Institute for Systems Biology for providing 
+access to the Thermo-Fisher Orbitrap Velos ETD instrument, and Dr. Jan 
+Urban for advice with peptide syntheses. 17 0 34 Springer New york</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_EPLQRRS2">Marek et al. - 2013 - Electron transfer dissociation of photolabeled pep.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CJLBDHKH" class="item journalArticle">
+			<h2>First-principles prediction of wavelength-dependent product quantum yields</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Travis Thompson</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Enrico Tapavicza</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>We present a method to predict wavelength-dependent product 
+quantum yields (PQYs) for photochem. reactions and applied it to 
+Z/E-isomerization and several ring-closing reactions of 
+Z-2,5-dimethyl-1,3,5-hexatriene and truncated previtamin D. Using 
+branching ratios from surface hopping mol. dynamics, individual 
+trajectories are correlated with the absorption spectra of their initial
+ structures. The wavelength-dependent PQYs are computed by dividing the 
+average spectrum of the initial structures of the product-forming 
+trajectories by the average spectrum of all initial structures. Accurate
+ absorption spectra are calculated using the correlated ADC(2) method 
+with an implicit solvent. Calculations reproduce the exptl. found trend 
+of increasing six-ring formation and decreasing Z/E-isomerization on the
+ red side of the spectrum. Over all seven reactions studied, the mean 
+absolute error (MAE) between exptl. and calculated PQYs (MAE) amounts to
+ 8.1%, and the largest MAE is 18.6%. For four reactions, predicted 
+values agree quant. with experiments within 5.6%.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.8b02048%20https://pubs.acs.org/doi/10.1021/acs.jpclett.8b02048">https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.8b02048 https://pubs.acs.org/doi/10.1021/acs.jpclett.8b02048</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 16
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>4758-4764</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J. Phys. Chem. Lett.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acs.jpclett.8b02048">10.1021/acs.jpclett.8b02048</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>16</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1948-7185</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:19</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:51:02</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>quantum yield cis trans photoisomerization absorption spectra</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_SQ52UL9N">
+<div><p>CAplus AN 2018:1390214; MEDLINE PMID: 30048134 (Journal; Article)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_VRE9P2C4">Accepted Version					</li>
+					<li id="item_3TXI4ZNW">Akzeptierte Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Y9TD6A87" class="item journalArticle">
+			<h2>Influence of solvent on photoinduced electron-transfer reaction: Time-resolved resonance raman study</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Himansu Mohapatra</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Siva Umapathy</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2009</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1021/jp903973q%20https://pubs.acs.org/doi/10.1021/jp903973q">https://doi.org/10.1021/jp903973q https://pubs.acs.org/doi/10.1021/jp903973q</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 25
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>113</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>6904-6909</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>The Journal of Physical Chemistry A</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/jp903973q">10.1021/jp903973q</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>25</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1089-5639</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:16</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:09:02</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_2GGQ2XEN">Accepted Version					</li>
+					<li id="item_YS3A7FTT">Akzeptierte Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UWQ7DUPL" class="item journalArticle">
+			<h2>Initial protein unfolding events in ubiquitin, cytochrome c and 
+myoglobin are revealed with the use of 213 nm uvpd coupled to im-ms</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Theisen</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Black</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. Corinti</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. M. Brown</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. Bellina</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. E. Barran</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>The initial stages of protein unfolding may reflect the 
+stability of the entire fold and can also reveal which parts of a 
+protein can be perturbed, without restructuring the rest. In this work, 
+we couple UVPD with activated ion mobility mass spectrometry to measure 
+how three model proteins start to unfold. Ubiquitin, cytochrome c and 
+myoglobin ions produced via nESI from salty solutions are subjected to 
+UV irradiation pre-mobility separation; experiments are conducted with a
+ range of source conditions which alter the conformation of the 
+precursor ion as shown by the drift time profiles. For all three 
+proteins, the compact structures result in less fragmentation than more 
+extended structures which emerge following progressive in-source 
+activation. Cleavage sites are found to differ between conformational 
+ensembles, for example, for the dominant charge state of cytochrome c 
+[M+7H](7+), cleavage at Phe10, Thr19 and Val20 was only observed in 
+activating conditions whilst cleavage at Ala43 is dramatically enhanced.
+ Mapping the photo-cleaved fragments onto crystallographic structures 
+provides insight into the local structural changes that occur as protein
+ unfolding progresses, which is coupled to global restructuring observed
+ in the drift time profiles.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000454913600005 https://pubs.acs.org/doi/10.1007/s13361-018-1992-0</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>24-33</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Journal of the American Society for Mass Spectrometry</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/s13361-018-1992-0">10.1007/s13361-018-1992-0</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1044-0305</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:19</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:52:01</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>UVPD IM-MS Ubiquitin Myoglobin Cytochrome c photodissociation 
+mass-spectrometry electron-capture dissociation intrinsically disordered
+ proteins gas-phase conformation higher-order structure ultraviolet 
+photodissociation ion mobility structural-characterization noncovalent 
+complexes sequence-analysis Biochemistry &amp; Molecular Biology 
+Chemistry Spectroscopy</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_UW5NXVDD">
+<div><p>ISI Document Delivery No.: HG3ZJ Times Cited: 29 Cited Reference
+ Count: 80 Theisen, Alina Black, Rachelle Corinti, Davide Brown, Jeffery
+ M. Bellina, Bruno Barran, Perdita E. Corinti, Davide/AGX-9358-2022; 
+Barran, Perdita/AAY-6303-2021 Corinti, Davide/0000-0001-8064-3492; 
+Black, Rachelle/0000-0002-7067-2385; Barran, 
+Perdita/0000-0002-7720-586X; Theisen, Alina/0000-0002-0216-8582 BBSRC 
+[BB/L002655/1, BB/L016486/1, BB/M011208/1]; Waters Corp.; BBSRC 
+[BB/M017702/1, 1866858] Funding Source: UKRI This work was supported by 
+BBSRC grants BB/L002655/1, BB/L016486/1 and BB/M011208/1 which is a 
+studentship award to AT and RB with additional financial support from 
+Waters Corp. 29 1 21 Springer New york 1879-1123</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_8KX9VJP4">Full Text					</li>
+					<li id="item_INPL2L6H">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3UPKPV44" class="item journalArticle">
+			<h2>Maldi mass spectrometry analysis of single nucleotide polymorphisms by photocleavage and charge-tagging</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Sauer</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H. Lehrach</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Reinhardt</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>High-throughput procedures are an important requirement for 
+future large-scale genetic studies such as genotyping of single 
+nucleotide polymorphisms (SNPs). Matrix-assisted laser desorption/ 
+ionisation mass spectrometry (MALDI-MS) has revolutionised the analysis 
+of biomolecules and, in particular, provides a very attractive solution 
+for the rapid typing of DNA. The analysis of DNA by MALDI can be 
+significantly facilitated by a procedure termed 'charge-tagging'. We 
+show here a novel approach for the generation of charge-tagged DNA using
+ a photocleavable linker and its implementation in a molecular 
+biological procedure for SNP genotyping consisting of PCR, primer 
+extension, photocleavage and a chemical reaction prior to MALDI target 
+preparation and analysis. The reaction sequence is amenable to liquid 
+handling automation and requires no stringent purification procedures. 
+We demonstrate this new method on SNPs in two genes involved in complex 
+traits.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000183231000005 
+https://watermark.silverchair.com/gng062.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAu4wggLqBgkqhkiG9w0BBwagggLbMIIC1wIBADCCAtAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMhs4ZyIKwbABT2DN5AgEQgIICodiNtorQaekQQvTMG1bAdOibVPRUnJKzenyzc9hPhYORAtCbSuJk6M8ret1JJjll7H_NlLCxr1Xr-6828M27AaKwDvsIgOn72BAqoWTlOm20r1K2NQGuI7ayyES8DB346FgdPb80DV0bdXIHGbgkelP_ninoyJR3raohBsAxzz8sKE_TDholxzJABiZ78o6kpU8dpRKtSRRlTRM2wT-3JdLGixI6znOqhOH9PWz8vw42FXXGRZj_Nuz9tuNQ5jHfT_xl1RG-DO9R0FwZ0lVpRxuecQb9D5_awZKtOqtbOcvYxz1MlxsxDfAp0FLlFdqMyNHuqfZ6jjeAb7PRSGQ4uaBEuwlGGU7mS11qYBgcFjXztR0-e5NL2dHKXDoSc5imDM5bHA8UGzGpnO7FnB9JZsHaCx6iscOrj_MPKL3VqzWd0S6rqePG6xWOiSE7tIQtywBvugPTQT9NuqgM_EijS2PiBj63OIwNzGZtFzKs30DRclDt5CvV3S290VcoGloHAz380NrShcbSqbEgOD5c3vcJKfrSpgcFlEQJ4z2Juk3TYusvZvRiHJb9Ko2AP9_fRLZKGDrIMrX-Tp_gPaZX7868QUBpEhB7W9-_2wWa9-3ghq2ZrgCSUVowo90zWs5hfNOD4I0o90xunrRr4J8Z-gllnxiriyG_dUikqRJuLx8tTKJUAvHnWAm9i0ZdNCIqwDvjPClIcySU-YFMs_hmnVS4ARZBA-6dRfr4fisF2fgVkBCAk-_bVOcrCRj7LsokxBr_GkX-m7U03oGEMl_FByYJSRjVg2AbcEHXxFROiG4y8iw0h5_DkCG3Eqi28tF616nxoKfzaU1HBoD73GiUELzq-xM9NofSqgFSUoFKnZoF_zsz3ruJFuskIf4mW-sQpxM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 11
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>31</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>10</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nucleic Acids Research</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1093/nar/gng062">10.1093/nar/gng062</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0305-1048</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:18</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:04:59</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>complex disease high-throughput DNA Biochemistry &amp; Molecular Biology</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_P2VAPN7J">
+<div><p>ISI Document Delivery No.: 684XD Times Cited: 29 Cited Reference
+ Count: 23 Sauer, S Lehrach, H Reinhardt, R Reinhardt, 
+Richard/0000-0001-9376-2132 34 3 14 Oxford univ press Oxford 1362-4962</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_68KLND2U">Full Text					</li>
+					<li id="item_KVEKG5T5">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ASD732J3" class="item journalArticle">
+			<h2>Molecular weight determination of plasmid dna using electrospray ionization mass spectrometry</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Xueheng Cheng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>David G. Camp</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Qinyuan Wu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Ray Bakhtiar</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>David L. Springer</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Brendt J. Morris</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>James E. Bruce</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Gordon A. Anderson</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Charles G. Edmonds</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Richard D. Smith</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1996</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>2183–2189</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nucleic Acids Research</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_ZNBKF8UY">Cheng et al. - 1996 - Molecular weight determination of plasmid dna usin.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SDA6V5NB" class="item journalArticle">
+			<h2>Multiplex digital spatial profiling of proteins and rna in fixed tissue</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. R. Merritt</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G. T. Ong</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. E. Church</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. Barker</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Danaher</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G. Geiss</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Hoang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Jung</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Liang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. McKay-Fleisch</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. Nguyen</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Z. Norgaard</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. Sorg</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>I. Sprague</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. Warren</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Warren</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. J. Webster</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Z. Zhou</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. R. Zollinger</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. L. Dunaway</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G. B. Mills</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. M. Beechem</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Digital Spatial Profiling (DSP) is a method for highly 
+multiplex spatial profiling of proteins or RNAs suitable for use on 
+formalin-fixed, paraffin-embedded (FFPE) samples. The approach relies on
+ (1) multiplexed readout of proteins or RNAs using oligonucleotide tags;
+ (2) oligonucleotide tags attached to affinity reagents (antibodies or 
+RNA probes) through a photocleavable (PC) linker; and (3) photocleaving 
+light projected onto the tissue sample to release PC oligonucleotides in
+ any spatial pattern across a region of interest (ROI) covering 1 to 
+similar to 5,000 cells. DSP is capable of single-cell sensitivity within
+ an ROI using the antibody readout, with RNA detection feasible down to 
+similar to 600 individual mRNA transcripts. We show spatial profiling of
+ up to 44 proteins and 96 genes (928 RNA probes) in lymphoid, colorectal
+ tumor and autoimmune tissues by using the nCounter system and 1,412 
+genes (4,998 RNA probes) by using next-generation sequencing (NGS). DSP 
+may be used to profile not only proteins and RNAs in bio-banked samples 
+but also immune markers in patient samples, with potential prognostic 
+and predictive potential for clinical decision-making.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000571372900022 https://www.nature.com/articles/s41587-020-0472-9</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 5
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>38</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>586-+</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nature Biotechnology</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/s41587-020-0472-9">10.1038/s41587-020-0472-9</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1087-0156</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:16</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:09:32</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>imaging mass-spectrometry gene-expression immunohistochemistry 
+technology platform epitope Biotechnology &amp; Applied Microbiology</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_T5QDW3H6">
+<div><p>ISI Document Delivery No.: NR2DP Times Cited: 181 Cited 
+Reference Count: 38 Merritt, Christopher R. Ong, Giang T. Church, Sarah 
+E. Barker, Kristi Danaher, Patrick Geiss, Gary Hoang, Margaret Jung, 
+Jaemyeong Liang, Yan McKay-Fleisch, Jill Nguyen, Karen Norgaard, Zach 
+Sorg, Kristina Sprague, Isaac Warren, Charles Warren, Sarah Webster, 
+Philippa J. Zhou, Zoey Zollinger, Daniel R. Dunaway, Dwayne L. Mills, 
+Gordon B. Beechem, Joseph M. Mills, Gordon/0000-0002-0144-9614; Ong, 
+Giang/0000-0002-3946-1627 188 19 81 Nature publishing group New york 
+1546-1696</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_BRSPZEHG">acs.jpclett.0c02054.pdf					</li>
+					<li id="item_JJXD9463">aop-2-4-451.pdf					</li>
+					<li id="item_RF46J8FI">e2003-00168-7.pdf					</li>
+					<li id="item_GBNRRXCT">s41587-020-0472-9.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2FMB2SRS" class="item journalArticle">
+			<h2>Nonresonant femtosecond laser vaporization of aqueous protein preserves folded structure</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>John J. Brady</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Elizabeth J. Judge</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Robert J. Levis</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000293129900012</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 30
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>108</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>12217-12222</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Proceedings of the National Academy of Sciences of the United States of America</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1073/pnas.1105673108">10.1073/pnas.1105673108</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0027-8424</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_ND9XLF8G">
+<div><p>Times Cited: 8</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_QUMGSIX7">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_M8K92Y3Z" class="item journalArticle">
+			<h2>O-nitrobenzyl photolabile protecting groups with red-shifted 
+absorption: Syntheses and uncaging cross-sections for one- and 
+two-photon excitation</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Isabelle Aujard</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Chouaha Benbrahim</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Marine Gouget</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Odile Ruel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jean-Bernard Baudin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Pierre Neveu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Ludovic Jullien</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>The o-nitrobenzyl platform for designing photolabile 
+protecting groups with red-shifted absorption that could be photolyzed 
+upon one- and two-photon excitation is evaluated. Several synthetic 
+pathways to build different conjugated o-nitrobenzyl backbones, as well 
+as to vary the benzylic position, are reported. Relative to the 
+4,5-dimethoxy-2-nitrobenzyl group, several o-nitrobenzyl derivatives 
+exhibit a large and red-shifted one-photon absorption within the near-UV
+ range. Uncaging after one-photon excitation was studied by measuring 
+UV-visible absorption and steady-state fluorescence emission on model 
+caged ethers and esters. In the whole series investigated, the caged 
+substrates were released cleanly upon photolysis. Quantum yields of 
+uncaging after one-photon absorption lie within the 0.1-1% range. The 
+quantum yields decrease when the maximum wavelength absorption of the 
+o-nitrobenzyl protecting group is increased. A new method based on 
+fluorescence correlation spectroscopy (FCS) after two-photon excitation 
+was used to measure the action uncaging cross section for two-photon 
+excitation. The series of o-nitrobenzyl caged fluorescent coumarins 
+investigated exhibit values within the 0.1-0.01 Goeppert-Mayer (GM) 
+range. Such results are in line with the low quantum yields of uncaging 
+associated with cross-sections of 1-50 GM for two-photon absorption. 
+Although the cross-sections for one- and two-photon absorption of 
+o-nitrobenzyl photolabile protecting groups can be readily improved, the
+ difficulty in enlarging the corresponding action uncaging 
+cross-sections in view of the observed trend of their quantum yield of 
+uncaging should be emphasized.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2006</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.200501393">https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/chem.200501393</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 26
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>6865-6879</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chem. - Eur. J.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1002/chem.200501393">10.1002/chem.200501393</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>26</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0947-6539</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>nitrobenzyl photolabile protecting group red shifted absorption
+ coumarin nitrobenzyl ester preparation photophys photolysis phenol 
+nitrobenzyl ether preparation photophys photolysis</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_HYMEJE2K">
+<div><p>CAplus AN 2006:965585 (Journal)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_G4CTDHBF">Aujard et al. - 2006 - O-nitrobenzyl photolabile protecting groups with r.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_FR5UC7SW" class="item journalArticle">
+			<h2>On the possibility of a priori quantitative prediction of the quantum yield of a photochemical reaction</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>V. I. Baranov</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. A. Gribov</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>I. V. Mikhailov</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N. I. Poteshnaya</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>The possibility of performing predictive calculations of the 
+kinetics and quantum yields of photochem. transformations of polyat. 
+mols. with satisfactory accuracy has been shown. Taking into account the
+ phys. grounded requirements imposed and rather stringent constraints on
+ the prediction error (less than 50%), a satisfactory theor. result has 
+been obtained for all of the considered reactions of three chem. 
+different types. In most cases (eight out of ten reactions), the 
+deviation from the exptl. data was less than 20%. Model parameters have 
+high transferability in a series of similar reactions, thereby ensuring 
+the predictive character of simulation of photochem. processes using the
+ method developed earlier. In complicated cases, it is possible to a 
+priori theor. assess the type of the reaction of interest and its 
+physicochem. characteristics.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.springer.com/content/pdf/10.1134/S0018143915020022.pdf%20https://link.springer.com/article/10.1134/S0018143915020022">https://link.springer.com/content/pdf/10.1134/S0018143915020022.pdf https://link.springer.com/article/10.1134/S0018143915020022</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 2
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>49</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>96-103</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>High Energy Chem.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1134/s0018143915020022">10.1134/s0018143915020022</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0018-1439</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>quantum yield priori quant prediction photochem reaction</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_YDX6YZ5V">
+<div><p>CAplus AN 2015:374876 (Journal)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_ZSIXS68R">Baranov et al. - 2015 - On the possibility of a priori quantitative predic.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_J5FUMUL8" class="item journalArticle">
+			<h2>Photo splitting of bio-polyols and sugars to methanol and syngas</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. J. Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. M. Lu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>F. Wang</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Methanol is a clean liquid energy carrier of sunshine and a 
+key platform chemical for the synthesis of olefins and aromatics. 
+Herein, we report the conversion of biomass-derived polyols and sugars 
+into methanol and syngas (CO+H-2) via UV light irradiation under room 
+temperature, and the bio-syngas can be further used for the synthesis of
+ methanol. The cellulose and even raw wood sawdust could be converted 
+into methanol or syngas after hydrogenolysis or hydrolysis pretreatment.
+ We find Cu dispersed on titanium oxide nanorod (TNR) rich in defects is
+ effective for the selective C-C bond cleavage to methanol. Methanol is 
+obtained from glycerol with a co-production of H-2. A syngas with CO 
+selectivity up to 90% in the gas phase is obtained via controlling the 
+energy band structure of Cu/TNR. Methanol and syngas are important fuels
+ and chemicals, which are presently produced from fossil resources. 
+Here, the authors report the conversion of biomass-derived polyols and 
+sugars into methanol and syngas via UV light irradiation under room 
+temperature.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000518590600002 https://www.nature.com/articles/s41467-020-14915-8.pdf</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nature Communications</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/s41467-020-14915-8">10.1038/s41467-020-14915-8</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2041-1723</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:20</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:20</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>formic-acid biomass conversion hydrogen water tio2 
+photocatalysts decomposition dehydration tio2(110) Science &amp; 
+Technology - Other Topics</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_R5NSJ2MH">
+<div><p>ISI Document Delivery No.: KS8WZ Times Cited: 62 Cited Reference
+ Count: 37 Wang, Min Liu, Meijiang Lu, Jianmin Wang, Feng Wang, 
+Min/G-4202-2012; Wang, Feng/A-3774-2011; , 王峰_DICP/AAT-9133-2020 Wang, 
+Min/0000-0002-9072-8331; Wang, Feng/0000-0002-9167-8743; , 
+王峰_DICP/0000-0002-9167-8743; Carmona, Eric/0000-0002-3902-091X; Wang, 
+Michael/0000-0002-9980-3828 National Natural Science Foundation of China
+ [21872135]; Strategic Priority Research Program of Chinese Academy of 
+Sciences [XDB17020300]; Fundamental Research Funds for the Central 
+Universities [DUT19LK39] We would like to show our thankfulness to Dr. 
+Yi-Tao Cui (LASOR/ISSP, The University of Tokyo, Japan), Dr. Lei Li 
+(SRNC, University of Hyogo, Japan), Drs. Hirofumi Ishii, Yen-Fa Liao 
+(NSRRC, the Republic of China) for their contributions to the XAFS 
+measurement and data analysis. We thank M. Y. Zheng in Dalian Institute 
+of Chemical Physics, Chinese Academy of Society for providing the 
+hydrogenated cellulose solution. This work was supported by the National
+ Natural Science Foundation of China (21872135), the Strategic Priority 
+Research Program of Chinese Academy of Sciences (XDB17020300) and the 
+Fundamental Research Funds for the Central Universities (DUT19LK39). 63 
+20 97 Nature publishing group London</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_BV9ZRTC7">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UIFCHHP2" class="item journalArticle">
+			<h2>Photo-triggered polymer nanomedicines: From molecular mechanisms to therapeutic applications</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Louis Beaute</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Nathan McClenaghan</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Sebastien Lecommandoux</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>A review. The use of nanotechnol. to improve treatment 
+efficacy and reduce side effects is central to nanomedicine. In this 
+context, stimuli-responsive drug delivery systems (DDS) such as 
+chem./phys. gels or nanoparticles such as polymersomes, micelles or 
+nanogels are particularly promising and are the focus of this review. 
+Several stimuli have been considered but light as an exogenous trigger 
+presents many advantages that are pertinent for clin. applications such 
+as high spatial and temporal control and low cost. Underlying mechanisms
+ required for the release of therapeutic agents in vitro and in vivo 
+range from the mol. scale, namely photoisomerization, hydrophobicity 
+photoswitching, photocleavage or heat generation via nanoheaters, 
+through to the macromol. scale. As well as these approaches, DDS 
+destabilization, DDS permeation pore unblocking and formation are 
+discussed.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pdf.sciencedirectassets.com/271323/1-s2.0-S0169409X18X00155/1-s2.0-S0169409X18303144/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDUaCXVzLWVhc3QtMSJHMEUCIQD9RVdCbJDPT5W8TNq799kOlqMN5JCevzgkVuYjdnRffQIgXuhpo4Z1V5lPXEZlfyMy6MwIy5WxLkyLp36VIX2MZ7AqvQMI7v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDK1y87OlJD7UjoPbyyqRAxYE9CX4smpbfNbR04roMfQTzP6mP0nizVj9f6AbbNWqD%2BZHN%2BzRyjvCQ4d407M9Dd2VkueMNnuQCBtWOdodcVD8kkUVeSot4sVJcn5mM0KctAJ3KXiRES01V6pKMjVeQl2eNiZ2twvJpJkXFYyvARcrIzU5h%2FrCv4Nf5h4QslpcJuNcxC0skiKd2YFqK5JnToRhA1mmjez%2BLMvjWmqFuLQG7%2FTVY36NRTlryJSA6VVDq%2Bx4Na2l4EKqxesESahXuezyyVO3KShFlQCCIiUyi9LYdv2LNViOSERDEpGPZ4i%2BEDymwhVS2yP3XNm%2FSPlcnPVvVaoV6MgRYljB8Hw911TbBqtpz49hs6laqqi21XtSE5R%2BjVUmGumte3WtZ%2FDfXVQjUiHYNWly4dP61QZ18padx%2BWHXJJYnkTwDL4uh3el3qQ8TiX%2FJPGJVX6tfMvB8JSCR2Ccw3QqlSrszhD7NuSjaKkRCgaqKKqRP6PpcbuzNbwxPnVhNjdAVe2%2BjR3Px9v6f2PVrdaIoW94I02TlW6gMNy3gPkFOusB6Hii%2ByfVCpEQikaMfP6%2BqjR0J4k%2FWQC7IfqGP06P0FCvRXHdKw4NQZRIIH15rzF4bMq5QpFXTwoKnotBBehbmgj33qmz1usk9i19PHQ646fOK57gc1CpoLEyeip8w%2B%2BkB2KbGAcsZhPtlyfsHXlfrV9twEPAvuP3VlbZfiH2MXFW3E7jC2Jv2is0dSf6jOxVvZdEG%2F8FuPerobmmHgS0W2vAH8UP4aUEc6sj8V3075JTXfKCVRGlxsTRqWAazaPH9v5e5wMvf1Zn52lxj2zsO1ab8GKdVyEAIx0H2j9%2BSxX7TXjQokEBqvZaVw%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20200728T131633Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYQ7SJ3Q73%2F20200728%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=c158a6b67602f4af17c130ab0503dea3dd6e39541a4d35d7afc8dc91397a4868&amp;hash=f000a4800920411ab9cee58beeabd44f6a2de964674534a8b4b7d3195e8a708f&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0169409X18303144&amp;tid=spdf-f512de65-7053-467d-b2dd-ed3b0c55aab7&amp;sid=b28c54021d75034847494ff-a10971f3437bgxrqb&amp;type=client">https://pdf.sciencedirectassets.com/271323/1-s2.0-S0169409X18X00155/1-s2.0-S0169409X18303144/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDUaCXVzLWVhc3QtMSJHMEUCIQD9RVdCbJDPT5W8TNq799kOlqMN5JCevzgkVuYjdnRffQIgXuhpo4Z1V5lPXEZlfyMy6MwIy5WxLkyLp36VIX2MZ7AqvQMI7v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDK1y87OlJD7UjoPbyyqRAxYE9CX4smpbfNbR04roMfQTzP6mP0nizVj9f6AbbNWqD%2BZHN%2BzRyjvCQ4d407M9Dd2VkueMNnuQCBtWOdodcVD8kkUVeSot4sVJcn5mM0KctAJ3KXiRES01V6pKMjVeQl2eNiZ2twvJpJkXFYyvARcrIzU5h%2FrCv4Nf5h4QslpcJuNcxC0skiKd2YFqK5JnToRhA1mmjez%2BLMvjWmqFuLQG7%2FTVY36NRTlryJSA6VVDq%2Bx4Na2l4EKqxesESahXuezyyVO3KShFlQCCIiUyi9LYdv2LNViOSERDEpGPZ4i%2BEDymwhVS2yP3XNm%2FSPlcnPVvVaoV6MgRYljB8Hw911TbBqtpz49hs6laqqi21XtSE5R%2BjVUmGumte3WtZ%2FDfXVQjUiHYNWly4dP61QZ18padx%2BWHXJJYnkTwDL4uh3el3qQ8TiX%2FJPGJVX6tfMvB8JSCR2Ccw3QqlSrszhD7NuSjaKkRCgaqKKqRP6PpcbuzNbwxPnVhNjdAVe2%2BjR3Px9v6f2PVrdaIoW94I02TlW6gMNy3gPkFOusB6Hii%2ByfVCpEQikaMfP6%2BqjR0J4k%2FWQC7IfqGP06P0FCvRXHdKw4NQZRIIH15rzF4bMq5QpFXTwoKnotBBehbmgj33qmz1usk9i19PHQ646fOK57gc1CpoLEyeip8w%2B%2BkB2KbGAcsZhPtlyfsHXlfrV9twEPAvuP3VlbZfiH2MXFW3E7jC2Jv2is0dSf6jOxVvZdEG%2F8FuPerobmmHgS0W2vAH8UP4aUEc6sj8V3075JTXfKCVRGlxsTRqWAazaPH9v5e5wMvf1Zn52lxj2zsO1ab8GKdVyEAIx0H2j9%2BSxX7TXjQokEBqvZaVw%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20200728T131633Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYQ7SJ3Q73%2F20200728%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=c158a6b67602f4af17c130ab0503dea3dd6e39541a4d35d7afc8dc91397a4868&amp;hash=f000a4800920411ab9cee58beeabd44f6a2de964674534a8b4b7d3195e8a708f&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S0169409X18303144&amp;tid=spdf-f512de65-7053-467d-b2dd-ed3b0c55aab7&amp;sid=b28c54021d75034847494ff-a10971f3437bgxrqb&amp;type=client</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>138</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>148-166</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Adv. Drug Delivery Rev.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.addr.2018.12.010">10.1016/j.addr.2018.12.010</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0169-409X</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>review photoisomerization drug delivery system nanogel release 
+therapeutic target Drug-delivery Gels Light- responsive Nanomedicine 
+Nanoparticles Polymers</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_F59G3WB4">
+<div><p>CAplus AN 2018:2592798; MEDLINE PMID: 30553952 (Journal; General Review; Article; Research Support, Non-U.S. Gov't; Review)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_F5KAZLXG">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WYPQ4B9H" class="item journalArticle">
+			<h2>Photodissociation mass spectrometry: New tools for characterization of biological molecules</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jennifer S. Brodbelt</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://pubs.rsc.org/en/content/articlepdf/2014/cs/c3cs60444f">http://pubs.rsc.org/en/content/articlepdf/2014/cs/c3cs60444f</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 8
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>43</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>2757-2783</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chemical Society Reviews</td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_TCMPFZG7">
+<div><p>Added to JabRef: 2017.01.15</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_Q5HQ8N9X">Brodbelt - 2014 - Photodissociation mass spectrometry New tools for.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6UJMBEST" class="item journalArticle">
+			<h2>Photodissociation pathways and lifetimes of protonated peptides and their dimers</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G. Aravind</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. Klaerke</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Rajput</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Toker</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. H. Andersen</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. V. Bochenkova</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Antoine</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Lemoine</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Racaud</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Dugourd</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Photodissociation lifetimes and fragment channels of 
+gas-phase, protonated YA(n) (n = 1,2) peptides and their dimers were 
+measured with 266 nm photons. The protonated monomers were found to have
+ a fast dissociation channel with an exponential lifetime of similar to 
+200 ns while the protonated dimers show an additional slow dissociation 
+component with a lifetime of similar to 2 mu s. Laser power dependence 
+measurements enabled us to ascribe the fast channel in the monomer and 
+the slow channel in the dimer to a one-photon process, whereas the fast 
+dimer channel is from a two-photon process. The slow (1 photon) 
+dissociation channel in the dimer was found to result in cleavage of the
+ H-bonds after energy transfer through these H-bonds. In general, the 
+dissociation of these protonated peptides is non-prompt and the decay 
+time was found to increase with the size of the peptides. Quantum RRKM 
+calculations of the microcanonical rate constants also confirmed a 
+statistical nature of the photodissociation processes in the dipeptide 
+monomers and dimers. The classical RRKM expression gives a rate constant
+ as an analytical function of the number of active vibrational modes in 
+the system, estimated separately on the basis of the equipartition 
+theorem. It demonstrates encouraging results in predicting fragmentation
+ lifetimes of protonated peptides. Finally, we present the first 
+experimental evidence for a photo-induced conversion of 
+tyrosine-containing peptides into monocyclic aromatic hydrocarbon along 
+with a formamide molecule both found in space. (C) 2012 American 
+Institute of Physics. [doi: 10.1063/1.3671943]</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000298967200019 https://aip.scitation.org/doi/10.1063/1.3671943</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>136</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Journal of Chemical Physics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1063/1.3671943">10.1063/1.3671943</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0021-9606</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>biochemistry hydrogen bonds molecular biophysics multiphoton 
+processes photodissociation proteins quantum theory reaction kinetics 
+theory reaction rate constants vibrational states vibrational-energy 
+redistribution gas-phase electron photodetachment retinal chromophores 
+conical intersection protein polyanions charge-transport uv excitation 
+ab-initio in-vacuo Chemistry Physics</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_JQPWIESX">
+<div><p>ISI Document Delivery No.: 874OF Times Cited: 9 Cited Reference 
+Count: 57 Aravind, G. Klaerke, B. Rajput, J. Toker, Y. Andersen, L. H. 
+Bochenkova, A. V. Antoine, R. Lemoine, J. Racaud, A. Dugourd, P. 
+Dugourd, Philippe/H-6574-2018; Bochenkova, Anastasia/G-2090-2015; 
+Antoine, Rodolphe/I-5571-2019; lemoine, jerome/C-4272-2014; Toker, 
+Yoni/G-8914-2013; Gopalan, Aravind/B-4470-2018 Dugourd, 
+Philippe/0000-0003-4395-1140; Bochenkova, Anastasia/0000-0003-4101-3564;
+ Antoine, Rodolphe/0000-0001-5682-8550; lemoine, 
+jerome/0000-0002-5497-6880; Toker, Yoni/0000-0003-1809-7659; Gopalan, 
+Aravind/0000-0003-4648-7136 Carlsberg Foundation; Lund-beckfonden; 
+Danish Research Agency; Marie Curie European Career Integration Grant; 
+Russian Foundation for Basic Research [11-03-01214]; [MK-64815.2010.4] 
+We thank S. Brondsted Nielsen for useful discussions. This work is 
+supported by the Carlsberg Foundation, Lund-beckfonden, the Danish 
+Research Agency and the Marie Curie European Career Integration Grant 
+within the 7th European Community Framework Programme. A. V. B. 
+acknowledges the support from the Russian Foundation for Basic Research 
+(grant #11-03-01214) and from the grant MK-64815.2010.4, as well as the 
+Research Computing Center at the M. V. Lomonosov Moscow State University
+ for providing computing resources. 9 0 43 Amer inst physics Melville 
+1089-7690</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_MSSQMZPL">Aravind et al. - 2012 - Photodissociation pathways and lifetimes of proton.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_EFCJ94Q2" class="item journalArticle">
+			<h2>Proteome-wide drug screening using mass spectrometric imaging of bead-arrays</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Zhou</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Z. Y. Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. J. Rothschild</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. J. Lim</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>A fundamental challenge in the drug discovery process is to 
+develop compounds with high efficacy and minimal side-effects. We 
+describe a new approach to proteome-wide drug screening for detection of
+ on-and off-target binding which combines the advantages of mass 
+spectrometry with microarray technology. The method involves 
+matrix-assisted laser desorption/ionization mass spectrometric imaging 
+(MALDI-MSI) of agarose micro-beads randomly arrayed at high-density in 
+custom micro-well plates. Each bead carries a unique protein target and a
+ corresponding photocleavable mass-tag for coding (PC-Mass-Tag). 
+Compounds bound to specific protein beads and a photo-released coding 
+PC-Mass-Tag are detected simultaneously using MALDI-MSI. As an initial 
+demonstration of this approach, two kinase-targeted drugs, Dasatinib and
+ Brigatinib (AP26113), were simultaneously screened against a model 
+50-member kinase-bead library. A MALDI-MSI scan performed at the 
+equivalent density of 495,000 beads in the footprint of a microscope 
+slide yielded 100% sensitivity for detecting known strong interactions 
+with no false positives.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000376375200001 https://www.nature.com/articles/srep26125.pdf</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Scientific Reports</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/srep26125">10.1038/srep26125</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2045-2322</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:20</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:42:31</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>liquid-chromatography inhibitors discovery Science &amp; Technology - Other Topics</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_BV26JMEW">
+<div><p>ISI Document Delivery No.: DM5GH Times Cited: 8 Cited Reference 
+Count: 35 Zhou, Ying Liu, Ziying Rothschild, Kenneth J. Lim, Mark J. 
+Rothschild, Kenneth J/P-6177-2018 Rothschild, Kenneth 
+J/0000-0002-2847-6671; Zhou, Ying/0000-0001-7319-609X SBIR grant from 
+NIH [R44CA137948, R44CA161965, R43GM105249]; NATIONAL CANCER INSTITUTE 
+[R44CA161965, R44CA137948] Funding Source: NIH RePORTER; NATIONAL 
+INSTITUTE OF GENERAL MEDICAL SCIENCES [R43GM105249] Funding Source: NIH 
+RePORTER We wish to thank Prof. Cathy Costello, Prof. Cheng Lin, Dr. Bo 
+Yan and Yi Pu for helpful discussions and Dr. Marvin Vestal, Dr. Stephen
+ Hattan, and Dr. Kenneth Parker of SimulTOF Systems for kindly providing
+ access and assistance using a SimulTOF 200 Combo MALDI TOF mass 
+spectrometer. This work was funded in part by the following SBIR grants 
+from the NIH to AmberGen, Inc.: R44CA137948, R44CA161965 and 
+R43GM105249. 12 2 24 Nature publishing group London</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_IPRFKUM3">Full Text					</li>
+					<li id="item_VLV7883Y">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2YLTNBMJ" class="item journalArticle">
+			<h2>Red-light-sensitive bodipy photoprotecting groups for amines and their biological application in controlling heart rhythm</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. Sitkowska</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. F. Hoes</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. M. Lerch</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. N. Lameijer</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. van der Meer</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>W. Szymanski</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. L. Feringa</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Control of biological function by the use of photoremovable 
+protecting groups (PPGs) is a gateway towards many new medical 
+developments. Herein, we report the synthesis and application of 
+efficient and biocompatible BODIPY-based photoprotecting groups for 
+amines, which are cleavable with red light in the phototherapeutic 
+window region (lambda &gt; 650 nm). We use the most promising PPG for 
+the protection of dopamine and apply it to control the beating frequency
+ of human cardiomyocytes.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/32342077%20https://pubs.rsc.org/en/content/articlepdf/2020/cc/d0cc02178d">https://www.ncbi.nlm.nih.gov/pubmed/32342077 https://pubs.rsc.org/en/content/articlepdf/2020/cc/d0cc02178d</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 41
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>56</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>5480-5483</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chem Commun (Camb)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/d0cc02178d">10.1039/d0cc02178d</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>41</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1364-548X (ELECTRONIC) 1359-7345 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:19</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:53:14</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_CJZE3BLF">
+<div><p>Sitkowska, Kaja Hoes, Martijn F Lerch, Michael M Lameijer, 
+Lucien N van der Meer, Peter Szymanski, Wiktor Feringa, Ben L eng 
+England Chem Commun (Camb). 2020 May 21;56(41):5480-5483. doi: 
+10.1039/d0cc02178d.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_TB3ANPED">Full Text					</li>
+					<li id="item_56RSVVI4">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DW2WJ82S" class="item journalArticle">
+			<h2>Searching for improved photoreleasing abilities of organic molecules</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Solomek</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Wirz</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Klan</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Photoremovable protecting groups (PPGs) are chemical 
+auxiliaries that provide spatial and temporal control over the release 
+of various molecules: bioagents (neurotransmitters and cell-signaling 
+molecules, Ca(2+) ions), acids, bases, oxidants, insecticides, 
+pheromones, fragrances, etc. A major challenge for the improvement of 
+PPGs lies in the development of organic chromophores that release the 
+desired bioagents upon continuous irradiation at wavelengths above 650 
+nm, that is, in the tissue-transparent window. Understanding of the 
+photorelease reaction mechanisms, investigated by laser flash photolysis
+ and rationalized with the aid of quantum chemical calculations, allows 
+for achieving this goal. In particular, simple Huckel calculations 
+provide useful guidelines for designing new PPGs, because both the 
+lowest excited singlet and triplet states of conjugated systems can be 
+reasonably well described by a single electronic configuration formed by
+ promotion of a single electron from the highest occupied molecular 
+orbital (HOMO) to the lowest unoccupied MO (LUMO) of the ground state 
+configuration. Here we show that Huckel calculations permit rapid 
+identification of common features in the nodal properties of the 
+frontier orbitals of various chromophores that can be classified into 
+distinct chromophore families. If the electronic excitation involves a 
+substantial electron density transfer to an sp(2) carbon atom at which 
+HOMO and LUMO are nearly disjoint, for example, by virtue of symmetry, 
+favorable photoheterolysis can be expected when the corresponding atom 
+carries a leaving group at the alpha-position. We show examples of 
+photoheterolytic reactions that indicate that the efficiency of 
+photoheterolysis diminishes for chromophores absorbing in the NIR 
+region. We provide a rationale for more efficient photoheterolytic 
+reactions occurring via the triplet state, and we demonstrate the 
+advantages of this mechanistic pathway. Analogies in the 
+structure-reactivity relationships of PPGs can therefore lead to new 
+strategies for the development of more efficient NIR-absorbing 
+photoremovable protecting groups.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/26569596%20https://pubs.acs.org/doi/10.1021/acs.accounts.5b00400">https://www.ncbi.nlm.nih.gov/pubmed/26569596 https://pubs.acs.org/doi/10.1021/acs.accounts.5b00400</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 12
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>48</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>3064-72</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Acc Chem Res</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acs.accounts.5b00400">10.1021/acs.accounts.5b00400</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1520-4898 (ELECTRONIC) 0001-4842 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:19</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:52:49</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_EGXMY7UL">
+<div><p>Solomek, Tomas Wirz, Jakob Klan, Petr eng 2015/11/17 06:00 Acc 
+Chem Res. 2015 Dec 15;48(12):3064-72. doi: 10.1021/acs.accounts.5b00400.
+ Epub 2015 Nov 16.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_8FBZ6CXX">Solomek et al. - 2015 - Searching for improved photoreleasing abilities of.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_K7L247AH" class="item journalArticle">
+			<h2>Structures and reactions of biomolecular ions produced with electrospray ionization</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Nonose</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Iwaoka</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H. Tanaka</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N. Okai</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Shibakusa</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. Fuke</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Photo-induced reaction of [Fe(III)-protoporphyrin](+) 
+(hemin(+)) ions solvated with dimethylsulfoxide (DMSO) is investigated 
+by using a tandem mass spectrometer with electrospray ionization. We 
+measure the photodissociation yields of mass-selected hemin(+()DMSO)(n) 
+clusters for n = 0-3. The mass spectra of the fragment ions show the 
+beta-cleavage of carboxymethyl groups in addition to the evaporation of 
+solvent molecules. Yield of the beta-cleavage reaction is found to 
+depend strongly on the excitation energv and the number of solvent 
+molecules. We also examine photo-induced reactions of multiply-charged 
+cytochrome c ions, (M + nH)(n+) (n = 9-17). Photoionization is found to 
+be the dominant process for the lower charged states (n = 9-12) and its 
+yield decreases rapidly with increasing the charge. The photoionization 
+is ascribed to the emission of electron by multiphoton excitation of 
+heme under the influence of Coulomb attractive potential arising from 
+the charges in the polypeptide chain. Model calculations of the Coulomb 
+potential suggest that the structure of the polypeptide chain is 
+completely elongated.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000184687800078 https://link.springer.com/article/10.1140/epjd/e2003-00168-7</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1-3
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>335-338</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>European Physical Journal D</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1140/epjd/e2003-00168-7">10.1140/epjd/e2003-00168-7</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1-3</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1434-6060</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:17</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:06:42</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>gas-phase clusters dynamics photodissociation dissociation Optics Physics</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_2Z7Y2RLH">
+<div><p>ISI Document Delivery No.: 710PC Times Cited: 12 Cited Reference
+ Count: 22 Nonose, S Iwaoka, S Tanaka, H Okai, N Shibakusa, T Fuke, K 
+11th International Symposium on Small Particles and Inorganic Clusters 
+(ISSPIC 11) Sep 09-13, 2002 Strasbourg, france Fuke, 
+Kiyokazu/U-2098-2017 12 0 8 Springer-verlag New york</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_4QDIGXZE">Nonose et al. - 2003 - Structures and reactions of biomolecular ions prod.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ZW64425Z" class="item journalArticle">
+			<h2>Study on photolytic and photocatalytic decontamination of air polluted by chemical warfare agents (cwas)</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G. M. Zuo</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Z. X. Cheng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G. W. Li</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>W. P. Shi</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Miao</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Photolytic and photocatalytic reactions of sarin (GB), soman 
+(GD), sulfur mustard (HD), cyanogen chloride (CK) and 
+perfluoroisobutylene, (PFIB) vapors in air were carried out. It was 
+shown that vapors of GB, GD, HD and PFIB could be efficiently eliminated
+ by UV light from germicidal lamp through either photolysis or 
+photocatalysis, but CK could hardly be done through photodegradation. It
+ was demonstrated that GB, GD and HD might possibly undergo a 
+photo-induced polymerization under UV light irradiation. Photocatalytic 
+reaction would lead to a cleavage of these molecules into small 
+inorganic compounds at TiO2 surface. The experimental results strongly 
+suggested that both photolysis and photocatalysis of GB vapor at static 
+conditions were kinetically slowed down and possibly limited by a low 
+diffusion rate of GB molecule. It has been testified that the static 
+photolysis approach could be applicable for decontamination of GB vapor 
+in an indoor space. And that, a dynamic photocatalysis approach for 
+decontamination of GB vapor was proved to be much more efficient than 
+that through photolysis, and it was also considered to be feasible for 
+decontamination of air polluted by GB vapor. (c) 2006 Elsevier B.V. All 
+rights reserved.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000246060400007</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 2-3
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>128</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>135-140</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chemical Engineering Journal</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.cej.2006.10.006">10.1016/j.cej.2006.10.006</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>2-3</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1385-8947</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:41:46</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>chemical warfare agents photolysis photocatalysis gas-phase 
+decontamination 2-chloroethyl ethyl sulfide dimethyl methylphosphonate 
+cyanogen chloride diethyl sulfide catalytic destruction decomposition 
+oxidation adsorption tio2 hd Engineering</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_U2ZBYVW2">
+<div><p>ISI Document Delivery No.: 162BD Times Cited: 29 Cited Reference
+ Count: 35 Zuo, Guo-Min Cheng, Zhen-Xing Li, Guo-Wen Shi, Wen-Ping Miao,
+ Ting 31 2 69 Elsevier science sa Lausanne</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_T84XAWSZ">Zuo et al. - 2007 - Study on photolytic and photocatalytic decontamina.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7WHQCP5J" class="item journalArticle">
+			<h2>Tailored photocleavable peptides: Fragmentation and neutralization pathways in high vacuum</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Debiossac</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Schätti</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Kriegleder</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Geyer</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Shayeghi</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Mayor</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Arndt</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>V. Köhler</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>20</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>11412–11417</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Phys. Chem. Chem. Phys.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/c8cp01058g">10.1039/c8cp01058g</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1463-9076 1463-9084</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:10</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:10:17</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_JYW36LBB">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PMSMREK2" class="item journalArticle">
+			<h2>The triplet excited state of bodipy: Formation, modulation and application</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jianzhang Zhao</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Kejing Xu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Wenbo Yang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Zhijia Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Fangfang Zhong</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Boron dipyrromethene (Bodipy) is one of the most extensively 
+investigated org. chromophores. Most of the investigations are focused 
+on the singlet excited state of Bodipy, such as fluorescence. In stark 
+contrast, the study of the triplet excited state of Bodipy is limited, 
+but it is an emerging area, since the triplet state of Bodipy is 
+tremendously important for several areas, such as the fundamental 
+photochem. study, photodynamic therapy (PDT), photocatalysis and 
+triplet-triplet annihilation (TTA) upconversion. The recent developments
+ in the study of the prodn., modulation and application of the triplet 
+excited state of Bodipy are discussed in this review article. The 
+formation of the triplet state of Bodipy upon photoexcitation, via the 
+well known approach such as the heavy atom effect (including I, Br, Ru, 
+Ir, etc.), and the new methods, such as using a spin converter (e.g. 
+C60), charge recombination, exciton coupling and the doubly substituted 
+excited state, are summarized. All the Bodipy-based triplet 
+photosensitizers show strong absorption of visible or near IR light and 
+the long-lived triplet excited state, which are important for the 
+application of the triplet excited state in PDT or photocatalysis. 
+Moreover, the methods for switching (or modulation) of the triplet 
+excited state of Bodipy were discussed, such as those based on the 
+photo-induced electron transfer (PET), by controlling the competing 
+Forster-resonance-energy-transfer (FRET), or the intermol. charge 
+transfer (ICT). Controlling the triplet excited state will give 
+functional mols. such as activatable PDT reagents or mol. devices. It is
+ worth noting that switching of the singlet excited state and the 
+triplet state of Bodipy may follow different principles. Application of 
+the triplet excited state of Bodipy in PDT, hydrogen (H2) prodn., 
+photoredox catalytic org. reactions and TTA upconversion were discussed.
+ The challenges and the opportunities in these areas were briefly 
+discussed. [on SciFinder(R)]</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://pubs.rsc.org/en/content/articlepdf/2015/cs/c5cs00364d%20https://pubs.rsc.org/en/content/articlelanding/2015/CS/C5CS00364D">http://pubs.rsc.org/en/content/articlepdf/2015/cs/c5cs00364d https://pubs.rsc.org/en/content/articlelanding/2015/CS/C5CS00364D</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 24
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>44</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>8904-8939</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chem. Soc. Rev.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/C5CS00364D">10.1039/C5CS00364D</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0306-0012</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:20</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:45:37</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Bodipy triplet excited state formation modulation application review</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_DK76FKPL">
+<div><p>CAPLUS AN 2015:1650334(Journal; General Review; Online Computer File)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_4JM5Q8PJ">Zhao et al. - 2015 - The triplet excited state of bodipy Formation, mo.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_T97J3K2N" class="item journalArticle">
+			<h2>Toward quantitative prediction of fluorescence quantum efficiency
+ by combining direct vibrational conversion and surface crossing: 
+Bodipys as an example</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Qi Ou</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Qian Peng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Zhigang Shuai</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Accurate theor. description of the electronic structure of 
+boron dipyrromethene (BODIPY) mols. has been a challenge, let alone the 
+prediction of fluorescence quantum efficiency. In this Letter, we show 
+that the electronic structures of BODIPYs can be accurately evaluated 
+via the spin-flip time-dependent d. functional theory with the B3LYP 
+functional. With the resulting electronic structures, the exptl. 
+spectral line shapes of representative BODIPYs are successfully 
+reproduced by our previously developed thermal vibration correlation 
+function method. Most importantly, a two-channel scheme is proposed to 
+describe the internal conversion of S1 to S0 in BODIPYs: channel I via 
+direct vibrational relaxation within the harmonic region and channel II 
+via a distorted S0/S1 min. energy crossing point well away from the 
+harmonic region. The fluorescence quantum yields are accurately 
+predicted within this two-channel scheme, which can therefore serve as a
+ generalized method for predicting the photophys. parameters of organic 
+fluorescent compounds</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.0c02054%20https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02054">https://pubs.acs.org/doi/pdf/10.1021/acs.jpclett.0c02054 https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02054</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 18
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>7790-7797</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J. Phys. Chem. Lett.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acs.jpclett.0c02054">10.1021/acs.jpclett.0c02054</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>18</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1948-7185</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:17</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:06:28</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>quant prediction fluorescence quantum efficiency combining direct vibrational</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_CDPG885G">
+<div><p>CAplus AN 2020:1550946; MEDLINE PMID: 32787317 (Journal; Article)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_NZ73KUU3">Ou et al. - 2020 - Toward quantitative prediction of fluorescence qua.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_55LINVWN" class="item thesis">
+			<h2>Towards matter‐wave experiments with biomolecules: Generation and detection of neutral biomolecular beams</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Dissertation</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jonas Schätti</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Art</th>
+						<td>Thesis</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:18</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:53:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_82MRX5AP">Schätti - 2019 - Towards matter‐wave experiments with biomolecules.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BNIEPQ5H" class="item journalArticle">
+			<h2>Two-photon absorption: An overview of measurements and principles</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Mariacristina Rumi</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Joseph W. Perry</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>A review. The range of organic compounds whose degenerate 
+two-photon absorption (2PA) spectrum has been reported has increased 
+rapidly in recent years, in parallel with the growing interest in 
+applications based on the 2PA process. The comparison of results from 
+different techniques is not always straightforward, and exptl. 
+conditions employed may vary significantly. We overview the concepts 
+underlying 2PA measurements and the common assumptions and 
+approximations used in the data anal. for various techniques. The 
+importance of selecting appropriate excitation regimes under which 
+measurements should be performed and of avoiding contributions from 
+absorption mechanisms in addition to 2PA will be emphasized.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.osapublishing.org/aop/abstract.cfm?uri=aop-2-4-451">https://www.osapublishing.org/aop/abstract.cfm?uri=aop-2-4-451</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 4
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>451-518</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Adv. Opt. Photonics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1364/aop.2.000451">10.1364/aop.2.000451</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1943-8206</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:18</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 14:05:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>two photon absorption spectrum review</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_X45HEX6I">
+<div><p>CAplus AN 2011:143291 (Journal; General Review)</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_DJMK5KMX">Rumi und Perry - 2010 - Two-photon absorption An overview of measurements.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_B9B5ESEE" class="item journalArticle">
+			<h2>Ultraviolet photodissociation mass spectrometry for analysis of biological molecules</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. S. Brodbelt</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. J. Morrison</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>I. Santos</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>The development of new ion-activation/dissociation methods 
+continues to be one of the most active areas of mass spectrometry owing 
+to the broad applications of tandem mass spectrometry in the 
+identification and structural characterization of molecules. This Review
+ will showcase the impact of ultraviolet photodissociation (UVPD) as a 
+frontier strategy for generating informative fragmentation patterns of 
+ions, especially for biological molecules whose complicated structures, 
+subtle modifications, and large sizes often impede molecular 
+characterization. UVPD energizes ions via absorption of high-energy 
+photons, which allows access to new dissociation pathways relative to 
+more conventional ion-activation methods. Applications of UVPD for the 
+analysis of peptides, proteins, lipids, and other classes of 
+biologically relevant molecules are emphasized in this Review.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/31851501">https://www.ncbi.nlm.nih.gov/pubmed/31851501</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 7
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>120</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>3328-3380</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chem Rev</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acs.chemrev.9b00440">10.1021/acs.chemrev.9b00440</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1520-6890 (ELECTRONIC) 0009-2665 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Amino Acid Sequence Animals Carbohydrate Sequence Humans 
+Lipids/*analysis/radiation effects Mass Spectrometry/methods Nucleic 
+Acids/*analysis/radiation effects Oligosaccharides/*analysis/radiation 
+effects Peptides/*analysis/metabolism/radiation effects Protein 
+Processing</li>
+					<li>Post-Translational Proteins/*analysis/metabolism/radiation effects Proteomics Ultraviolet Rays</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_IUK3L2T3">
+<div><p>Brodbelt, Jennifer S Morrison, Lindsay J Santos, Ines eng R01 
+GM103655/GM/NIGMS NIH HHS/ R01 GM121714/GM/NIGMS NIH HHS/ Research 
+Support, N.I.H., Extramural Research Support, Non-U.S. Gov't Research 
+Support, U.S. Gov't, Non-P.H.S. Review Chem Rev. 2020 Apr 
+8;120(7):3328-3380. doi: 10.1021/acs.chemrev.9b00440. Epub 2019 Dec 18.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_GFQQQX5U">Akzeptierte Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QHH8NPQ2" class="item journalArticle">
+			<h2>Visible-to-nir-light activated release: From small molecules to nanomaterials</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Weinstain</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Slanina</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. Kand</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Klan</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Photoactivatable (alternatively, photoremovable, 
+photoreleasable, or photocleavable) protecting groups (PPGs), also known
+ as caged or photocaged compounds, are used to enable non-invasive 
+spatiotemporal photochemical control over the release of species of 
+interest. Recent years have seen the development of PPGs activatable by 
+biologically and chemically benign visible and near-infrared (NIR) 
+light. These long-wavelength-absorbing moieties expand the applicability
+ of this powerful method and its accessibility to non-specialist users. 
+This review comprehensively covers organic and transition 
+metal-containing photoactivatable compounds (complexes) that absorb in 
+the visible- and NIR-range to release various leaving groups and 
+gasotransmitters (carbon monoxide, nitric oxide, and hydrogen sulfide). 
+The text also covers visible- and NIR-light-induced photosensitized 
+release using molecular sensitizers, quantum dots, and upconversion and 
+second-harmonic nanoparticles, as well as release via photodynamic 
+(photooxygenation by singlet oxygen) and photothermal effects. Release 
+from photoactivatable polymers, micelles, vesicles, and photoswitches, 
+along with the related emerging field of photopharmacology, is discussed
+ at the end of the review.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/33125209">https://www.ncbi.nlm.nih.gov/pubmed/33125209</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 24
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>120</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>13135-13272</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Chem Rev</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acs.chemrev.0c00663">10.1021/acs.chemrev.0c00663</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1520-6890 (ELECTRONIC) 0009-2665 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:20</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:50:37</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_TPGRBCMV">
+<div><p>Weinstain, Roy Slanina, Tomas Kand, Dnyaneshwar Klan, Petr eng 
+Research Support, Non-U.S. Gov't Chem Rev. 2020 Dec 
+23;120(24):13135-13272. doi: 10.1021/acs.chemrev.0c00663. Epub 2020 Oct 
+30.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_3VEVCPTF">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2K8BNTD9" class="item journalArticle">
+			<h2>Wavelength-selective cleavage of photolabile protecting groups</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Christian G. Bochet</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>The selective photocleavage of protecting groups using 
+monochromatic light is described. Some groups were found to react faster
+ than others at 254 nm, whereas this trend was reversed at 419 nm. This 
+behavior was preserved in solution mixtures of both groups. The 
+selective control of which group is activated is thus achieved by using 
+an influence external to the reaction mixture.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2000</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.sciencedirect.com/science/article/pii/S0040403900010509">http://www.sciencedirect.com/science/article/pii/S0040403900010509</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 33
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>41</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>6341-6346</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Tetrahedron Letters</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/S0040-4039(00)01050-9">https://doi.org/10.1016/S0040-4039(00)01050-9</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>33</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0040-4039</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>carbamates deblocking</li>
+					<li>nitro compounds</li>
+					<li>photochemistry</li>
+					<li>protecting groups</li>
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_ERLWVC9J">Bochet - 2000 - Wavelength-selective cleavage of photolabile prote.pdf					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>

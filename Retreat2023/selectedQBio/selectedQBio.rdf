@@ -1,0 +1,2110 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:BookSection rdf:about="#item_633">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book></bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>World Scientific, Singapore</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Al-Khalili</foaf:surname>
+                        <foaf:givenName>Jim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McFadden</foaf:surname>
+                        <foaf:givenName>Johnjoe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abbott</foaf:surname>
+                        <foaf:givenName>Derek</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davies</foaf:surname>
+                        <foaf:givenName>Paul C. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pati</foaf:surname>
+                        <foaf:givenName>Arun K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_862"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Quantum aspects of life</dc:title>
+        <dc:date>2007</dc:date>
+        <dc:description>Section: Quantum Coherence and the Search for the First Replicator
+Type: Book Section</dc:description>
+        <bib:pages>33-50</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_862">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/862/Al-Khalili und McFadden - 2007 - Quantum aspects of life.pdf"/>
+        <dc:title>Al-Khalili und McFadden - 2007 - Quantum aspects of life.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000273748000004">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1955-2068"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arndt</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Juffmann</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vedral</foaf:surname>
+                        <foaf:givenName>V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_638"/>
+        <link:link rdf:resource="#item_639"/>
+        <link:link rdf:resource="#item_847"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>nuclear-magnetic-resonance molecular-basis energy-transfer magnetoreception photosynthesis entanglement reduction dynamics light decoherence</dc:subject>
+        <dc:title>Quantum physics meets biology</dc:title>
+        <dcterms:abstract>Quantum physics and biology have long been regarded as unrelated disciplines, describing nature at the inanimate microlevel on the one hand and living species on the other hand. Over the past decades the life sciences have succeeded in providing ever more and refined explanations of macroscopic phenomena that were based on an improved understanding of molecular structures and mechanisms. Simultaneously, quantum physics, originally rooted in a world-view of quantum coherences, entanglement, and other nonclassical effects, has been heading toward systems of increasing complexity. The present perspective article shall serve as a &quot;pedestrian guide&quot; to the growing interconnections between the two fields. We recapitulate the generic and sometimes unintuitive characteristics of quantum physics and point to a number of applications in the life sciences. We discuss our criteria for a future &quot;quantum biology,&quot; its current status, recent experimental progress, and also the restrictions that nature imposes on bold extrapolations of quantum theory to macroscopic phenomena. [DOI: 10.2976/1.3244985]</dcterms:abstract>
+        <dc:date>2009</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>&lt;Go to ISI&gt;://WOS:000273748000004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 6
+Type: Journal Article</dc:description>
+        <bib:pages>386-400</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1955-2068">
+        <prism:volume>3</prism:volume>
+        <dc:title>Hfsp Journal</dc:title>
+        <dc:identifier>DOI Doi 10.2976/1.3244985</dc:identifier>
+        <prism:number>6</prism:number>
+        <dc:identifier>ISSN 1955-2068</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_638">
+        <rdf:value>&lt;p&gt;545PL Times Cited:14 Cited References Count:102&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_639">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc2839811?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:20</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_847">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/847/Arndt et al. - 2009 - Quantum physics meets biology.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc2839811?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:46:04</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_643">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>258</prism:volume>
+                <dc:title>Science</dc:title>
+                <prism:number>5089</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beratan</foaf:surname>
+                        <foaf:givenName>DN</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Onuchic</foaf:surname>
+                        <foaf:givenName>JN</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winkler</foaf:surname>
+                        <foaf:givenName>JR</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gray</foaf:surname>
+                        <foaf:givenName>HB</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_854"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Electron-tunneling pathways in proteins</dc:title>
+        <dc:date>1992</dc:date>
+        <dc:description>Number: 5089
+Type: Journal Article</dc:description>
+        <bib:pages>1740-1741</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_854">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/854/Beratan et al. - 1992 - Electron-tunneling pathways in proteins.pdf"/>
+        <dc:title>Beratan et al. - 1992 - Electron-tunneling pathways in proteins.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_646">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>10 No.4</prism:volume>
+                <dc:title>J. Vac. Sci. Technol. A</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bottomley</foaf:surname>
+                        <foaf:givenName>L.A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haseltine</foaf:surname>
+                        <foaf:givenName>J. N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Allison</foaf:surname>
+                        <foaf:givenName>D.P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warmack</foaf:surname>
+                        <foaf:givenName>R.J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thundat</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sachleben</foaf:surname>
+                        <foaf:givenName>R.A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brown</foaf:surname>
+                        <foaf:givenName>G.M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Woychik</foaf:surname>
+                        <foaf:givenName>R.P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jacobson</foaf:surname>
+                        <foaf:givenName>K. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ferrel</foaf:surname>
+                        <foaf:givenName>T.L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_864"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Scanning tunneling microscopy of dna: The chemical modification of gold surfaceces for immobilization of dna</dc:title>
+        <dc:date>1992</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>591-595</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_864">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/864/Bottomley et al. - 1992 - Scanning tunneling microscopy of dna The chemical.pdf"/>
+        <dc:title>Bottomley et al. - 1992 - Scanning tunneling microscopy of dna The chemical.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://000278635200001 http://iopscience.iop.org/article/10.1088/1367-2630/12/6/065002/pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1367-2630"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chin</foaf:surname>
+                        <foaf:givenName>A. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Datta</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Caruso</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huelga</foaf:surname>
+                        <foaf:givenName>S. F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plenio</foaf:surname>
+                        <foaf:givenName>M. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_658"/>
+        <link:link rdf:resource="#item_842"/>
+        <link:link rdf:resource="#item_659"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>coherent photosynthesis dynamics spectroscopy temperature systems migration protein model</dc:subject>
+        <dc:title>Noise-assisted energy transfer in quantum networks and light-harvesting complexes</dc:title>
+        <dcterms:abstract>We provide physically intuitive mechanisms for the effect of noise on excitation energy transfer (EET) in networks. Using these mechanisms of dephasing-assisted transport (DAT) in a hybrid basis of both excitons and sites, we develop a detailed picture of how noise enables energy transfer with efficiencies well above 90% across the Fenna-Matthew-Olson (FMO) complex, a type of light-harvesting molecule. We demonstrate explicitly how noise alters the pathways of energy transfer across the complex, suppressing ineffective pathways and facilitating direct ones to the reaction centre. We explain that the fundamental mechanisms underpinning DAT are expected to be robust with respect to the considered noise model but show that the specific details of the exciton-phonon coupling, which remain largely unknown in these type of complexes, and in particular the impact of non-Markovian effects, result in variations of dynamical features that should be amenable to experimental verification with current or planned technology. A detailed understanding of DAT in natural compounds could open up a new paradigm of 'noise-engineering' by which EET can be optimized in artificial light-harvesting structures.</dcterms:abstract>
+        <dc:date>2010</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>&lt;Go to ISI&gt;://000278635200001 http://iopscience.iop.org/article/10.1088/1367-2630/12/6/065002/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1367-2630">
+        <prism:volume>12</prism:volume>
+        <dc:title>New Journal of Physics</dc:title>
+        <dc:identifier>DOI 065002 10.1088/1367-2630/12/6/065002</dc:identifier>
+        <dc:identifier>ISSN 1367-2630</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_658">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 609DL Times Cited: 3 Cited Reference Count: 44 Chin, A. W. Datta, A. Caruso, F. Huelga, S. F. Plenio, M. B. EPSRC QIP-IRC ; EPSRC [EP/C546237/1]; EU ; von Humboldt Foundation ; Royal Society ; Marie Curie Intra European This work was supported by the EPSRC QIP-IRC, EPSRC grant number EP/C546237/1, EU projects QAP and CORNER, the von Humboldt Foundation and the Royal Society. We are grateful to G R Fleming, A Ishizaki, S Virmani and T Brandes for helpful discussions and comments. F C was also supported by a Marie Curie Intra European Fellowship within the 7th European Community Framework Programme. Iop publishing ltd Bristol&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_842">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/842/Chin et al. - 2010 - Noise-assisted energy transfer in quantum networks.pdf"/>
+        <dc:title>Eingereichte Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/0910.4153</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:45:37</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_659">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1367-2630/12/6/065002/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:04:54</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/25429787">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2041-1723%20(ELECTRONIC)%202041-1723%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Coles</foaf:surname>
+                        <foaf:givenName>D. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grant</foaf:surname>
+                        <foaf:givenName>R. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taylor</foaf:surname>
+                        <foaf:givenName>R. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saikin</foaf:surname>
+                        <foaf:givenName>S. K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aspuru-Guzik</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lidzey</foaf:surname>
+                        <foaf:givenName>D. G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tang</foaf:surname>
+                        <foaf:givenName>J. K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Smith</foaf:surname>
+                        <foaf:givenName>J. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_663"/>
+        <link:link rdf:resource="#item_664"/>
+        <link:link rdf:resource="#item_849"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>Bacterial Proteins/*metabolism Chlorobi/*metabolism Energy Transfer Iron-Sulfur Proteins/*metabolism *Light Organelles/*metabolism *Photons Photosynthesis/*physiology</dc:subject>
+        <dc:title>Strong coupling between chlorosomes of photosynthetic bacteria and a confined optical cavity mode</dc:title>
+        <dcterms:abstract>Strong exciton-photon coupling is the result of a reversible exchange of energy between an excited state and a confined optical field. This results in the formation of polariton states that have energies different from the exciton and photon. We demonstrate strong exciton-photon coupling between light-harvesting complexes and a confined optical mode within a metallic optical microcavity. The energetic anti-crossing between the exciton and photon dispersions characteristic of strong coupling is observed in reflectivity and transmission with a Rabi splitting energy on the order of 150 meV, which corresponds to about 1,000 chlorosomes coherently coupled to the cavity mode. We believe that the strong coupling regime presents an opportunity to modify the energy transfer pathways within photosynthetic organisms without modification of the molecular structure.</dcterms:abstract>
+        <dc:date>2014</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/25429787</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>5561</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2041-1723%20(ELECTRONIC)%202041-1723%20(LINKING)">
+        <prism:volume>5</prism:volume>
+        <dc:title>Nat Commun</dc:title>
+        <dc:identifier>DOI 10.1038/ncomms6561</dc:identifier>
+        <dc:identifier>ISSN 2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_663">
+        <rdf:value>&lt;p&gt;Coles, David M Yang, Yanshen Wang, Yaya Grant, Richard T Taylor, Robert A Saikin, Semion K Aspuru-Guzik, Alan Lidzey, David G Tang, Joseph Kuo-Hsiang Smith, Jason M eng Research Support, Non-U.S. Gov&amp;apos;t Research Support, U.S. Gov&amp;apos;t, Non-P.H.S. England 2014/11/29 06:00 Nat Commun. 2014 Nov 28;5:5561. doi: 10.1038/ncomms6561.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_664">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms6561.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:11</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_849">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/849/Coles et al. - 2014 - Strong coupling between chlorosomes of photosynthe.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms6561.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:46:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_674">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0962-8436%201471-2970"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dutton</foaf:surname>
+                        <foaf:givenName>P. L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Munro</foaf:surname>
+                        <foaf:givenName>A. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scrutton</foaf:surname>
+                        <foaf:givenName>N. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutcliffe</foaf:surname>
+                        <foaf:givenName>M. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_675"/>
+        <link:link rdf:resource="#item_845"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Introduction. Quantum catalysis in enzymes: Beyond the transition state theory paradigm</dc:title>
+        <dc:date>2006</dc:date>
+        <dc:description>Number: 1472
+Type: Journal Article</dc:description>
+        <bib:pages>1293-1294</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0962-8436%201471-2970">
+        <prism:volume>361</prism:volume>
+        <dc:title>Philosophical Transactions of the Royal Society B: Biological Sciences</dc:title>
+        <dc:identifier>DOI 10.1098/rstb.2006.1879</dc:identifier>
+        <prism:number>1472</prism:number>
+        <dc:identifier>ISSN 0962-8436 1471-2970</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_675">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc1647302?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:35</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_845">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/845/Dutton et al. - 2006 - Introduction. Quantum catalysis in enzymes Beyond.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc1647302?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:46:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/31539011">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-5498%20(ELECTRONIC)%201359-6640%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fay</foaf:surname>
+                        <foaf:givenName>T. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lindoy</foaf:surname>
+                        <foaf:givenName>L. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manolopoulos</foaf:surname>
+                        <foaf:givenName>D. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hore</foaf:surname>
+                        <foaf:givenName>P. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_679"/>
+        <link:link rdf:resource="#item_680"/>
+        <link:link rdf:resource="#item_871"/>
+        <dc:title>How quantum is radical pair magnetoreception?</dc:title>
+        <dcterms:abstract>Currently the most likely mechanism of the magnetic compass sense in migratory songbirds relies on the coherent spin dynamics of pairs of photochemically formed radicals in the retina. Spin-conserving electron transfer reactions are thought to result in radical pairs whose near-degenerate electronic singlet and triplet states interconvert coherently as a result of hyperfine, exchange, and dipolar couplings and, crucially for a compass sensor, Zeeman interactions with the geomagnetic field. In this way, the yields of the reaction products can be influenced by magnetic interactions a million times smaller than kBT. The question we ask here is whether one can only account for the coherent spin dynamics using quantum mechanics. We find that semiclassical approximations to the spin dynamics of radical pairs only provide a satisfactory description of the anisotropic product yields when there is no electron spin-spin coupling, a situation unlikely to be consistent with a magnetic sensing function. Although these methods perform reasonably well for shorter-lived radical pairs with stronger electron-spin coupling, the accurate simulation of anisotropic magnetic field effects relevant to magnetoreception seems to require full quantum mechanical calculations.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/31539011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 0
+Type: Journal Article</dc:description>
+        <bib:pages>77-91</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-5498%20(ELECTRONIC)%201359-6640%20(LINKING)">
+        <prism:volume>221</prism:volume>
+        <dc:title>Faraday Discuss</dc:title>
+        <dc:identifier>DOI 10.1039/c9fd00049f</dc:identifier>
+        <prism:number>0</prism:number>
+        <dc:identifier>ISSN 1364-5498 (ELECTRONIC) 1359-6640 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_679">
+        <rdf:value>&lt;p&gt;Fay, Thomas P Lindoy, Lachlan P Manolopoulos, David E Hore, P J eng ERC_/European Research Council/International Research Support, Non-U.S. Gov&amp;apos;t Research Support, U.S. Gov&amp;apos;t, Non-P.H.S. England Faraday Discuss. 2019 Dec 16;221(0):77-91. doi: 10.1039/c9fd00049f.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_680">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.rsc.org/en/content/articlepdf/2020/fd/c9fd00049f</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:37</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_871">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/871/Fay et al. - 2019 - How quantum is radical pair magnetoreception.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.rsc.org/en/content/articlepdf/2020/fd/c9fd00049f</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 11:32:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/21694704">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>Nat Commun</dc:title>
+                <dc:identifier>DOI 10.1038/ncomms1364</dc:identifier>
+                <dc:identifier>ISSN 2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Foley</foaf:surname>
+                        <foaf:givenName>L. E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gegear</foaf:surname>
+                        <foaf:givenName>R. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reppert</foaf:surname>
+                        <foaf:givenName>S. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_685"/>
+        <link:link rdf:resource="#item_686"/>
+        <link:link rdf:resource="#item_844"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>Animals Animals</dc:subject>
+        <dc:subject>Genetically Modified Choice Behavior/physiology Cryptochromes/genetics/*metabolism Drosophila Humans *Light *Magnetics Motor Activity/physiology Retina/metabolism Sensation/physiology/*radiation effects</dc:subject>
+        <dc:title>Human cryptochrome exhibits light-dependent magnetosensitivity</dc:title>
+        <dcterms:abstract>Humans are not believed to have a magnetic sense, even though many animals use the Earth's magnetic field for orientation and navigation. One model of magnetosensing in animals proposes that geomagnetic fields are perceived by light-sensitive chemical reactions involving the flavoprotein cryptochrome (CRY). Here we show using a transgenic approach that human CRY2, which is heavily expressed in the retina, can function as a magnetosensor in the magnetoreception system of Drosophila and that it does so in a light-dependent manner. The results show that human CRY2 has the molecular capability to function as a light-sensitive magnetosensor and reopen an area of sensory biology that is ready for further exploration in humans.</dcterms:abstract>
+        <dc:date>2011</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/21694704</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>356</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_685">
+        <rdf:value>&lt;p&gt;Foley, Lauren E Gegear, Robert J Reppert, Steven M eng R01 GM086794/GM/NIGMS NIH HHS/ R01 GM086794-03/GM/NIGMS NIH HHS/ Research Support, N.I.H., Extramural England Nat Commun. 2011 Jun 21;2:356. doi: 10.1038/ncomms1364.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_686">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms1364.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:36</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_844">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/844/Foley et al. - 2011 - Human cryptochrome exhibits light-dependent magnet.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms1364.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:45:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_687">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>International Journal of Quantum Chemistry</dc:title>
+                <prism:number>5</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Froehlich</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_858"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Long-range coherence and energy storage in biological systems</dc:title>
+        <dcterms:abstract>Biological systems are expected to have a branch of longitudinal electric modes in a frequency region between 1011 and 1012 sec-1. They are based on the dipolar properties of cell membranes; of certain bonds recurring in giant molecules (such as H bonds) and possibly on pockets of non-localized electrons. In Section 2 it is shown quit generally that if energy is supplied above a certain mean rate to such a branch, then a steady state will be reached in which a single mode of this branch is very strongly excited. The supplied energy is thus not completely thermalized but stored in a highly ordered fashion. This order expresses itself in long-range phase correlations; the phenomenon has considerable similarity with the low-temperature condensation of a Bose gas. General consequences and proposals of experiments are discussed in section 3.</dcterms:abstract>
+        <dc:date>1968</dc:date>
+        <dc:description>Number: 5
+Type: Journal Article</dc:description>
+        <bib:pages>641-649</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_858">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/858/Froehlich - 1968 - Long-range coherence and energy storage in biologi.pdf"/>
+        <dc:title>Froehlich - 1968 - Long-range coherence and energy storage in biologi.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/30579778">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1879-2650%20(ELECTRONIC)%200005-2728%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gelzinis</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Augulis</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Butkus</foaf:surname>
+                        <foaf:givenName>V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robert</foaf:surname>
+                        <foaf:givenName>B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Valkunas</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_691"/>
+        <link:link rdf:resource="#item_869"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>*Models</dc:subject>
+        <dc:subject>Fluorescence/methods *Energy transfer *Pump-probe spectroscopy *Two-dimensional spectroscopy</dc:subject>
+        <dc:subject>Molecular *Photosynthesis Photosynthetic Reaction Center Complex Proteins/*chemistry Spectrometry</dc:subject>
+        <dc:title>Two-dimensional spectroscopy for non-specialists</dc:title>
+        <dcterms:abstract>Detailed studies of the excitation dynamics in photosynthetic pigment-proteins require an application of a wide range of spectroscopic methods. From the later part of the previous century, pump-probe and time-resolved fluorescence spectroscopy provided an impressive amount of information. Being simple to grasp, these methods are well-understood and widely used by the photosynthesis research community. In the last fifteen years, two-dimensional (2D) spectroscopy was developed. It has significant advantages over other methods, in particular higher temporal resolution available and higher signal-to-noise ratio. Even though it provides considerable opportunities in research, both its experimental realization and theoretical description are rather complicated, making it somewhat difficult to understand and apply. This makes an unfortunate gap in the community, with spectroscopy experts being able to use the technique, but sometimes lacking the relevant biological knowledge, while biologists having that knowledge are dubious about 2D spectroscopy due to the complexity of the approach. This publication is an attempt to fill this gap by providing an accessible introduction to the concepts, principles and possible applications of the 2D spectroscopy, aimed at the biologically trained members of the photosynthesis research community.</dcterms:abstract>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/30579778</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 4
+Type: Journal Article</dc:description>
+        <bib:pages>271-285</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1879-2650%20(ELECTRONIC)%200005-2728%20(LINKING)">
+        <prism:volume>1860</prism:volume>
+        <dc:title>Biochim Biophys Acta Bioenerg</dc:title>
+        <dc:identifier>DOI 10.1016/j.bbabio.2018.12.006</dc:identifier>
+        <prism:number>4</prism:number>
+        <dc:identifier>ISSN 1879-2650 (ELECTRONIC) 0005-2728 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_691">
+        <rdf:value>&lt;p&gt;Gelzinis, Andrius Augulis, Ramunas Butkus, Vytautas Robert, Bruno Valkunas, Leonas eng Review Netherlands Biochim Biophys Acta Bioenerg. 2019 Apr 1;1860(4):271-285. doi: 10.1016/j.bbabio.2018.12.006. Epub 2018 Dec 21.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_869">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/869/Gelzinis et al. - 2019 - Two-dimensional spectroscopy for non-specialists.pdf"/>
+        <dc:title>Gelzinis et al. - 2019 - Two-dimensional spectroscopy for non-specialists.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/22346610">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1424-8220%20(ELECTRONIC)%201424-8220%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gerhardt</foaf:surname>
+                        <foaf:givenName>I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mai</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lamas-Linares</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kurtsiefer</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_693"/>
+        <link:link rdf:resource="#item_694"/>
+        <link:link rdf:resource="#item_843"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>*led *fluorescence microscopy *light-emitting diode *signal to noise ratio *single molecules *single photon detection</dc:subject>
+        <dc:title>Detection of single molecules illuminated by a light-emitting diode</dc:title>
+        <dcterms:abstract>Optical detection and spectroscopy of single molecules has become an indispensable tool in biological imaging and sensing. Its success is based on fluorescence of organic dye molecules under carefully engineered laser illumination. In this paper we demonstrate optical detection of single molecules on a wide-field microscope with an illumination based on a commercially available, green light-emitting diode. The results are directly compared with laser illumination in the same experimental configuration. The setup and the limiting factors, such as light transfer to the sample, spectral filtering and the resulting signal-to-noise ratio are discussed. A theoretical and an experimental approach to estimate these parameters are presented. The results can be adapted to other single emitter and illumination schemes.</dcterms:abstract>
+        <dc:date>2011</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/22346610</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 1
+Type: Journal Article</dc:description>
+        <bib:pages>905-16</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1424-8220%20(ELECTRONIC)%201424-8220%20(LINKING)">
+        <prism:volume>11</prism:volume>
+        <dc:title>Sensors (Basel)</dc:title>
+        <dc:identifier>DOI 10.3390/s110100905</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 1424-8220 (ELECTRONIC) 1424-8220 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_693">
+        <rdf:value>&lt;p&gt;Gerhardt, Ilja Mai, Lijian Lamas-Linares, Antia Kurtsiefer, Christian eng Research Support, Non-U.S. Gov&amp;apos;t Switzerland Sensors (Basel). 2011;11(1):905-16. doi: 10.3390/s110100905. Epub 2011 Jan 14.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_694">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/1424-8220/11/1/905/pdf?version=1403314093</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:44</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_843">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/843/Gerhardt et al. - 2011 - Detection of single molecules illuminated by a lig.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/1424-8220/11/1/905/pdf?version=1403314093</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:45:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_697">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0033-5835"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gray</foaf:surname>
+                        <foaf:givenName>HB</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winkler</foaf:surname>
+                        <foaf:givenName>JR</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_853"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Electron tunneling through proteins</dc:title>
+        <dcterms:abstract>Electron transfer processes are vital elements of energy transduction pathways in living cells. More than a half century of research has produced a remarkably detailed understanding of the factor's that regulate these `currents of life'. We review investigations of Ru-modified proteins that have delineated the distance- and driving-force dependences of intra-protein electron-transfer rates. We also discuss electron transfer across protein-protein interfaces that has been probed both in solution and in structurally characterized crystals. It is now clear that electrons tunnel between sites in biological redox chains, and that protein structures tune thermodynamic properties and electronic coupling interactions to facilitate these reactions. Our work has produced an experimentally validated timetable for electron tunneling across specified distances in proteins. Many electron tunneling rates in cytochrome c oxidase and photosynthetic reaction centers agree well with timetable predictions, indicating that the natural reactions are highly optimized, both in terms of thermodynamics and electronic coupling. The rates of some reactions, however, significantly exceed timetable predictions; it is likely that multistep tunneling is responsible for these anomalously rapid charge transfer events.</dcterms:abstract>
+        <dc:date>2003</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>341-372</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0033-5835">
+        <prism:volume>36</prism:volume>
+        <dc:title>Quart. Rev. Biophys.</dc:title>
+        <dc:identifier>ISSN 0033-5835</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_853">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/853/Gray und Winkler - 2003 - Electron tunneling through proteins.pdf"/>
+        <dc:title>Gray und Winkler - 2003 - Electron tunneling through proteins.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_702">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Scale in conscious experience: Is the brain too important to be left to specialists to study</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hameroff</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Penrose</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_860"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness</dc:title>
+        <dc:date>1995</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>243-274</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_860">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/860/Hameroff und Penrose - 1995 - Orchestrated reduction of quantum coherence in bra.pdf"/>
+        <dc:title>Hameroff und Penrose - 1995 - Orchestrated reduction of quantum coherence in bra.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/31808339">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-6904%20(ELECTRONIC)%200022-3263%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hennig</foaf:surname>
+                        <foaf:givenName>A. K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deodato</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Asad</foaf:surname>
+                        <foaf:givenName>N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Herbivo</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dore</foaf:surname>
+                        <foaf:givenName>T. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_708"/>
+        <link:link rdf:resource="#item_709"/>
+        <link:link rdf:resource="#item_870"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Two-photon excitable photoremovable protecting groups based on the quinoline scaffold for use in biology</dc:title>
+        <dcterms:abstract>Photoremovable protecting groups (PPGs) are powerful tools for physiological studies, harnessing light as an on/off switch to provide tight spatio-temporal control over the release of biological effectors through two-photon excitation (2PE) in tissue culture and whole-animal studies. We carried out a series of systematic structural modifications to the (8-cyano-7-hydroxyquinolin-2-yl)methyl (CyHQ) chromophore to conduct an SAR study with the aim of enhancing its photochemical properties, especially its two-photon uncaging action cross section (deltau). The best results were obtained when substituents were added at the C4 position, which improved deltau for release of acetate up to 7-fold, while retaining all the other excellent properties of the CyHQ PPG, including high quantum yield (Phiu), low susceptibility to spontaneous hydrolysis in the dark, and good aqueous solubility. Hammett correlation analysis suggested that photolysis efficiency is favored by electron-rich substituents at C4, giving important insights into the mechanism of the photolysis reaction. The four best CyHQ derivatives were used to mediate the efficient release of homopiperonylic acid in high yield under simulated physiological conditions. Our efforts have led to the development of 2PE-sensitive PPGs with remarkable deltau values (up to 2.64 GM), excellent quantum yields (up to 0.88), and high-yielding effector release (up to 92%).</dcterms:abstract>
+        <dc:date>2020</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/31808339</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 2
+Type: Journal Article</dc:description>
+        <bib:pages>726-744</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-6904%20(ELECTRONIC)%200022-3263%20(LINKING)">
+        <prism:volume>85</prism:volume>
+        <dc:title>J Org Chem</dc:title>
+        <dc:identifier>DOI 10.1021/acs.joc.9b02780</dc:identifier>
+        <prism:number>2</prism:number>
+        <dc:identifier>ISSN 1520-6904 (ELECTRONIC) 0022-3263 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_708">
+        <rdf:value>&lt;p&gt;Hennig, Anna-Lisa K Deodato, Davide Asad, Naeem Herbivo, Cyril Dore, Timothy M eng J Org Chem. 2020 Jan 17;85(2):726-744. doi: 10.1021/acs.joc.9b02780. Epub 2019 Dec 18.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_709">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.acs.org/doi/pdf/10.1021/acs.joc.9b02780</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:03:28</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_870">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/870/Hennig et al. - 2020 - Two-photon excitable photoremovable protecting gro.pdf"/>
+        <dc:title>Hennig et al. - 2020 - Two-photon excitable photoremovable protecting gro.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pubmed/17766294">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0022-0949%20(PRINT)%200022-0949%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnsen</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mattern</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ritz</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_717"/>
+        <link:link rdf:resource="#item_718"/>
+        <link:link rdf:resource="#item_840"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>Animal/physiology/*radiation effects Cryptochromes Flavoproteins/*metabolism *Light *Magnetics Orientation Passeriformes/*physiology Photic Stimulation Photoreceptor Cells</dc:subject>
+        <dc:subject>Animals Behavior</dc:subject>
+        <dc:subject>Vertebrate/physiology Quantum Theory Rhodopsin/*metabolism Rod Opsins/*metabolism</dc:subject>
+        <dc:title>Light-dependent magnetoreception: Quantum catches and opponency mechanisms of possible photosensitive molecules</dc:title>
+        <dcterms:abstract>Dozens of experiments on magnetosensitive, migratory birds have shown that their magnetic orientation behavior depends on the spectrum of light under which they are tested. However, it is not certain whether this is due to a direct effect on the magnetoreceptive system and which photosensitive molecules may be involved. We examined 62 experiments of light-dependent magnetoreception in three crepuscular and nocturnal migrants (48 for the European robin Erithacus rubecula, ten for the silvereye Zosterops lateralis, and four on the garden warbler Sylvia borin). For each experiment, we calculated the relative quantum catches of seven of the eight known photosensitive molecules found in the eyes of passerine birds: a short- (SW), medium- (MW) and long-wavelength (LW) cone pigment, rhodopsin, melanopsin, and cryptochrome in its fully-oxidized and semiquinone state. The following five opponency processes were also calculated: LW-SW, LW-MW, MW-SW, LW-(MW+SW), and cryptochrome-semiquinone. While the results do not clearly show which receptor system may be responsible for magnetoreception, it suggests several candidates that may inhibit the process. The two significant inhibitors of magnetoreceptive behavior were overall irradiances (from 400 to 700 nm) higher than those found at sunset and high quantum catch by the LW receptor. The results were also consistent with the hypothesis that high quantum catch by the semiquinone form of cryptochrome inhibits magnetoreception. The opponency mechanism that best separated oriented from non-oriented behavior was LW-MW, where a difference above a certain level inhibited orientation. Certain regions of experimental spectral space have been over-sampled, while large regions have not been sampled at all, including: (1) from 440 to 500 nm at all irradiance levels, (2) for wavelengths longer than 570 nm from 10(12) to 3x10(12) photons s(-1) cm(-2) and (3) for wavelengths less than 560 nm from 10(12) to 3x10(12) photons s(-1) cm(-2) and below 5x10(11) photons s(-1) cm(-2). Experiments under these conditions are needed to draw further conclusions.</dcterms:abstract>
+        <dc:date>2007</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/17766294</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: Pt 18
+Type: Journal Article</dc:description>
+        <bib:pages>3171-8</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0022-0949%20(PRINT)%200022-0949%20(LINKING)">
+        <prism:volume>210</prism:volume>
+        <dc:title>J Exp Biol</dc:title>
+        <dc:identifier>DOI 10.1242/jeb.007567</dc:identifier>
+        <prism:number>Pt 18</prism:number>
+        <dc:identifier>ISSN 0022-0949 (PRINT) 0022-0949 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_717">
+        <rdf:value>&lt;p&gt;Johnsen, Sonke Mattern, Erin Ritz, Thorsten eng Research Support, Non-U.S. Gov&amp;apos;t Research Support, U.S. Gov&amp;apos;t, Non-P.H.S. England 2007/09/04 09:00 J Exp Biol. 2007 Sep;210(Pt 18):3171-8.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_718">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.biologists.com/jeb/article-pdf/210/18/3171/1258706/3171.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:05:28</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_840">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/840/Johnsen et al. - 2007 - Light-dependent magnetoreception Quantum catches .pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.biologists.com/jeb/article-pdf/210/18/3171/1258706/3171.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:45:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/27670525">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>7</prism:volume>
+                <dc:title>Nat Commun</dc:title>
+                <dc:identifier>DOI 10.1038/ncomms12858</dc:identifier>
+                <dc:identifier>ISSN 2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Juffmann</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klopfer</foaf:surname>
+                        <foaf:givenName>B. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Frankort</foaf:surname>
+                        <foaf:givenName>T. L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haslinger</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kasevich</foaf:surname>
+                        <foaf:givenName>M. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_720"/>
+        <link:link rdf:resource="#item_721"/>
+        <link:link rdf:resource="#item_846"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Multi-pass microscopy</dc:title>
+        <dcterms:abstract>Microscopy of biological specimens often requires low light levels to avoid damage. This yields images impaired by shot noise. An improved measurement accuracy at the Heisenberg limit can be achieved exploiting quantum correlations. If sample damage is the limiting resource, an equivalent limit can be reached by passing photons through a specimen multiple times sequentially. Here we use self-imaging cavities and employ a temporal post-selection scheme to present full-field multi-pass polarization and transmission micrographs with variance reductions of 4.4+/-0.8 dB (11.6+/-0.8 dB in a lossless setup) and 4.8+/-0.8 dB, respectively, compared with the single-pass shot-noise limit. If the accuracy is limited by the number of detected probe particles, our measurements show a variance reduction of 25.9+/-0.9 dB. The contrast enhancement capabilities in imaging and in diffraction studies are demonstrated with nanostructured samples and with embryonic kidney 293T cells. This approach to Heisenberg-limited microscopy does not rely on quantum state engineering.</dcterms:abstract>
+        <dc:date>2016</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/27670525</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>12858</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_720">
+        <rdf:value>&lt;p&gt;Juffmann, Thomas Klopfer, Brannon B Frankort, Timmo L I Haslinger, Philipp Kasevich, Mark A eng England 2016/09/28 06:00 Nat Commun. 2016 Sep 27;7:12858. doi: 10.1038/ncomms12858.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_721">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms12858.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:26</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_846">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/846/Juffmann et al. - 2016 - Multi-pass microscopy.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms12858.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:46:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_730">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0036-8075"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kuki</foaf:surname>
+                        <foaf:givenName>A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolynes</foaf:surname>
+                        <foaf:givenName>PG</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_855"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Electron-tunneling paths in proteins</dc:title>
+        <dc:date>1987</dc:date>
+        <dc:description>Number: 4809
+Type: Journal Article</dc:description>
+        <bib:pages>1647-1652</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0036-8075">
+        <prism:volume>236</prism:volume>
+        <dc:title>Science</dc:title>
+        <prism:number>4809</prism:number>
+        <dc:identifier>ISSN 0036-8075</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_855">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/855/Kuki und Wolynes - 1987 - Electron-tunneling paths in proteins.pdf"/>
+        <dc:title>Kuki und Wolynes - 1987 - Electron-tunneling paths in proteins.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="&lt;Go to ISI&gt;://WOS:000276891100026">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0028-0836"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lohmann</foaf:surname>
+                        <foaf:givenName>K. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_740"/>
+        <link:link rdf:resource="#item_861"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>magnetoreception orientation design birds</dc:subject>
+        <dc:title>Q&amp;a animal behaviour magnetic-field perception</dc:title>
+        <dc:date>2010</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>&lt;Go to ISI&gt;://WOS:000276891100026</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 7292
+Type: Journal Article</dc:description>
+        <bib:pages>1140-1142</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0028-0836">
+        <prism:volume>464</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/4641140a</dc:identifier>
+        <prism:number>7292</prism:number>
+        <dc:identifier>ISSN 0028-0836</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_740">
+        <rdf:value>&lt;p&gt;ISI Document Delivery No.: 586FR Times Cited: 21 Cited Reference Count: 7 Lohmann, Kenneth J. Nature publishing group London&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_861">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/861/Lohmann - 2010 - Q&amp;a animal behaviour magnetic-field perception.pdf"/>
+        <dc:title>Lohmann - 2010 - Q&amp;a animal behaviour magnetic-field perception.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pubmed/17951410">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>210</prism:volume>
+                <dc:title>J Exp Biol</dc:title>
+                <dc:identifier>DOI 10.1242/jeb.001313</dc:identifier>
+                <prism:number>Pt 21</prism:number>
+                <dc:identifier>ISSN 0022-0949 (PRINT) 0022-0949 (LINKING)</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lohmann</foaf:surname>
+                        <foaf:givenName>K. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lohmann</foaf:surname>
+                        <foaf:givenName>C. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Putman</foaf:surname>
+                        <foaf:givenName>N. F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_742"/>
+        <link:link rdf:resource="#item_743"/>
+        <link:link rdf:resource="#item_841"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>Animal Migration Animals Birds/physiology Earth (Planet) Fishes/physiology Homing Behavior/*physiology Magnetics Maps as Topic Turtles/physiology</dc:subject>
+        <dc:title>Magnetic maps in animals: Nature's gps</dc:title>
+        <dcterms:abstract>Diverse animals detect the Earth's magnetic field and use it as a cue in orientation and navigation. Most research on magnetoreception has focused on the directional or ;compass' information that can be extracted from the Earth's field. Because the field varies predictably across the surface of the globe, however, it also provides a potential source of positional or 'map' information, which some animals use to steer themselves along migratory pathways or to navigate toward specific target areas. The use of magnetic positional information has been demonstrated in several diverse animals including sea turtles, spiny lobsters, newts and birds, suggesting that such systems are phylogenetically widespread and can function over a wide range of spatial scales. These ;magnetic maps' have not yet been fully characterized. They may be organized in several fundamentally different ways, some of which bear little resemblance to human maps, and they may also be used in conjunction with unconventional navigational strategies.</dcterms:abstract>
+        <dc:date>2007</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/17951410</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: Pt 21
+Type: Journal Article</dc:description>
+        <bib:pages>3697-705</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_742">
+        <rdf:value>&lt;p&gt;Lohmann, Kenneth J Lohmann, Catherine M F Putman, Nathan F eng Research Support, U.S. Gov&amp;apos;t, Non-P.H.S. England 2007/10/24 09:00 J Exp Biol. 2007 Nov;210(Pt 21):3697-705.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_743">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.biologists.com/jeb/article-pdf/210/21/3697/1260299/3697.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:05:15</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_841">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/841/Lohmann et al. - 2007 - Magnetic maps in animals Nature's gps.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.biologists.com/jeb/article-pdf/210/21/3697/1260299/3697.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:45:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_749">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>811</prism:volume>
+                <dc:title>Biochim. Biophys. Act.</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marcus</foaf:surname>
+                        <foaf:givenName>RA</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sutin</foaf:surname>
+                        <foaf:givenName>N</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_852"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Electron transfers in chemistry and biology</dc:title>
+        <dc:date>1985</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>265-322</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_852">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/852/Marcus und Sutin - 1985 - Electron transfers in chemistry and biology.pdf"/>
+        <dc:title>Marcus und Sutin - 1985 - Electron transfers in chemistry and biology.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pubmed/21863014">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>Nat Commun</dc:title>
+                <dc:identifier>DOI 10.1038/ncomms1434</dc:identifier>
+                <dc:identifier>ISSN 2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCabe</foaf:surname>
+                        <foaf:givenName>D. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tajalli</foaf:surname>
+                        <foaf:givenName>A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Austin</foaf:surname>
+                        <foaf:givenName>D. R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bondareff</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Walmsley</foaf:surname>
+                        <foaf:givenName>I. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gigan</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chatel</foaf:surname>
+                        <foaf:givenName>B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_753"/>
+        <link:link rdf:resource="#item_754"/>
+        <link:link rdf:resource="#item_848"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Spatio-temporal focusing of an ultrafast pulse through a multiply scattering medium</dc:title>
+        <dcterms:abstract>Pulses of light propagating through multiply scattering media undergo complex spatial and temporal distortions to form the familiar speckle pattern. There is much current interest in both the fundamental properties of speckles and the challenge of spatially and temporally refocusing behind scattering media. Here we report on the spatially and temporally resolved measurement of a speckle field produced by the propagation of an ultrafast optical pulse through a thick strongly scattering medium. By shaping the temporal profile of the pulse using a spectral phase filter, we demonstrate the spatially localized temporal recompression of the output speckle to the Fourier-limit duration, offering an optical analogue to time-reversal experiments in the acoustic regime. This approach shows that a multiply scattering medium can be put to profit for light manipulation at the femtosecond scale, and has a diverse range of potential applications that includes quantum control, biological imaging and photonics.</dcterms:abstract>
+        <dc:date>2011</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/21863014</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>447</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_753">
+        <rdf:value>&lt;p&gt;McCabe, David J Tajalli, Ayhan Austin, Dane R Bondareff, Pierre Walmsley, Ian A Gigan, Sylvain Chatel, Beatrice eng Research Support, Non-U.S. Gov&amp;apos;t England 2011/08/25 06:00 Nat Commun. 2011 Aug 23;2:447. doi: 10.1038/ncomms1434.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_754">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms1434.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:08:12</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_848">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/848/McCabe et al. - 2011 - Spatio-temporal focusing of an ultrafast pulse thr.pdf"/>
+        <dc:title>Volltext</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/ncomms1434.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:46:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pubmed/26569474">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1476-1122%20(ELECTRONIC)%201476-1122%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qin</foaf:surname>
+                        <foaf:givenName>S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yin</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dou</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Z.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yu</foaf:surname>
+                        <foaf:givenName>H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Huang</foaf:surname>
+                        <foaf:givenName>Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Feng</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hao</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hao</foaf:surname>
+                        <foaf:givenName>J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deng</foaf:surname>
+                        <foaf:givenName>L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenName>X.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dong</foaf:surname>
+                        <foaf:givenName>X.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhao</foaf:surname>
+                        <foaf:givenName>Z.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jiang</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>H. W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Luo</foaf:surname>
+                        <foaf:givenName>S. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xie</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_768"/>
+        <link:link rdf:resource="#item_850"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>A magnetic protein biocompass</dc:title>
+        <dcterms:abstract>The notion that animals can detect the Earth's magnetic field was once ridiculed, but is now well established. Yet the biological nature of such magnetosensing phenomenon remains unknown. Here, we report a putative magnetic receptor (Drosophila CG8198, here named MagR) and a multimeric magnetosensing rod-like protein complex, identified by theoretical postulation and genome-wide screening, and validated with cellular, biochemical, structural and biophysical methods. The magnetosensing complex consists of the identified putative magnetoreceptor and known magnetoreception-related photoreceptor cryptochromes (Cry), has the attributes of both Cry- and iron-based systems, and exhibits spontaneous alignment in magnetic fields, including that of the Earth. Such a protein complex may form the basis of magnetoreception in animals, and may lead to applications across multiple fields.</dcterms:abstract>
+        <dc:date>2015</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/26569474</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Type: Journal Article</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1476-1122%20(ELECTRONIC)%201476-1122%20(LINKING)">
+        <dc:title>Nat Mater</dc:title>
+        <dc:identifier>DOI 10.1038/nmat4484</dc:identifier>
+        <dc:identifier>ISSN 1476-1122 (ELECTRONIC) 1476-1122 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_768">
+        <rdf:value>&lt;p&gt;Qin, Siying Yin, Hang Yang, Celi Dou, Yunfeng Liu, Zhongmin Zhang, Peng Yu, He Huang, Yulong Feng, Jing Hao, Junfeng Hao, Jia Deng, Lizong Yan, Xiyun Dong, Xiaoli Zhao, Zhongxian Jiang, Taijiao Wang, Hong-Wei Luo, Shu-Jin Xie, Can ENG 2015/11/17 06:00 Nat Mater. 2015 Nov 16. doi: 10.1038/nmat4484.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_850">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/850/Qin et al. - 2015 - A magnetic protein biocompass.pdf"/>
+        <dc:title>Qin et al. - 2015 - A magnetic protein biocompass.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_775">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>360</prism:volume>
+                <dc:title>Phil. Trans. Royal Soc. B</dc:title>
+                <prism:number>1458</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schwartz</foaf:surname>
+                        <foaf:givenName>J.M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stapp</foaf:surname>
+                        <foaf:givenName>H.P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beauregard</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_863"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Review. Quantum physics in neuroscience and psychology: A neurophysical model of mind–brain interaction</dc:title>
+        <dc:date>2005</dc:date>
+        <dc:description>Number: 1458
+Type: Journal Article</dc:description>
+        <bib:pages>1309-1327</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_863">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/863/Schwartz et al. - 2005 - Review. Quantum physics in neuroscience and psycho.pdf"/>
+        <dc:title>Schwartz et al. - 2005 - Review. Quantum physics in neuroscience and psycho.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.ncbi.nlm.nih.gov/pubmed/29039200 https://pubs.acs.org/doi/10.1021/jacs.7b08532">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1520-5126%20(ELECTRONIC)%200002-7863%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Slanina</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shrestha</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Palao</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kand</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peterson</foaf:surname>
+                        <foaf:givenName>J. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dutton</foaf:surname>
+                        <foaf:givenName>A. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rubinstein</foaf:surname>
+                        <foaf:givenName>N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weinstain</foaf:surname>
+                        <foaf:givenName>R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winter</foaf:surname>
+                        <foaf:givenName>A. H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Klan</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_777"/>
+        <link:link rdf:resource="#item_857"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>In search of the perfect photocage: Structure-reactivity relationships in meso-methyl bodipy photoremovable protecting groups</dc:title>
+        <dcterms:abstract>A detailed investigation of the photophysical parameters and photochemical reactivity of meso-methyl BODIPY photoremovable protecting groups was accomplished through systematic variation of the leaving group (LG) and core substituents as well as substitutions at boron. Efficiencies of the LG release were evaluated using both steady-state and transient absorption spectroscopies as well as computational analyses to identify the optimal structural features. We find that the quantum yields for photorelease with this photocage are highly sensitive to substituent effects. In particular, we find that the quantum yields of photorelease are improved with derivatives with higher intersystem crossing quantum yields, which can be promoted by core heavy atoms. Moreover, release quantum yields are dramatically improved by boron alkylation, whereas alkylation in the meso-methyl position has no effect. Better LGs are released considerably more efficiently than poorer LGs. We find that these substituent effects are additive, for example, a 2,6-diiodo-B-dimethyl BODIPY photocage features quantum yields of 28% for the mediocre LG acetate and a 95% quantum yield of release for chloride. The high chemical and quantum yields combined with the outstanding absorption properties of BODIPY dyes lead to photocages with uncaging cross sections over 10000 M(-1) cm(-1), values that surpass cross sections of related photocages absorbing visible light. These new photocages, which absorb strongly near the second harmonic of an Nd:YAG laser (532 nm), hold promise for manipulating and interrogating biological and material systems with the high spatiotemporal control provided by pulsed laser irradiation, while avoiding the phototoxicity problems encountered with many UV-absorbing photocages. More generally, the insights gained from this structure-reactivity relationship may aid in the development of new highly efficient photoreactions.</dcterms:abstract>
+        <dc:date>2017</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ncbi.nlm.nih.gov/pubmed/29039200 https://pubs.acs.org/doi/10.1021/jacs.7b08532</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 42
+Type: Journal Article</dc:description>
+        <bib:pages>15168-15175</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1520-5126%20(ELECTRONIC)%200002-7863%20(LINKING)">
+        <prism:volume>139</prism:volume>
+        <dc:title>J Am Chem Soc</dc:title>
+        <dc:identifier>DOI 10.1021/jacs.7b08532</dc:identifier>
+        <prism:number>42</prism:number>
+        <dc:identifier>ISSN 1520-5126 (ELECTRONIC) 0002-7863 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_777">
+        <rdf:value>&lt;p&gt;Slanina, Tomas Shrestha, Pradeep Palao, Eduardo Kand, Dnyaneshwar Peterson, Julie A Dutton, Andrew S Rubinstein, Naama Weinstain, Roy Winter, Arthur H Klan, Petr eng 2017/10/19 06:00 J Am Chem Soc. 2017 Oct 25;139(42):15168-15175. doi: 10.1021/jacs.7b08532. Epub 2017 Oct 17.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_857">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/857/Slanina et al. - 2017 - In search of the perfect photocage Structure-reac.pdf"/>
+        <dc:title>Slanina et al. - 2017 - In search of the perfect photocage Structure-reac.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_785">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:volume>277</prism:volume><dc:title>Science</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stupp</foaf:surname>
+                        <foaf:givenName>S. I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Braun</foaf:surname>
+                        <foaf:givenName>P. V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_859"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Molecular manipulation of microstructures: Biomaterials, ceramics, and semiconductors</dc:title>
+        <dcterms:abstract>Organic molecules can alter inorganic microstructures, offering a very powerful tool for the design of novel materials. In biological systems, this tool is often used to create microstructures in which the organic manipulators are a minority component. Three groups of materials—biomaterials, ceramics, and semiconductors—have been selected to illustrate this concept as used by nature and by synthetic laboratories exploring its potential in materials technology. In some of nature’s biomaterials, macromolecules such as proteins, glycoproteins, and polysaccharides are used to control nucleation and growth of mineral phases and thus manipulate microstructure and physical properties. This concept has been used synthetically to generate apatite-based materials that can function as artificial bone in humans. Synthetic polymers and surfactants can also drastically change the morphology of ceramic particles, impart new functional properties, and provide new processing methods for the formation of useful objects. Interesting opportunities also exist in creating semiconducting materials in which molecular manipulators connect quantum dots or template cavities, which change their electronic properties and functionality.</dcterms:abstract>
+        <dc:date>1997</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>1242-1248</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_859">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/859/Stupp und Braun - 1997 - Molecular manipulation of microstructures Biomate.pdf"/>
+        <dc:title>Stupp und Braun - 1997 - Molecular manipulation of microstructures Biomate.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.ncbi.nlm.nih.gov/pubmed/15740834">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0303-2647%20(PRINT)%200303-2647%20(LINKING)"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thaheld</foaf:surname>
+                        <foaf:givenName>F. H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_791"/>
+        <link:link rdf:resource="#item_839"/>
+        <link:link rdf:resource="#item_792"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:subject>Animals Biology/*methods Brain/*physiology Electroencephalography/*methods Electromagnetic Fields Humans *Models</dc:subject>
+        <dc:subject>Neurological Neurons/*physiology Physics/*methods Quantum Theory Telepathy/*physiology</dc:subject>
+        <dc:title>An interdisciplinary approach to certain fundamental issues in the fields of physics and biology: Towards a unified theory</dc:title>
+        <dcterms:abstract>Recent experiments appear to have revealed the possibility of the existence of quantum entanglement between spatially separated human subjects. In addition, a similar condition might exist between basins containing human neurons adhering to printed circuit boards. In both instances, preliminary data indicates what appear to be non-local correlations between brain electrical activities in the case of the human subjects and also non-local correlations between neuronal basin electrical activities, implying entanglement at the macroscopic level. If the ongoing expanded research and the analysis of same continues to support this hypothesis, it may then make it possible to simultaneously address some of the fundamental problems facing us in both physics and biology through the adoption of an interdisciplinary empirical approach based on Bell's experimental philosophy, with the goal of unifying these two fields.</dcterms:abstract>
+        <dc:date>2005</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/15740834</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 1
+Type: Journal Article</dc:description>
+        <bib:pages>41-56</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0303-2647%20(PRINT)%200303-2647%20(LINKING)">
+        <prism:volume>80</prism:volume>
+        <dc:title>Biosystems</dc:title>
+        <dc:identifier>DOI 10.1016/j.biosystems.2004.10.001</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 0303-2647 (PRINT) 0303-2647 (LINKING)</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_791">
+        <rdf:value>&lt;p&gt;Thaheld, Fred H eng Ireland 2005/03/03 09:00 Biosystems. 2005 Apr;80(1):41-56. Epub 2004 Nov 18.&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_839">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/839/Thaheld - 2005 - An interdisciplinary approach to certain fundament.pdf"/>
+        <dc:title>Eingereichte Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/physics/0601060</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 08:45:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_792">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Submitted Version</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/physics/0601060</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 05:07:24</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_796">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-6951%201077-3118"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Twerenbold</foaf:surname>
+                        <foaf:givenName>Damian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vuilleumier</foaf:surname>
+                        <foaf:givenName>Jean‐Luc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gerber</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tadsen</foaf:surname>
+                        <foaf:givenName>Almut</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van den Brandt</foaf:surname>
+                        <foaf:givenName>Ben</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gillevet</foaf:surname>
+                        <foaf:givenName>Patrick M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_851"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Detection of single macromolecules using a cryogenic particle detector coupled to a biopolymer mass spectrometer</dc:title>
+        <dc:date>1996</dc:date>
+        <dc:description>Number: 24
+Type: Journal Article</dc:description>
+        <bib:pages>3503-3505</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-6951%201077-3118">
+        <prism:volume>68</prism:volume>
+        <dc:title>Applied Physics Letters</dc:title>
+        <dc:identifier>DOI 10.1063/1.115772</dc:identifier>
+        <prism:number>24</prism:number>
+        <dc:identifier>ISSN 0003-6951 1077-3118</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_851">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/851/Twerenbold et al. - 1996 - Detection of single macromolecules using a cryogen.pdf"/>
+        <dc:title>Twerenbold et al. - 1996 - Detection of single macromolecules using a cryogen.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://pubs.rsc.org/en/content/articlepdf/2006/cp/b514032c">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1463-9076"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Grondelle</foaf:surname>
+                        <foaf:givenName>R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Novoderezhkin</foaf:surname>
+                        <foaf:givenName>VI</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_856"/>
+        <dc:subject>Retreat2023</dc:subject>
+        <dc:title>Energy transfer in photosynthesis: Experimental insights and quantitative models</dc:title>
+        <dc:date>2006</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://pubs.rsc.org/en/content/articlepdf/2006/cp/b514032c</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Number: 7
+Type: Journal Article</dc:description>
+        <bib:pages>793-807</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1463-9076">
+        <prism:volume>8</prism:volume>
+        <dc:title>Phys. Chem. Chem. Phys.</dc:title>
+        <prism:number>7</prism:number>
+        <dc:identifier>ISSN 1463-9076</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_856">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/856/van Grondelle und Novoderezhkin - 2006 - Energy transfer in photosynthesis Experimental in.pdf"/>
+        <dc:title>van Grondelle und Novoderezhkin - 2006 - Energy transfer in photosynthesis Experimental in.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_803">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>117</prism:volume>
+                <dc:title>J. Am. Chem. SOC.</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wasielewski</foaf:surname>
+                        <foaf:givenName>David GosztolaJ Hiroko YamadaJ</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>R</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_872"/>
+        <dc:title>Electric field effects of photogenerated ion pairs on nearby molecules: A model for the carotenoid band shift in photosynthesis</dc:title>
+        <dc:date>1995</dc:date>
+        <dc:description>Type: Journal Article</dc:description>
+        <bib:pages>2041-2048</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_872">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/872/Wasielewski und R - 1995 - Electric field effects of photogenerated ion pairs.pdf"/>
+        <dc:title>Wasielewski und R - 1995 - Electric field effects of photogenerated ion pairs.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.science.org/doi/10.1126/science.277.5330.1242">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0036-8075,%201095-9203"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stupp</foaf:surname>
+                        <foaf:givenName>Samuel I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Braun</foaf:surname>
+                        <foaf:givenName>Paul V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_867"/>
+        <dc:title>Molecular Manipulation of Microstructures: Biomaterials, Ceramics, and Semiconductors</dc:title>
+        <dcterms:abstract>Organic molecules can alter inorganic microstructures, offering a very powerful tool for the design of novel materials. In biological systems, this tool is often used to create microstructures in which the organic manipulators are a minority component. Three groups of materials—biomaterials, ceramics, and semiconductors—have been selected to illustrate this concept as used by nature and by synthetic laboratories exploring its potential in materials technology. In some of nature's biomaterials, macromolecules such as proteins, glycoproteins, and polysaccharides are used to control nucleation and growth of mineral phases and thus manipulate microstructure and physical properties. This concept has been used synthetically to generate apatite-based materials that can function as artificial bone in humans. Synthetic polymers and surfactants can also drastically change the morphology of ceramic particles, impart new functional properties, and provide new processing methods for the formation of useful objects. Interesting opportunities also exist in creating semiconducting materials in which molecular manipulators connect quantum dots or template cavities, which change their electronic properties and functionality.</dcterms:abstract>
+        <dc:date>1997-08-29</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Molecular Manipulation of Microstructures</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.science.org/doi/10.1126/science.277.5330.1242</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-09-05 11:29:41</dcterms:dateSubmitted>
+        <bib:pages>1242-1248</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0036-8075,%201095-9203">
+        <prism:volume>277</prism:volume>
+        <dc:title>Science</dc:title>
+        <dc:identifier>DOI 10.1126/science.277.5330.1242</dc:identifier>
+        <prism:number>5330</prism:number>
+        <dcterms:alternative>Science</dcterms:alternative>
+        <dc:identifier>ISSN 0036-8075, 1095-9203</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_867">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/867/Stupp und Braun - 1997 - Molecular Manipulation of Microstructures Biomate.pdf"/>
+        <dc:title>Stupp und Braun - 1997 - Molecular Manipulation of Microstructures Biomate.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

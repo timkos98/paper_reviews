@@ -1,0 +1,2898 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero-Bericht</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_8FCQ229X" class="item journalArticle">
+			<h2>A magnetic protein biocompass</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Qin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H. Yin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. Yang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Dou</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Z. Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H. Yu</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Huang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Feng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Hao</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. Hao</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. Deng</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>X. Yan</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>X. Dong</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Z. Zhao</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Jiang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H. W. Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. J. Luo</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. Xie</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>The notion that animals can detect the Earth's magnetic field 
+was once ridiculed, but is now well established. Yet the biological 
+nature of such magnetosensing phenomenon remains unknown. Here, we 
+report a putative magnetic receptor (Drosophila CG8198, here named MagR)
+ and a multimeric magnetosensing rod-like protein complex, identified by
+ theoretical postulation and genome-wide screening, and validated with 
+cellular, biochemical, structural and biophysical methods. The 
+magnetosensing complex consists of the identified putative 
+magnetoreceptor and known magnetoreception-related photoreceptor 
+cryptochromes (Cry), has the attributes of both Cry- and iron-based 
+systems, and exhibits spontaneous alignment in magnetic fields, 
+including that of the Earth. Such a protein complex may form the basis 
+of magnetoreception in animals, and may lead to applications across 
+multiple fields.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/26569474">http://www.ncbi.nlm.nih.gov/pubmed/26569474</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nat Mater</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/nmat4484">10.1038/nmat4484</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1476-1122 (ELECTRONIC) 1476-1122 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_DZYBGJBQ">
+<div><p>Qin, Siying Yin, Hang Yang, Celi Dou, Yunfeng Liu, Zhongmin 
+Zhang, Peng Yu, He Huang, Yulong Feng, Jing Hao, Junfeng Hao, Jia Deng, 
+Lizong Yan, Xiyun Dong, Xiaoli Zhao, Zhongxian Jiang, Taijiao Wang, 
+Hong-Wei Luo, Shu-Jin Xie, Can ENG 2015/11/17 06:00 Nat Mater. 2015 Nov 
+16. doi: 10.1038/nmat4484.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_QJ8TBXDJ">Qin et al. - 2015 - A magnetic protein biocompass.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LH8479SA" class="item journalArticle">
+			<h2>An interdisciplinary approach to certain fundamental issues in the fields of physics and biology: Towards a unified theory</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>F. H. Thaheld</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Recent experiments appear to have revealed the possibility of 
+the existence of quantum entanglement between spatially separated human 
+subjects. In addition, a similar condition might exist between basins 
+containing human neurons adhering to printed circuit boards. In both 
+instances, preliminary data indicates what appear to be non-local 
+correlations between brain electrical activities in the case of the 
+human subjects and also non-local correlations between neuronal basin 
+electrical activities, implying entanglement at the macroscopic level. 
+If the ongoing expanded research and the analysis of same continues to 
+support this hypothesis, it may then make it possible to simultaneously 
+address some of the fundamental problems facing us in both physics and 
+biology through the adoption of an interdisciplinary empirical approach 
+based on Bell's experimental philosophy, with the goal of unifying these
+ two fields.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2005</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/15740834">http://www.ncbi.nlm.nih.gov/pubmed/15740834</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>80</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>41-56</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Biosystems</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.biosystems.2004.10.001">10.1016/j.biosystems.2004.10.001</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0303-2647 (PRINT) 0303-2647 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>Animals Biology/*methods Brain/*physiology Electroencephalography/*methods Electromagnetic Fields Humans *Models</li>
+					<li>Neurological Neurons/*physiology Physics/*methods Quantum Theory Telepathy/*physiology</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_RG7UC45F">
+<div><p>Thaheld, Fred H eng Ireland 2005/03/03 09:00 Biosystems. 2005 Apr;80(1):41-56. Epub 2004 Nov 18.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_ZML8TPHX">Eingereichte Version					</li>
+					<li id="item_HQUFMDMP">Submitted Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_FLZNHTAH" class="item journalArticle">
+			<h2>Detection of single macromolecules using a cryogenic particle detector coupled to a biopolymer mass spectrometer</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Damian Twerenbold</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jean‐Luc Vuilleumier</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Daniel Gerber</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Almut Tadsen</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Ben van den Brandt</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Patrick M. Gillevet</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1996</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 24
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>68</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>3503-3505</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Applied Physics Letters</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1063/1.115772">10.1063/1.115772</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0003-6951 1077-3118</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_LQQSA4S7">Twerenbold et al. - 1996 - Detection of single macromolecules using a cryogen.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6MIZ9JVJ" class="item journalArticle">
+			<h2>Detection of single molecules illuminated by a light-emitting diode</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>I. Gerhardt</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. Mai</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Lamas-Linares</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. Kurtsiefer</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Optical detection and spectroscopy of single molecules has 
+become an indispensable tool in biological imaging and sensing. Its 
+success is based on fluorescence of organic dye molecules under 
+carefully engineered laser illumination. In this paper we demonstrate 
+optical detection of single molecules on a wide-field microscope with an
+ illumination based on a commercially available, green light-emitting 
+diode. The results are directly compared with laser illumination in the 
+same experimental configuration. The setup and the limiting factors, 
+such as light transfer to the sample, spectral filtering and the 
+resulting signal-to-noise ratio are discussed. A theoretical and an 
+experimental approach to estimate these parameters are presented. The 
+results can be adapted to other single emitter and illumination schemes.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/22346610">https://www.ncbi.nlm.nih.gov/pubmed/22346610</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>905-16</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Sensors (Basel)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.3390/s110100905">10.3390/s110100905</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1424-8220 (ELECTRONIC) 1424-8220 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>*led *fluorescence microscopy *light-emitting diode *signal to noise ratio *single molecules *single photon detection</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_6HNBWQ65">
+<div><p>Gerhardt, Ilja Mai, Lijian Lamas-Linares, Antia Kurtsiefer, 
+Christian eng Research Support, Non-U.S. Gov't Switzerland Sensors 
+(Basel). 2011;11(1):905-16. doi: 10.3390/s110100905. Epub 2011 Jan 14.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_FZTHGIDH">Full Text					</li>
+					<li id="item_YP5QIFXZ">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BMCYN8L5" class="item journalArticle">
+			<h2>Electric field effects of photogenerated ion pairs on nearby molecules: A model for the carotenoid band shift in photosynthesis</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>David GosztolaJ Hiroko YamadaJ Wasielewski</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Michael R</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1995</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>117</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>2041-2048</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J. Am. Chem. SOC.</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_SFZAK5WY">Wasielewski und R - 1995 - Electric field effects of photogenerated ion pairs.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_AGSM49IV" class="item journalArticle">
+			<h2>Electron transfers in chemistry and biology</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>RA Marcus</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N Sutin</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1985</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>811</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>265-322</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Biochim. Biophys. Act.</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_D2T7M9SQ">Marcus und Sutin - 1985 - Electron transfers in chemistry and biology.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_NSUWG9SU" class="item journalArticle">
+			<h2>Electron tunneling through proteins</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>HB Gray</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>JR Winkler</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Electron transfer processes are vital elements of energy 
+transduction pathways in living cells. More than a half century of 
+research has produced a remarkably detailed understanding of the 
+factor's that regulate these `currents of life'. We review 
+investigations of Ru-modified proteins that have delineated the 
+distance- and driving-force dependences of intra-protein 
+electron-transfer rates. We also discuss electron transfer across 
+protein-protein interfaces that has been probed both in solution and in 
+structurally characterized crystals. It is now clear that electrons 
+tunnel between sites in biological redox chains, and that protein 
+structures tune thermodynamic properties and electronic coupling 
+interactions to facilitate these reactions. Our work has produced an 
+experimentally validated timetable for electron tunneling across 
+specified distances in proteins. Many electron tunneling rates in 
+cytochrome c oxidase and photosynthetic reaction centers agree well with
+ timetable predictions, indicating that the natural reactions are highly
+ optimized, both in terms of thermodynamics and electronic coupling. The
+ rates of some reactions, however, significantly exceed timetable 
+predictions; it is likely that multistep tunneling is responsible for 
+these anomalously rapid charge transfer events.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>36</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>341-372</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Quart. Rev. Biophys.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0033-5835</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_Y73ETPIP">Gray und Winkler - 2003 - Electron tunneling through proteins.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_AJZXRMVZ" class="item journalArticle">
+			<h2>Electron-tunneling paths in proteins</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A Kuki</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>PG Wolynes</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1987</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 4809
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>236</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1647-1652</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Science</td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>4809</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0036-8075</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_WD8W9UZX">Kuki und Wolynes - 1987 - Electron-tunneling paths in proteins.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SKZ6VX2Z" class="item journalArticle">
+			<h2>Electron-tunneling pathways in proteins</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>DN Beratan</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>JN Onuchic</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>JR Winkler</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>HB Gray</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1992</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 5089
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>258</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1740-1741</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Science</td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>5089</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_YB9UJNP6">Beratan et al. - 1992 - Electron-tunneling pathways in proteins.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_9NVB783N" class="item journalArticle">
+			<h2>Energy transfer in photosynthesis: Experimental insights and quantitative models</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R van Grondelle</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>VI Novoderezhkin</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2006</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://pubs.rsc.org/en/content/articlepdf/2006/cp/b514032c">http://pubs.rsc.org/en/content/articlepdf/2006/cp/b514032c</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 7
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>793-807</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Phys. Chem. Chem. Phys.</td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1463-9076</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_P2IFAF93">van Grondelle und Novoderezhkin - 2006 - Energy transfer in photosynthesis Experimental in.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3UZY8BLP" class="item journalArticle">
+			<h2>How quantum is radical pair magnetoreception?</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. P. Fay</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. P. Lindoy</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. E. Manolopoulos</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. J. Hore</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Currently the most likely mechanism of the magnetic compass 
+sense in migratory songbirds relies on the coherent spin dynamics of 
+pairs of photochemically formed radicals in the retina. Spin-conserving 
+electron transfer reactions are thought to result in radical pairs whose
+ near-degenerate electronic singlet and triplet states interconvert 
+coherently as a result of hyperfine, exchange, and dipolar couplings 
+and, crucially for a compass sensor, Zeeman interactions with the 
+geomagnetic field. In this way, the yields of the reaction products can 
+be influenced by magnetic interactions a million times smaller than kBT.
+ The question we ask here is whether one can only account for the 
+coherent spin dynamics using quantum mechanics. We find that 
+semiclassical approximations to the spin dynamics of radical pairs only 
+provide a satisfactory description of the anisotropic product yields 
+when there is no electron spin-spin coupling, a situation unlikely to be
+ consistent with a magnetic sensing function. Although these methods 
+perform reasonably well for shorter-lived radical pairs with stronger 
+electron-spin coupling, the accurate simulation of anisotropic magnetic 
+field effects relevant to magnetoreception seems to require full quantum
+ mechanical calculations.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/31539011">https://www.ncbi.nlm.nih.gov/pubmed/31539011</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 0
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>221</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>77-91</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Faraday Discuss</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/c9fd00049f">10.1039/c9fd00049f</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>0</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1364-5498 (ELECTRONIC) 1359-6640 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_BGU877CG">
+<div><p>Fay, Thomas P Lindoy, Lachlan P Manolopoulos, David E Hore, P J 
+eng ERC_/European Research Council/International Research Support, 
+Non-U.S. Gov't Research Support, U.S. Gov't, Non-P.H.S. England Faraday 
+Discuss. 2019 Dec 16;221(0):77-91. doi: 10.1039/c9fd00049f.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_Y9SNSEU2">Full Text					</li>
+					<li id="item_CK2R488Y">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SYCL6FYZ" class="item journalArticle">
+			<h2>Human cryptochrome exhibits light-dependent magnetosensitivity</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. E. Foley</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. J. Gegear</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. M. Reppert</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Humans are not believed to have a magnetic sense, even though 
+many animals use the Earth's magnetic field for orientation and 
+navigation. One model of magnetosensing in animals proposes that 
+geomagnetic fields are perceived by light-sensitive chemical reactions 
+involving the flavoprotein cryptochrome (CRY). Here we show using a 
+transgenic approach that human CRY2, which is heavily expressed in the 
+retina, can function as a magnetosensor in the magnetoreception system 
+of Drosophila and that it does so in a light-dependent manner. The 
+results show that human CRY2 has the molecular capability to function as
+ a light-sensitive magnetosensor and reopen an area of sensory biology 
+that is ready for further exploration in humans.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/21694704">https://www.ncbi.nlm.nih.gov/pubmed/21694704</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>356</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nat Commun</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/ncomms1364">10.1038/ncomms1364</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>Animals Animals</li>
+					<li>Genetically Modified Choice Behavior/physiology 
+Cryptochromes/genetics/*metabolism Drosophila Humans *Light *Magnetics 
+Motor Activity/physiology Retina/metabolism 
+Sensation/physiology/*radiation effects</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_WIA2RJQ7">
+<div><p>Foley, Lauren E Gegear, Robert J Reppert, Steven M eng R01 
+GM086794/GM/NIGMS NIH HHS/ R01 GM086794-03/GM/NIGMS NIH HHS/ Research 
+Support, N.I.H., Extramural England Nat Commun. 2011 Jun 21;2:356. doi: 
+10.1038/ncomms1364.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_QVFYBUG5">Full Text					</li>
+					<li id="item_E7GRLMVA">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BLVEG952" class="item journalArticle">
+			<h2>In search of the perfect photocage: Structure-reactivity relationships in meso-methyl bodipy photoremovable protecting groups</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Slanina</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Shrestha</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>E. Palao</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. Kand</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. A. Peterson</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. S. Dutton</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N. Rubinstein</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Weinstain</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. H. Winter</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Klan</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>A detailed investigation of the photophysical parameters and 
+photochemical reactivity of meso-methyl BODIPY photoremovable protecting
+ groups was accomplished through systematic variation of the leaving 
+group (LG) and core substituents as well as substitutions at boron. 
+Efficiencies of the LG release were evaluated using both steady-state 
+and transient absorption spectroscopies as well as computational 
+analyses to identify the optimal structural features. We find that the 
+quantum yields for photorelease with this photocage are highly sensitive
+ to substituent effects. In particular, we find that the quantum yields 
+of photorelease are improved with derivatives with higher intersystem 
+crossing quantum yields, which can be promoted by core heavy atoms. 
+Moreover, release quantum yields are dramatically improved by boron 
+alkylation, whereas alkylation in the meso-methyl position has no 
+effect. Better LGs are released considerably more efficiently than 
+poorer LGs. We find that these substituent effects are additive, for 
+example, a 2,6-diiodo-B-dimethyl BODIPY photocage features quantum 
+yields of 28% for the mediocre LG acetate and a 95% quantum yield of 
+release for chloride. The high chemical and quantum yields combined with
+ the outstanding absorption properties of BODIPY dyes lead to photocages
+ with uncaging cross sections over 10000 M(-1) cm(-1), values that 
+surpass cross sections of related photocages absorbing visible light. 
+These new photocages, which absorb strongly near the second harmonic of 
+an Nd:YAG laser (532 nm), hold promise for manipulating and 
+interrogating biological and material systems with the high 
+spatiotemporal control provided by pulsed laser irradiation, while 
+avoiding the phototoxicity problems encountered with many UV-absorbing 
+photocages. More generally, the insights gained from this 
+structure-reactivity relationship may aid in the development of new 
+highly efficient photoreactions.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/29039200%20https://pubs.acs.org/doi/10.1021/jacs.7b08532">https://www.ncbi.nlm.nih.gov/pubmed/29039200 https://pubs.acs.org/doi/10.1021/jacs.7b08532</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 42
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>139</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>15168-15175</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J Am Chem Soc</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/jacs.7b08532">10.1021/jacs.7b08532</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>42</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1520-5126 (ELECTRONIC) 0002-7863 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_HFCX7468">
+<div><p>Slanina, Tomas Shrestha, Pradeep Palao, Eduardo Kand, 
+Dnyaneshwar Peterson, Julie A Dutton, Andrew S Rubinstein, Naama 
+Weinstain, Roy Winter, Arthur H Klan, Petr eng 2017/10/19 06:00 J Am 
+Chem Soc. 2017 Oct 25;139(42):15168-15175. doi: 10.1021/jacs.7b08532. 
+Epub 2017 Oct 17.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_XFGBBMKE">Slanina et al. - 2017 - In search of the perfect photocage Structure-reac.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PR4F2D76" class="item journalArticle">
+			<h2>Introduction. Quantum catalysis in enzymes: Beyond the transition state theory paradigm</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. L. Dutton</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. W. Munro</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N. S. Scrutton</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. J. Sutcliffe</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2006</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1472
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>361</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1293-1294</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Philosophical Transactions of the Royal Society B: Biological Sciences</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1098/rstb.2006.1879">10.1098/rstb.2006.1879</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1472</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0962-8436 1471-2970</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_4GS5G3ZD">Full Text					</li>
+					<li id="item_K8GWPU82">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8DJVCIKE" class="item journalArticle">
+			<h2>Light-dependent magnetoreception: Quantum catches and opponency mechanisms of possible photosensitive molecules</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Johnsen</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>E. Mattern</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Ritz</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Dozens of experiments on magnetosensitive, migratory birds 
+have shown that their magnetic orientation behavior depends on the 
+spectrum of light under which they are tested. However, it is not 
+certain whether this is due to a direct effect on the magnetoreceptive 
+system and which photosensitive molecules may be involved. We examined 
+62 experiments of light-dependent magnetoreception in three crepuscular 
+and nocturnal migrants (48 for the European robin Erithacus rubecula, 
+ten for the silvereye Zosterops lateralis, and four on the garden 
+warbler Sylvia borin). For each experiment, we calculated the relative 
+quantum catches of seven of the eight known photosensitive molecules 
+found in the eyes of passerine birds: a short- (SW), medium- (MW) and 
+long-wavelength (LW) cone pigment, rhodopsin, melanopsin, and 
+cryptochrome in its fully-oxidized and semiquinone state. The following 
+five opponency processes were also calculated: LW-SW, LW-MW, MW-SW, 
+LW-(MW+SW), and cryptochrome-semiquinone. While the results do not 
+clearly show which receptor system may be responsible for 
+magnetoreception, it suggests several candidates that may inhibit the 
+process. The two significant inhibitors of magnetoreceptive behavior 
+were overall irradiances (from 400 to 700 nm) higher than those found at
+ sunset and high quantum catch by the LW receptor. The results were also
+ consistent with the hypothesis that high quantum catch by the 
+semiquinone form of cryptochrome inhibits magnetoreception. The 
+opponency mechanism that best separated oriented from non-oriented 
+behavior was LW-MW, where a difference above a certain level inhibited 
+orientation. Certain regions of experimental spectral space have been 
+over-sampled, while large regions have not been sampled at all, 
+including: (1) from 440 to 500 nm at all irradiance levels, (2) for 
+wavelengths longer than 570 nm from 10(12) to 3x10(12) photons s(-1) 
+cm(-2) and (3) for wavelengths less than 560 nm from 10(12) to 3x10(12) 
+photons s(-1) cm(-2) and below 5x10(11) photons s(-1) cm(-2). 
+Experiments under these conditions are needed to draw further 
+conclusions.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/17766294">http://www.ncbi.nlm.nih.gov/pubmed/17766294</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: Pt 18
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>210</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>3171-8</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J Exp Biol</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1242/jeb.007567">10.1242/jeb.007567</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>Pt 18</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0022-0949 (PRINT) 0022-0949 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>Animal/physiology/*radiation effects Cryptochromes 
+Flavoproteins/*metabolism *Light *Magnetics Orientation 
+Passeriformes/*physiology Photic Stimulation Photoreceptor Cells</li>
+					<li>Animals Behavior</li>
+					<li>Vertebrate/physiology Quantum Theory Rhodopsin/*metabolism Rod Opsins/*metabolism</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_VD2CCQLZ">
+<div><p>Johnsen, Sonke Mattern, Erin Ritz, Thorsten eng Research 
+Support, Non-U.S. Gov't Research Support, U.S. Gov't, Non-P.H.S. England
+ 2007/09/04 09:00 J Exp Biol. 2007 Sep;210(Pt 18):3171-8.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_46BHDJYA">Full Text					</li>
+					<li id="item_HPXN3ULF">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_H2I2UDV6" class="item journalArticle">
+			<h2>Long-range coherence and energy storage in biological systems</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H. Froehlich</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Biological systems are expected to have a branch of 
+longitudinal electric modes in a frequency region between 1011 and 1012 
+sec-1. They are based on the dipolar properties of cell membranes; of 
+certain bonds recurring in giant molecules (such as H bonds) and 
+possibly on pockets of non-localized electrons. In Section 2 it is shown
+ quit generally that if energy is supplied above a certain mean rate to 
+such a branch, then a steady state will be reached in which a single 
+mode of this branch is very strongly excited. The supplied energy is 
+thus not completely thermalized but stored in a highly ordered fashion. 
+This order expresses itself in long-range phase correlations; the 
+phenomenon has considerable similarity with the low-temperature 
+condensation of a Bose gas. General consequences and proposals of 
+experiments are discussed in section 3.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1968</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 5
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>641-649</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>International Journal of Quantum Chemistry</td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_KGPJEGHP">Froehlich - 1968 - Long-range coherence and energy storage in biologi.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6TGD7N55" class="item journalArticle">
+			<h2>Magnetic maps in animals: Nature's gps</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. J. Lohmann</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. M. Lohmann</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N. F. Putman</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Diverse animals detect the Earth's magnetic field and use it 
+as a cue in orientation and navigation. Most research on 
+magnetoreception has focused on the directional or ;compass' information
+ that can be extracted from the Earth's field. Because the field varies 
+predictably across the surface of the globe, however, it also provides a
+ potential source of positional or 'map' information, which some animals
+ use to steer themselves along migratory pathways or to navigate toward 
+specific target areas. The use of magnetic positional information has 
+been demonstrated in several diverse animals including sea turtles, 
+spiny lobsters, newts and birds, suggesting that such systems are 
+phylogenetically widespread and can function over a wide range of 
+spatial scales. These ;magnetic maps' have not yet been fully 
+characterized. They may be organized in several fundamentally different 
+ways, some of which bear little resemblance to human maps, and they may 
+also be used in conjunction with unconventional navigational strategies.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/17951410">http://www.ncbi.nlm.nih.gov/pubmed/17951410</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: Pt 21
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>210</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>3697-705</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J Exp Biol</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1242/jeb.001313">10.1242/jeb.001313</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>Pt 21</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0022-0949 (PRINT) 0022-0949 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>Animal Migration Animals Birds/physiology Earth (Planet) 
+Fishes/physiology Homing Behavior/*physiology Magnetics Maps as Topic 
+Turtles/physiology</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_57CXW8LQ">
+<div><p>Lohmann, Kenneth J Lohmann, Catherine M F Putman, Nathan F eng 
+Research Support, U.S. Gov't, Non-P.H.S. England 2007/10/24 09:00 J Exp 
+Biol. 2007 Nov;210(Pt 21):3697-705.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_X4YJ95GV">Full Text					</li>
+					<li id="item_B7YUUB4U">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_T7RVFPYH" class="item journalArticle">
+			<h2>Molecular manipulation of microstructures: Biomaterials, ceramics, and semiconductors</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. I. Stupp</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. V. Braun</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Organic molecules can alter inorganic microstructures, 
+offering a very powerful tool for the design of novel materials. In 
+biological systems, this tool is often used to create microstructures in
+ which the organic manipulators are a minority component. Three groups 
+of materials—biomaterials, ceramics, and semiconductors—have been 
+selected to illustrate this concept as used by nature and by synthetic 
+laboratories exploring its potential in materials technology. In some of
+ nature’s biomaterials, macromolecules such as proteins, glycoproteins, 
+and polysaccharides are used to control nucleation and growth of mineral
+ phases and thus manipulate microstructure and physical properties. This
+ concept has been used synthetically to generate apatite-based materials
+ that can function as artificial bone in humans. Synthetic polymers and 
+surfactants can also drastically change the morphology of ceramic 
+particles, impart new functional properties, and provide new processing 
+methods for the formation of useful objects. Interesting opportunities 
+also exist in creating semiconducting materials in which molecular 
+manipulators connect quantum dots or template cavities, which change 
+their electronic properties and functionality.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1997</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>277</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1242-1248</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Science</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_J5WP9T7H">Stupp und Braun - 1997 - Molecular manipulation of microstructures Biomate.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_R2QYMQSU" class="item journalArticle">
+			<h2>Molecular Manipulation of Microstructures: Biomaterials, Ceramics, and Semiconductors</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Samuel I. Stupp</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Paul V. Braun</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Organic molecules can alter inorganic microstructures, 
+offering a very powerful tool for the design of novel materials. In 
+biological systems, this tool is often used to create microstructures in
+ which the organic manipulators are a minority component. Three groups 
+of materials—biomaterials, ceramics, and semiconductors—have been 
+selected to illustrate this concept as used by nature and by synthetic 
+laboratories exploring its potential in materials technology. In some of
+ nature's biomaterials, macromolecules such as proteins, glycoproteins, 
+and polysaccharides are used to control nucleation and growth of mineral
+ phases and thus manipulate microstructure and physical properties. This
+ concept has been used synthetically to generate apatite-based materials
+ that can function as artificial bone in humans. Synthetic polymers and 
+surfactants can also drastically change the morphology of ceramic 
+particles, impart new functional properties, and provide new processing 
+methods for the formation of useful objects. Interesting opportunities 
+also exist in creating semiconducting materials in which molecular 
+manipulators connect quantum dots or template cavities, which change 
+their electronic properties and functionality.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1997-08-29</td>
+					</tr>
+					<tr>
+					<th>Sprache</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Kurztitel</th>
+						<td>Molecular Manipulation of Microstructures</td>
+					</tr>
+					<tr>
+					<th>Bibliothekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.science.org/doi/10.1126/science.277.5330.1242">https://www.science.org/doi/10.1126/science.277.5330.1242</a></td>
+					</tr>
+					<tr>
+					<th>Heruntergeladen am</th>
+						<td>5.9.2023, 13:29:41</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>277</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1242-1248</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Science</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1126/science.277.5330.1242">10.1126/science.277.5330.1242</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>5330</td>
+					</tr>
+					<tr>
+					<th>Zeitschriften-Abkürzung</th>
+						<td>Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0036-8075, 1095-9203</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 13:29:41</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 13:29:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_WBXSLJ2X">Stupp und Braun - 1997 - Molecular Manipulation of Microstructures Biomate.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_IAWDW9LA" class="item journalArticle">
+			<h2>Multi-pass microscopy</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Juffmann</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. B. Klopfer</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. L. Frankort</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Haslinger</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. A. Kasevich</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Microscopy of biological specimens often requires low light 
+levels to avoid damage. This yields images impaired by shot noise. An 
+improved measurement accuracy at the Heisenberg limit can be achieved 
+exploiting quantum correlations. If sample damage is the limiting 
+resource, an equivalent limit can be reached by passing photons through a
+ specimen multiple times sequentially. Here we use self-imaging cavities
+ and employ a temporal post-selection scheme to present full-field 
+multi-pass polarization and transmission micrographs with variance 
+reductions of 4.4+/-0.8 dB (11.6+/-0.8 dB in a lossless setup) and 
+4.8+/-0.8 dB, respectively, compared with the single-pass shot-noise 
+limit. If the accuracy is limited by the number of detected probe 
+particles, our measurements show a variance reduction of 25.9+/-0.9 dB. 
+The contrast enhancement capabilities in imaging and in diffraction 
+studies are demonstrated with nanostructured samples and with embryonic 
+kidney 293T cells. This approach to Heisenberg-limited microscopy does 
+not rely on quantum state engineering.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/27670525">https://www.ncbi.nlm.nih.gov/pubmed/27670525</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>12858</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nat Commun</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/ncomms12858">10.1038/ncomms12858</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_JGCSHGR6">
+<div><p>Juffmann, Thomas Klopfer, Brannon B Frankort, Timmo L I 
+Haslinger, Philipp Kasevich, Mark A eng England 2016/09/28 06:00 Nat 
+Commun. 2016 Sep 27;7:12858. doi: 10.1038/ncomms12858.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_H6PBX2UB">Full Text					</li>
+					<li id="item_Q5FUXABV">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_X5S4EMXR" class="item journalArticle">
+			<h2>Noise-assisted energy transfer in quantum networks and light-harvesting complexes</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. W. Chin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Datta</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>F. Caruso</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. F. Huelga</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. B. Plenio</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>We provide physically intuitive mechanisms for the effect of 
+noise on excitation energy transfer (EET) in networks. Using these 
+mechanisms of dephasing-assisted transport (DAT) in a hybrid basis of 
+both excitons and sites, we develop a detailed picture of how noise 
+enables energy transfer with efficiencies well above 90% across the 
+Fenna-Matthew-Olson (FMO) complex, a type of light-harvesting molecule. 
+We demonstrate explicitly how noise alters the pathways of energy 
+transfer across the complex, suppressing ineffective pathways and 
+facilitating direct ones to the reaction centre. We explain that the 
+fundamental mechanisms underpinning DAT are expected to be robust with 
+respect to the considered noise model but show that the specific details
+ of the exciton-phonon coupling, which remain largely unknown in these 
+type of complexes, and in particular the impact of non-Markovian 
+effects, result in variations of dynamical features that should be 
+amenable to experimental verification with current or planned 
+technology. A detailed understanding of DAT in natural compounds could 
+open up a new paradigm of 'noise-engineering' by which EET can be 
+optimized in artificial light-harvesting structures.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://000278635200001 http://iopscience.iop.org/article/10.1088/1367-2630/12/6/065002/pdf</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>New Journal of Physics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/065002%2010.1088/1367-2630/12/6/065002">065002 10.1088/1367-2630/12/6/065002</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1367-2630</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>coherent photosynthesis dynamics spectroscopy temperature systems migration protein model</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_FEX7IAR9">
+<div><p>ISI Document Delivery No.: 609DL Times Cited: 3 Cited Reference 
+Count: 44 Chin, A. W. Datta, A. Caruso, F. Huelga, S. F. Plenio, M. B. 
+EPSRC QIP-IRC ; EPSRC [EP/C546237/1]; EU ; von Humboldt Foundation ; 
+Royal Society ; Marie Curie Intra European This work was supported by 
+the EPSRC QIP-IRC, EPSRC grant number EP/C546237/1, EU projects QAP and 
+CORNER, the von Humboldt Foundation and the Royal Society. We are 
+grateful to G R Fleming, A Ishizaki, S Virmani and T Brandes for helpful
+ discussions and comments. F C was also supported by a Marie Curie Intra
+ European Fellowship within the 7th European Community Framework 
+Programme. Iop publishing ltd Bristol</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_PRPPHRFN">Eingereichte Version					</li>
+					<li id="item_3WJJINAZ">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MTNFKIXR" class="item journalArticle">
+			<h2>Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Hameroff</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Penrose</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1995</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>243-274</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Scale in conscious experience: Is the brain too important to be left to specialists to study</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_GIBQDZ67">Hameroff und Penrose - 1995 - Orchestrated reduction of quantum coherence in bra.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JRJKA8LV" class="item journalArticle">
+			<h2>Q&amp;a animal behaviour magnetic-field perception</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. J. Lohmann</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000276891100026</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 7292
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>464</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1140-1142</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nature</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/4641140a">10.1038/4641140a</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>7292</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0028-0836</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>magnetoreception orientation design birds</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_T3D6G2QX">
+<div><p>ISI Document Delivery No.: 586FR Times Cited: 21 Cited Reference Count: 7 Lohmann, Kenneth J. Nature publishing group London</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_9ZQ5WWM9">Lohmann - 2010 - Q&amp;a animal behaviour magnetic-field perception.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_RULSZUVV" class="item bookSection">
+			<h2>Quantum aspects of life</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Buchteil</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Jim Al-Khalili</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Johnjoe McFadden</td>
+					</tr>
+					<tr>
+						<th class="editor">Herausgeber</th>
+						<td>Derek Abbott</td>
+					</tr>
+					<tr>
+						<th class="editor">Herausgeber</th>
+						<td>Paul C. W. Davies</td>
+					</tr>
+					<tr>
+						<th class="editor">Herausgeber</th>
+						<td>Arun K. Pati</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Section: Quantum Coherence and the Search for the First Replicator
+Type: Book Section</td>
+					</tr>
+					<tr>
+					<th>Verlag</th>
+						<td>World Scientific, Singapore</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>33-50</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_L8L7TPDA">Al-Khalili und McFadden - 2007 - Quantum aspects of life.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_YKIXPDXP" class="item journalArticle">
+			<h2>Quantum physics meets biology</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Arndt</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Juffmann</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>V. Vedral</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Quantum physics and biology have long been regarded as 
+unrelated disciplines, describing nature at the inanimate microlevel on 
+the one hand and living species on the other hand. Over the past decades
+ the life sciences have succeeded in providing ever more and refined 
+explanations of macroscopic phenomena that were based on an improved 
+understanding of molecular structures and mechanisms. Simultaneously, 
+quantum physics, originally rooted in a world-view of quantum 
+coherences, entanglement, and other nonclassical effects, has been 
+heading toward systems of increasing complexity. The present perspective
+ article shall serve as a "pedestrian guide" to the growing 
+interconnections between the two fields. We recapitulate the generic and
+ sometimes unintuitive characteristics of quantum physics and point to a
+ number of applications in the life sciences. We discuss our criteria 
+for a future "quantum biology," its current status, recent experimental 
+progress, and also the restrictions that nature imposes on bold 
+extrapolations of quantum theory to macroscopic phenomena. [DOI: 
+10.2976/1.3244985]</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2009</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td>&lt;Go to ISI&gt;://WOS:000273748000004</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 6
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>386-400</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Hfsp Journal</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/Doi%2010.2976/1.3244985">Doi 10.2976/1.3244985</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1955-2068</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>nuclear-magnetic-resonance molecular-basis energy-transfer 
+magnetoreception photosynthesis entanglement reduction dynamics light 
+decoherence</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_TUUM62NT">
+<div><p>545PL Times Cited:14 Cited References Count:102</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_GHGKAQH9">Full Text					</li>
+					<li id="item_VXA9MAAS">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3PG8HHMN" class="item journalArticle">
+			<h2>Review. Quantum physics in neuroscience and psychology: A neurophysical model of mind–brain interaction</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J.M. Schwartz</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>H.P. Stapp</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>M. Beauregard</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2005</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 1458
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>360</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>1309-1327</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Phil. Trans. Royal Soc. B</td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>1458</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_BTTXK989">Schwartz et al. - 2005 - Review. Quantum physics in neuroscience and psycho.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Q4GHVBYR" class="item journalArticle">
+			<h2>Scanning tunneling microscopy of dna: The chemical modification of gold surfaceces for immobilization of dna</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L.A. Bottomley</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. N. Haseltine</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D.P. Allison</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R.J. Warmack</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. Thundat</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R.A. Sachleben</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>G.M. Brown</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R.P. Woychik</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>K. B. Jacobson</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T.L. Ferrel</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1992</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>10 No.4</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>591-595</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J. Vac. Sci. Technol. A</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_N9HDDQ5J">Bottomley et al. - 1992 - Scanning tunneling microscopy of dna The chemical.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7978TLUD" class="item journalArticle">
+			<h2>Spatio-temporal focusing of an ultrafast pulse through a multiply scattering medium</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. J. McCabe</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Tajalli</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. R. Austin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>P. Bondareff</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>I. A. Walmsley</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. Gigan</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. Chatel</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Pulses of light propagating through multiply scattering media 
+undergo complex spatial and temporal distortions to form the familiar 
+speckle pattern. There is much current interest in both the fundamental 
+properties of speckles and the challenge of spatially and temporally 
+refocusing behind scattering media. Here we report on the spatially and 
+temporally resolved measurement of a speckle field produced by the 
+propagation of an ultrafast optical pulse through a thick strongly 
+scattering medium. By shaping the temporal profile of the pulse using a 
+spectral phase filter, we demonstrate the spatially localized temporal 
+recompression of the output speckle to the Fourier-limit duration, 
+offering an optical analogue to time-reversal experiments in the 
+acoustic regime. This approach shows that a multiply scattering medium 
+can be put to profit for light manipulation at the femtosecond scale, 
+and has a diverse range of potential applications that includes quantum 
+control, biological imaging and photonics.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/21863014">http://www.ncbi.nlm.nih.gov/pubmed/21863014</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>447</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nat Commun</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/ncomms1434">10.1038/ncomms1434</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_9YHW5U3N">
+<div><p>McCabe, David J Tajalli, Ayhan Austin, Dane R Bondareff, Pierre 
+Walmsley, Ian A Gigan, Sylvain Chatel, Beatrice eng Research Support, 
+Non-U.S. Gov't England 2011/08/25 06:00 Nat Commun. 2011 Aug 23;2:447. 
+doi: 10.1038/ncomms1434.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_VDWSWIHH">Full Text					</li>
+					<li id="item_XZJRVFPG">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ECXI2AWY" class="item journalArticle">
+			<h2>Strong coupling between chlorosomes of photosynthetic bacteria and a confined optical cavity mode</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. M. Coles</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Yang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>Y. Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. T. Grant</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. A. Taylor</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>S. K. Saikin</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Aspuru-Guzik</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. G. Lidzey</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. K. Tang</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>J. M. Smith</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Strong exciton-photon coupling is the result of a reversible 
+exchange of energy between an excited state and a confined optical 
+field. This results in the formation of polariton states that have 
+energies different from the exciton and photon. We demonstrate strong 
+exciton-photon coupling between light-harvesting complexes and a 
+confined optical mode within a metallic optical microcavity. The 
+energetic anti-crossing between the exciton and photon dispersions 
+characteristic of strong coupling is observed in reflectivity and 
+transmission with a Rabi splitting energy on the order of 150 meV, which
+ corresponds to about 1,000 chlorosomes coherently coupled to the cavity
+ mode. We believe that the strong coupling regime presents an 
+opportunity to modify the energy transfer pathways within photosynthetic
+ organisms without modification of the molecular structure.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/25429787">https://www.ncbi.nlm.nih.gov/pubmed/25429787</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>5561</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Nat Commun</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/ncomms6561">10.1038/ncomms6561</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2041-1723 (ELECTRONIC) 2041-1723 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>Bacterial Proteins/*metabolism Chlorobi/*metabolism Energy 
+Transfer Iron-Sulfur Proteins/*metabolism *Light Organelles/*metabolism 
+*Photons Photosynthesis/*physiology</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_NQ3BKAJP">
+<div><p>Coles, David M Yang, Yanshen Wang, Yaya Grant, Richard T Taylor,
+ Robert A Saikin, Semion K Aspuru-Guzik, Alan Lidzey, David G Tang, 
+Joseph Kuo-Hsiang Smith, Jason M eng Research Support, Non-U.S. Gov't 
+Research Support, U.S. Gov't, Non-P.H.S. England 2014/11/29 06:00 Nat 
+Commun. 2014 Nov 28;5:5561. doi: 10.1038/ncomms6561.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_VG7MUZY8">Full Text					</li>
+					<li id="item_E6QV7EIE">Volltext					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GCWD5GCS" class="item journalArticle">
+			<h2>Two-dimensional spectroscopy for non-specialists</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. Gelzinis</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>R. Augulis</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>V. Butkus</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>B. Robert</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>L. Valkunas</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Detailed studies of the excitation dynamics in photosynthetic 
+pigment-proteins require an application of a wide range of spectroscopic
+ methods. From the later part of the previous century, pump-probe and 
+time-resolved fluorescence spectroscopy provided an impressive amount of
+ information. Being simple to grasp, these methods are well-understood 
+and widely used by the photosynthesis research community. In the last 
+fifteen years, two-dimensional (2D) spectroscopy was developed. It has 
+significant advantages over other methods, in particular higher temporal
+ resolution available and higher signal-to-noise ratio. Even though it 
+provides considerable opportunities in research, both its experimental 
+realization and theoretical description are rather complicated, making 
+it somewhat difficult to understand and apply. This makes an unfortunate
+ gap in the community, with spectroscopy experts being able to use the 
+technique, but sometimes lacking the relevant biological knowledge, 
+while biologists having that knowledge are dubious about 2D spectroscopy
+ due to the complexity of the approach. This publication is an attempt 
+to fill this gap by providing an accessible introduction to the 
+concepts, principles and possible applications of the 2D spectroscopy, 
+aimed at the biologically trained members of the photosynthesis research
+ community.</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/30579778">https://www.ncbi.nlm.nih.gov/pubmed/30579778</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 4
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>1860</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>271-285</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Biochim Biophys Acta Bioenerg</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.bbabio.2018.12.006">10.1016/j.bbabio.2018.12.006</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1879-2650 (ELECTRONIC) 0005-2728 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+					<li>*Models</li>
+					<li>Fluorescence/methods *Energy transfer *Pump-probe spectroscopy *Two-dimensional spectroscopy</li>
+					<li>Molecular *Photosynthesis Photosynthetic Reaction Center Complex Proteins/*chemistry Spectrometry</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_5VPE4X48">
+<div><p>Gelzinis, Andrius Augulis, Ramunas Butkus, Vytautas Robert, 
+Bruno Valkunas, Leonas eng Review Netherlands Biochim Biophys Acta 
+Bioenerg. 2019 Apr 1;1860(4):271-285. doi: 10.1016/j.bbabio.2018.12.006.
+ Epub 2018 Dec 21.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_AK3UPRGJ">Gelzinis et al. - 2019 - Two-dimensional spectroscopy for non-specialists.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_EPWZ2G7D" class="item journalArticle">
+			<h2>Two-photon excitable photoremovable protecting groups based on the quinoline scaffold for use in biology</h2>
+				<table>
+					<tbody><tr>
+						<th>Eintragsart</th>
+						<td>Zeitschriftenartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>A. K. Hennig</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>D. Deodato</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>N. Asad</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>C. Herbivo</td>
+					</tr>
+					<tr>
+						<th class="author">Autor</th>
+						<td>T. M. Dore</td>
+					</tr>
+					<tr>
+					<th>Zusammenfassung</th>
+						<td>Photoremovable protecting groups (PPGs) are powerful tools for
+ physiological studies, harnessing light as an on/off switch to provide 
+tight spatio-temporal control over the release of biological effectors 
+through two-photon excitation (2PE) in tissue culture and whole-animal 
+studies. We carried out a series of systematic structural modifications 
+to the (8-cyano-7-hydroxyquinolin-2-yl)methyl (CyHQ) chromophore to 
+conduct an SAR study with the aim of enhancing its photochemical 
+properties, especially its two-photon uncaging action cross section 
+(deltau). The best results were obtained when substituents were added at
+ the C4 position, which improved deltau for release of acetate up to 
+7-fold, while retaining all the other excellent properties of the CyHQ 
+PPG, including high quantum yield (Phiu), low susceptibility to 
+spontaneous hydrolysis in the dark, and good aqueous solubility. Hammett
+ correlation analysis suggested that photolysis efficiency is favored by
+ electron-rich substituents at C4, giving important insights into the 
+mechanism of the photolysis reaction. The four best CyHQ derivatives 
+were used to mediate the efficient release of homopiperonylic acid in 
+high yield under simulated physiological conditions. Our efforts have 
+led to the development of 2PE-sensitive PPGs with remarkable deltau 
+values (up to 2.64 GM), excellent quantum yields (up to 0.88), and 
+high-yielding effector release (up to 92%).</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ncbi.nlm.nih.gov/pubmed/31808339">https://www.ncbi.nlm.nih.gov/pubmed/31808339</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Number: 2
+Type: Journal Article</td>
+					</tr>
+					<tr>
+					<th>Band</th>
+						<td>85</td>
+					</tr>
+					<tr>
+					<th>Seiten</th>
+						<td>726-744</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>J Org Chem</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acs.joc.9b02780">10.1021/acs.joc.9b02780</a></td>
+					</tr>
+					<tr>
+					<th>Ausgabe</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1520-6904 (ELECTRONIC) 0022-3263 (LINKING)</td>
+					</tr>
+					<tr>
+					<th>Hinzugefügt am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+					<tr>
+					<th>Geändert am</th>
+						<td>5.9.2023, 10:29:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Retreat2023</li>
+				</ul>
+				<h3 class="notes">Notizen:</h3>
+				<ul class="notes">
+					<li id="item_C7YPWPTR">
+<div><p>Hennig, Anna-Lisa K Deodato, Davide Asad, Naeem Herbivo, Cyril 
+Dore, Timothy M eng J Org Chem. 2020 Jan 17;85(2):726-744. doi: 
+10.1021/acs.joc.9b02780. Epub 2019 Dec 18.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Anhänge</h3>
+				<ul class="attachments">
+					<li id="item_WZ7MTWTI">Full Text					</li>
+					<li id="item_4TAXXF87">Hennig et al. - 2020 - Two-photon excitable photoremovable protecting gro.pdf					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
